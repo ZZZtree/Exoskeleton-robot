@@ -1,0 +1,13 @@
+INFO:1020-[20251215061432] verison: 12.2.0
+INFO:1020-[20251215061432] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:1020-[20251215061432] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:1020-[20251215061432] Start system initialize!
+INFO:1020-[20251215061432] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+ERROR:1020-[20251215061432] get_process_image: xmlReadFile failure
+ERROR:1020-[20251215061432] ec_deviceInit: get_process_image failue
+ERROR:1020-[20251215061432] EC_device_init2: ec_deviceInit failure
+ERROR:1020-[20251215061432] EC_deviceListInsert2: EC_device_init2 failure
+ERROR:1020-[20251215061432] FindEC_device: ec_device1 is not exist!
+INFO:1020-[20251215061432] EC_device is NULL
+ERROR:1020-[20251215061432] system_init: Init_device failure, err=-148
+ERROR:1020-[20251215061432] system initialize failure

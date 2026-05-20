@@ -1,0 +1,10 @@
+/home/robot/Work/system/robot_config/data/gg31.c: In function ‘MainModule’:
+/home/robot/Work/system/robot_config/data/gg31.c:341:6: warning: unused variable ‘robot1’ [-Wunused-variable]
+  int robot1=1;
+      ^
+/home/robot/Work/system/robot_config/data/gg31.c:274:9: warning: unused variable ‘o’ [-Wunused-variable]
+  double o=0.038/sqrt(2);
+         ^
+/home/robot/Work/system/robot_config/data/gg31.c:271:10: warning: unused variable ‘mid’ [-Wunused-variable]
+  robpose mid;
+          ^

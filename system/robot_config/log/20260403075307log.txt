@@ -1,0 +1,136 @@
+INFO:7400-[20260403075307] verison: 12.2.0
+INFO:7400-[20260403075307] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:7400-[20260403075307] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:7400-[20260403075307] Start system initialize!
+INFO:7400-[20260403075307] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:7400-[20260403075307] group init existing problem. Some fields are not found!
+WARNING:7400-[20260403075307] dof num is 1
+WARNING:7400-[20260403075307] control:1,state:1,mode:1
+WARNING:7400-[20260403075307] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:7400-[20260403075307] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:7400-[20260403075307] /////////////////////////////////////////////////////////////////
+INFO:7400-[20260403075307] fd_ecat_in_name: /ecat_in
+INFO:7400-[20260403075307] fd_ecat_out_name: /ecat_out
+INFO:7400-[20260403075307] /////////////////////////////////////////////////////////////////
+INFO:7400-[20260403075307] state: Status word
+INFO:7400-[20260403075307] control: Control word
+INFO:7400-[20260403075307] mode: Modes of operation
+INFO:7400-[20260403075307] ac_position: Position actual value
+INFO:7400-[20260403075307] ac_velocity: Velocity actual value
+INFO:7400-[20260403075307] ac_torque: Torque actual value
+INFO:7400-[20260403075307] ac_position2: 
+INFO:7400-[20260403075307] ac_velocity2: 
+INFO:7400-[20260403075307] ac_sensor_torque: 
+INFO:7400-[20260403075307] ac_mode: Modes of operation displa
+INFO:7400-[20260403075307] ErrorCode: 
+INFO:7400-[20260403075307] FollowingErrorActualValue: 
+INFO:7400-[20260403075307] position: Profile target position
+INFO:7400-[20260403075307] velocity: Target Velocity
+INFO:7400-[20260403075307] torque: Target torque
+INFO:7400-[20260403075307] VelocityOffset: Velocity offset
+INFO:7400-[20260403075307] TorqueOffset: Torque offset
+INFO:7400-[20260403075307] TorqueMaxLimit: 
+INFO:7400-[20260403075307] TorqueMinLimit: 
+INFO:7400-[20260403075307] ec_di: 
+INFO:7400-[20260403075307] ec_do: 
+INFO:7400-[20260403075307] ec_ai: 
+INFO:7400-[20260403075307] ec_ao: 
+INFO:7400-[20260403075307] ec_li: 
+INFO:7400-[20260403075307] ec_lo: 
+INFO:7400-[20260403075307] Number of fields: 26
+INFO:7400-[20260403075307] busyTs: 5000000 ns
+INFO:7400-[20260403075307] /////////////////////////////////////////////////////////////////
+INFO:7400-[20260403075307] ec_device1/robot0: 
+INFO:7400-[20260403075307] DOF: 1
+INFO:7400-[20260403075307] 0_state: 0
+INFO:7400-[20260403075307] 0_control: 0
+INFO:7400-[20260403075307] 0_mode: 16
+INFO:7400-[20260403075307] 0_ac_position: 32
+INFO:7400-[20260403075307] 0_ac_velocity: 96
+INFO:7400-[20260403075307] 0_ac_torque: 128
+INFO:7400-[20260403075307] 0_ac_current: -999999
+INFO:7400-[20260403075307] 0_ac_position2: -999999
+INFO:7400-[20260403075307] 0_ac_velocity2: -999999
+INFO:7400-[20260403075307] 0_ac_sensor_torque: -999999
+INFO:7400-[20260403075307] 0_ac_mode: 16
+INFO:7400-[20260403075307] 0_ErrorCode: -999999
+INFO:7400-[20260403075307] 0_FollowingErrorActualValue: -999999
+INFO:7400-[20260403075307] 0_position: 32
+INFO:7400-[20260403075307] 0_velocity: 112
+INFO:7400-[20260403075307] 0_torque: 144
+INFO:7400-[20260403075307] 0_VelocityOffset: 64
+INFO:7400-[20260403075307] 0_TorqueOffset: 96
+INFO:7400-[20260403075307] 0_TorqueMaxLimit: -999999
+INFO:7400-[20260403075307] 0_TorqueMinLimit: -999999
+INFO:7400-[20260403075307] /////////////////////////////////////////////////////////////////
+INFO:7400-[20260403075307] /////////////////////////////////////////////////////////////////
+INFO:7400-[20260403075307] /////////////////////////////////////////////////////////////////
+INFO:7400-[20260403075307] system_init:simulation_switch
+NOTICE:7400-[20260403075307] Device is not run, start simulation timer
+INFO:7400-[20260403075307] system_init:GetRobotSimulationState
+INFO:7400-[20260403075307] system_init:initSystemTimer2
+INFO:7400-[20260403075307] InitRobot
+INFO:7400-[20260403075307] Hardware Match
+NOTICE:7400-[20260403075307] Simulation running mode
+INFO:7400-[20260403075307] init_robot_teach
+INFO:7400-[20260403075307] set_robot_index
+INFO:7400-[20260403075307] set_addition_index
+INFO:7400-[20260403075307] get_addition_num
+INFO:7400-[20260403075307] get_robot_num
+INFO:7400-[20260403075307] start teach server port 6666
+ERROR:7400-[20260403075307] TCPConcurrentServer: bind failure!
+ERROR:7400-[20260403075307] TeachServer: TCPConcurrentServer failure
+INFO:7400-[20260403075307] start teach command server port 6667
+ERROR:7400-[20260403075307] TCPConcurrentServer: bind failure!
+ERROR:7400-[20260403075307] TeachServer: TCPConcurrentServer failure
+INFO:7400-[20260403075307] start teach feedback server port 6668
+ERROR:7400-[20260403075307] TCPConcurrentServer: bind failure!
+ERROR:7400-[20260403075307] TeachServer: TCPConcurrentServer failure
+INFO:7452-[20260403075310] verison: 12.2.0
+INFO:7452-[20260403075310] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:7452-[20260403075310] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:7452-[20260403075310] Start system initialize!
+INFO:7452-[20260403075310] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:7452-[20260403075310] group init existing problem. Some fields are not found!
+WARNING:7452-[20260403075310] dof num is 1
+WARNING:7452-[20260403075310] control:1,state:1,mode:1
+WARNING:7452-[20260403075310] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:7452-[20260403075310] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:7452-[20260403075310] system_init:initSystemTimer2
+INFO:7452-[20260403075310] InitRobot
+INFO:7452-[20260403075310] Start system copy
+INFO:7452-[20260403075310] initialize finish
+INFO:7452-[20260403075319] Controller stop run!
+INFO:7452-[20260403075319] End system copy
+INFO:7731-[20260403075402] verison: 12.2.0
+INFO:7731-[20260403075402] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:7731-[20260403075402] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:7731-[20260403075402] Start system initialize!
+INFO:7731-[20260403075402] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:7731-[20260403075402] group init existing problem. Some fields are not found!
+WARNING:7731-[20260403075402] dof num is 1
+WARNING:7731-[20260403075402] control:1,state:1,mode:1
+WARNING:7731-[20260403075402] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:7731-[20260403075402] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:7731-[20260403075402] system_init:initSystemTimer2
+INFO:7731-[20260403075402] InitRobot
+INFO:7731-[20260403075402] Start system copy
+INFO:7731-[20260403075402] initialize finish
+INFO:7731-[20260403075414] Controller stop run!
+INFO:7731-[20260403075414] End system copy
+INFO:7782-[20260403075417] verison: 12.2.0
+INFO:7782-[20260403075417] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:7782-[20260403075417] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:7782-[20260403075417] Start system initialize!
+INFO:7782-[20260403075417] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:7782-[20260403075417] group init existing problem. Some fields are not found!
+WARNING:7782-[20260403075417] dof num is 1
+WARNING:7782-[20260403075417] control:1,state:1,mode:1
+WARNING:7782-[20260403075417] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:7782-[20260403075417] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:7782-[20260403075417] system_init:initSystemTimer2
+INFO:7782-[20260403075417] InitRobot
+INFO:7782-[20260403075417] Start system copy
+INFO:7782-[20260403075417] initialize finish
+INFO:7782-[20260403075448] Controller stop run!
+INFO:7782-[20260403075448] End system copy

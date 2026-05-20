@@ -1,0 +1,22 @@
+Full command line: -f "eni.xml"-i8254x 3 1 -b 1000 -v 3 -perf -t 0 -a 1 
+
+000006 : Run demo now with cycle time 1000 usec
+000006 : Using AuxClock
+000006 : Calibrate tsc measurement... done: 2000 MHz
+003007 : ==========================
+003007 : Initialize EtherCAT Master
+003007 : ==========================
+003007 : EC-Master V2.9.1.06 (Protected) for Linux_x64 Copyright acontis technologies GmbH @ 2016
+003008 : OsGetLinkLayerRegFunc: try to load '/home/robot/Work/EtherCAT/acontis/master/_run/libemllI8254x.so'
+003149 : _LinkOsOpen(): open device '/dev/atemsys' failed!
+003150 : 54 identical messages skipped
+003150 : *I8254x-EcLinkOpen() GetPciInfo failed (card not found in registry, 3. instance missing?)
+003150 : CEcDeviceBase::Open() Failed to open link layer!
+003150 : ecatInitMaster(): Error opening EtherCAT device!
+003150 : Cannot initialize EtherCAT-Master! (Result = ERROR: Not found 0x9811000c)
+003150 : ========================
+003150 : Shutdown EtherCAT Master
+003150 : ========================
+003150 : Cannot stop EtherCAT-Master! ERROR: Invalid state (0x9811000e)
+003150 : Cannot de-initialize EtherCAT-Master! ERROR: Invalid state (0x9811000e)
+003150 : EcMasterDemoDc stop.

@@ -1,0 +1,7 @@
+/robot/robot_config/data/move_zone.c: In function ‘MainModule’:
+/robot/robot_config/data/move_zone.c:33:2: warning: implicit declaration of function ‘tr2rpy’ [-Wimplicit-function-declaration]
+  tr2rpy(R, p1.kps, 2, 0);
+  ^
+/robot/robot_config/data/move_zone.c:11:10: warning: unused variable ‘p2’ [-Wunused-variable]
+  robpose p2;
+          ^

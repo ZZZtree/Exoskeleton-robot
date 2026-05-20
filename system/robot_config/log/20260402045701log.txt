@@ -1,0 +1,4 @@
+INFO:271097-[20260402045701] verison: 12.2.1
+INFO:271097-[20260402045701] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:271097-[20260402045701] load_configure_data: ExternalDeviceConfig version mismatch
+ERROR:271097-[20260402045701] common_init: load_configure_data failure, err=-147

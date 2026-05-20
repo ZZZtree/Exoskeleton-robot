@@ -1,0 +1,107 @@
+INFO:601876-[20260403015106] verison: 12.2.0
+INFO:601876-[20260403015106] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:601876-[20260403015106] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:601876-[20260403015106] Start system initialize!
+INFO:601876-[20260403015106] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:601876-[20260403015106] group init existing problem. Some fields are not found!
+WARNING:601876-[20260403015106] dof num is 1
+WARNING:601876-[20260403015106] control:1,state:1,mode:1
+WARNING:601876-[20260403015106] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:601876-[20260403015106] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:601876-[20260403015106] /////////////////////////////////////////////////////////////////
+INFO:601876-[20260403015106] fd_ecat_in_name: /ecat_in
+INFO:601876-[20260403015106] fd_ecat_out_name: /ecat_out
+INFO:601876-[20260403015106] /////////////////////////////////////////////////////////////////
+INFO:601876-[20260403015106] state: Status word
+INFO:601876-[20260403015106] control: Control word
+INFO:601876-[20260403015106] mode: Modes of operation
+INFO:601876-[20260403015106] ac_position: Position actual value
+INFO:601876-[20260403015106] ac_velocity: Velocity actual value
+INFO:601876-[20260403015106] ac_torque: Torque actual value
+INFO:601876-[20260403015106] ac_position2: 
+INFO:601876-[20260403015106] ac_velocity2: 
+INFO:601876-[20260403015106] ac_sensor_torque: 
+INFO:601876-[20260403015106] ac_mode: Modes of operation displa
+INFO:601876-[20260403015106] ErrorCode: 
+INFO:601876-[20260403015106] FollowingErrorActualValue: 
+INFO:601876-[20260403015106] position: Profile target position
+INFO:601876-[20260403015106] velocity: Target Velocity
+INFO:601876-[20260403015106] torque: Target torque
+INFO:601876-[20260403015106] VelocityOffset: Velocity offset
+INFO:601876-[20260403015106] TorqueOffset: Torque offset
+INFO:601876-[20260403015106] TorqueMaxLimit: 
+INFO:601876-[20260403015106] TorqueMinLimit: 
+INFO:601876-[20260403015106] ec_di: 
+INFO:601876-[20260403015106] ec_do: 
+INFO:601876-[20260403015106] ec_ai: 
+INFO:601876-[20260403015106] ec_ao: 
+INFO:601876-[20260403015106] ec_li: 
+INFO:601876-[20260403015106] ec_lo: 
+INFO:601876-[20260403015106] Number of fields: 26
+INFO:601876-[20260403015106] busyTs: 5000000 ns
+INFO:601876-[20260403015106] /////////////////////////////////////////////////////////////////
+INFO:601876-[20260403015106] ec_device1/robot0: 
+INFO:601876-[20260403015106] DOF: 1
+INFO:601876-[20260403015106] 0_state: 0
+INFO:601876-[20260403015106] 0_control: 0
+INFO:601876-[20260403015106] 0_mode: 16
+INFO:601876-[20260403015106] 0_ac_position: 32
+INFO:601876-[20260403015106] 0_ac_velocity: 96
+INFO:601876-[20260403015106] 0_ac_torque: 128
+INFO:601876-[20260403015106] 0_ac_current: -999999
+INFO:601876-[20260403015106] 0_ac_position2: -999999
+INFO:601876-[20260403015106] 0_ac_velocity2: -999999
+INFO:601876-[20260403015106] 0_ac_sensor_torque: -999999
+INFO:601876-[20260403015106] 0_ac_mode: 16
+INFO:601876-[20260403015106] 0_ErrorCode: -999999
+INFO:601876-[20260403015106] 0_FollowingErrorActualValue: -999999
+INFO:601876-[20260403015106] 0_position: 32
+INFO:601876-[20260403015106] 0_velocity: 112
+INFO:601876-[20260403015106] 0_torque: 144
+INFO:601876-[20260403015106] 0_VelocityOffset: 64
+INFO:601876-[20260403015106] 0_TorqueOffset: 96
+INFO:601876-[20260403015106] 0_TorqueMaxLimit: -999999
+INFO:601876-[20260403015106] 0_TorqueMinLimit: -999999
+INFO:601876-[20260403015106] /////////////////////////////////////////////////////////////////
+INFO:601876-[20260403015106] /////////////////////////////////////////////////////////////////
+INFO:601876-[20260403015106] /////////////////////////////////////////////////////////////////
+INFO:601876-[20260403015106] system_init:simulation_switch
+NOTICE:601876-[20260403015106] Device is running
+INFO:601876-[20260403015106] system_init:GetRobotSimulationState
+INFO:601876-[20260403015106] system_init:initSystemTimer2
+INFO:601876-[20260403015106] InitRobot
+INFO:601876-[20260403015106] Hardware Match
+NOTICE:601876-[20260403015106] Real machine running mode
+INFO:601876-[20260403015106] init_robot_teach
+INFO:601876-[20260403015106] set_robot_index
+INFO:601876-[20260403015106] set_addition_index
+INFO:601876-[20260403015106] get_addition_num
+INFO:601876-[20260403015106] get_robot_num
+INFO:601876-[20260403015106] start teach server port 6666
+INFO:601876-[20260403015106] start teach command server port 6667
+INFO:601876-[20260403015106] start teach feedback server port 6668
+INFO:601876-[20260403015106] initialize finish
+INFO:601932-[20260403015111] verison: 12.2.1
+INFO:601932-[20260403015111] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:601932-[20260403015111] load_configure_data: BusConfig version mismatch
+ERROR:601932-[20260403015111] common_init: load_configure_data failure, err=-147
+INFO:602041-[20260403015132] verison: 12.2.0
+INFO:602041-[20260403015132] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:602041-[20260403015132] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:602041-[20260403015132] Start system initialize!
+INFO:602041-[20260403015132] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:602041-[20260403015132] group init existing problem. Some fields are not found!
+WARNING:602041-[20260403015132] dof num is 1
+WARNING:602041-[20260403015132] control:1,state:1,mode:1
+WARNING:602041-[20260403015132] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:602041-[20260403015132] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:602041-[20260403015132] system_init:initSystemTimer2
+INFO:602041-[20260403015132] InitRobot
+INFO:602041-[20260403015132] Start system copy
+INFO:602041-[20260403015132] initialize finish
+INFO:602041-[20260403015135] Controller stop run!
+INFO:602041-[20260403015135] End system copy
+INFO:602102-[20260403015137] verison: 12.2.1
+INFO:602102-[20260403015137] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:602102-[20260403015137] load_configure_data: BusConfig version mismatch
+ERROR:602102-[20260403015137] common_init: load_configure_data failure, err=-147

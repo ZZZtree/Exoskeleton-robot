@@ -1,0 +1,1 @@
+gcc: error: /home/robot/Work/system/robot_config/data/grip_position1.c: No such file or directory

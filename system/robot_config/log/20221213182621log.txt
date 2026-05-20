@@ -1,0 +1,33 @@
+INFO:35447-[20221213182621] verison: 11.4.4
+INFO:35447-[20221213182621] Author: HanBing
+INFO:35447-[20221213182621] Email: A994055925@163.com
+NOTICE:35447-[20221213182621] Data file path: /home/hanbing/work/program/robot/config/robot/ur5e_v11.4.4/robot_config/data/
+INFO:35447-[20221213182621] Start system initialize!
+INFO:35447-[20221213182621] MOTOR MULTITURN ABSOLUTE ENCOUDER
+INFO:35447-[20221213182621] /////////////////////////////////////////////////////////////////
+INFO:35447-[20221213182621] Ts: 0.002000
+INFO:35447-[20221213182621] subdevice num: 3
+INFO:35447-[20221213182621] <------------------device type: dio------------------->
+INFO:35447-[20221213182621] device name: ec_device1/dio
+INFO:35447-[20221213182621] device num: 6
+INFO:35447-[20221213182621] <------------------device type: aio------------------->
+INFO:35447-[20221213182621] device name: ec_device1/aio
+INFO:35447-[20221213182621] device num: 6
+INFO:35447-[20221213182621] <------------------device type: robot------------------->
+INFO:35447-[20221213182621] device name: ec_device1/robot0
+INFO:35447-[20221213182621] device dof: 6
+INFO:35447-[20221213182621] device index: 0
+NOTICE:35447-[20221213182621] Device is not run, start simulation timer
+INFO:35447-[20221213182621] InitRobot
+INFO:35447-[20221213182621] Hardware Match
+NOTICE:35447-[20221213182621] Unlicensed, stop controller after 10 minutes!
+INFO:35447-[20221213182621] init_robot_teach
+INFO:35447-[20221213182621] set_robot_index
+INFO:35447-[20221213182621] get_robot_num
+INFO:35447-[20221213182621] set_addition_index
+INFO:35447-[20221213182621] get_addition_num
+INFO:35447-[20221213182621] get_robot_num
+INFO:35447-[20221213182621] initialize finish
+ERROR:35447-[20221213182649] JointSpacePlan: robot(0) MoveParameter->joint dof(0) !=robot dof (6)
+ERROR:35447-[20221213182649] JointSpaceMove: robot(0) JointSpacePlan failure
+INFO:35447-[20221213182841] Controller stop run!

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EtherCATConfig>
+  <Config>
+    <Master>
+      <Index>0</Index>
+    </Master>
+    <Slave>
+      <Info>
+        <Alias>0</Alias>
+        <Position>0</Position>
+        <VendorId>#x00000C48</VendorId>
+        <ProductCode>#x00030924</ProductCode>
+      </Info>
+      <ProcessData>
+<TxPdo Sm="3">
+<Index>0x1a07</Index>
+<Entry>
+<Index>0x6041</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Status word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6061</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation display</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x6064</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60f4</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position loop error.</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x606c</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6077</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque actual value</Name>
+<DataType>INT</DataType>
+</Entry>
+</TxPdo>
+<RxPdo Sm="2">
+<Index>0x1607</Index>
+<Entry>
+<Index>0x6040</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Control word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6060</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x607a</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Profile target position</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b1</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity offset</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b2</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque offset</Name>
+<DataType>INT</DataType>
+</Entry>
+<Entry>
+<Index>0x60FF</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Target Velocity</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6071</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Target torque</Name>
+<DataType>INT</DataType>
+</Entry>
+</RxPdo>
+      </ProcessData>
+      <Dc>
+        <AssignActivate>0x0300</AssignActivate>
+        <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+        <ShiftTimeSync0>0</ShiftTimeSync0>
+        <CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+        <ShiftTimeSync1>0</ShiftTimeSync1>
+      </Dc>
+      <WatchDog>
+        <Divider>0</Divider>
+        <Intervals>0</Intervals>
+      </WatchDog>
+    </Slave>
+    <Cyclic>
+      <CycleTime>1000</CycleTime>
+    </Cyclic>
+    
+  <ProcessImage><Inputs><ByteSize>18</ByteSize><Variable><Name>slave:0.pdo:6041,0.Status word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>0</BitOffs></Variable><Variable><Name>slave:0.pdo:6061,0.Modes of operation display</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>16</BitOffs></Variable><Variable><Name>slave:0.pdo:6064,0.Position actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>32</BitOffs></Variable><Variable><Name>slave:0.pdo:60f4,0.Position loop error.</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>64</BitOffs></Variable><Variable><Name>slave:0.pdo:606c,0.Velocity actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>96</BitOffs></Variable><Variable><Name>slave:0.pdo:6077,0.Torque actual value</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>128</BitOffs></Variable></Inputs><Outputs><ByteSize>20</ByteSize><Variable><Name>slave:0.pdo:6040,0.Control word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>0</BitOffs></Variable><Variable><Name>slave:0.pdo:6060,0.Modes of operation</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>16</BitOffs></Variable><Variable><Name>slave:0.pdo:607a,0.Profile target position</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>32</BitOffs></Variable><Variable><Name>slave:0.pdo:60b1,0.Velocity offset</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>64</BitOffs></Variable><Variable><Name>slave:0.pdo:60b2,0.Torque offset</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>96</BitOffs></Variable><Variable><Name>slave:0.pdo:60ff,0.Target Velocity</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>112</BitOffs></Variable><Variable><Name>slave:0.pdo:6071,0.Target torque</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>144</BitOffs></Variable></Outputs></ProcessImage></Config>
+</EtherCATConfig>

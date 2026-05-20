@@ -1,0 +1,23 @@
+
+[stack1]
+workpiecedatax                 = 0.010000
+workpiecedatay                 = 0.020000
+workpiecedataz                 = 0.030000
+gapdatax                       = 0.002000
+gapdatay                       = 0.002000
+currentworkpieceid             = 1
+floorgraphicnum                = 12121
+griaphicsum                    = 2
+griaphicnum_id0                = 1
+griaphicnum_type0              = 0
+griaphicnum_xnum0              = 4
+griaphicnum_ynum0              = 3
+griaphicnum_rotationanglewhole0 = 0
+griaphicnum_rotationanglesingle0 = 0
+griaphicnum_id1                = 2
+griaphicnum_type1              = 0
+griaphicnum_xnum1              = 4
+griaphicnum_ynum1              = 3
+griaphicnum_rotationanglewhole1 = 90
+griaphicnum_rotationanglesingle1 = 0
+

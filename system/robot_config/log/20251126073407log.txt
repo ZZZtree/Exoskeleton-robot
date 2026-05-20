@@ -1,0 +1,4 @@
+INFO:3038-[20251126073407] verison: 12.2.0
+INFO:3038-[20251126073407] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:3038-[20251126073407] load_configure_data: BusConfig version mismatch
+ERROR:3038-[20251126073407] common_init: load_configure_data failure, err=-147

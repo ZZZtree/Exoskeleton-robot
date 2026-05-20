@@ -1,0 +1,163 @@
+INFO:2061-[20251205010026] verison: 12.2.0
+INFO:2061-[20251205010026] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:2061-[20251205010026] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:2061-[20251205010026] Start system initialize!
+INFO:2061-[20251205010026] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:2061-[20251205010026] group init existing problem. Some fields are not found!
+WARNING:2061-[20251205010026] dof num is 1
+WARNING:2061-[20251205010026] control:1,state:1,mode:1
+WARNING:2061-[20251205010026] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:2061-[20251205010026] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:2061-[20251205010026] /////////////////////////////////////////////////////////////////
+INFO:2061-[20251205010026] fd_ecat_in_name: /ecat_in
+INFO:2061-[20251205010026] fd_ecat_out_name: /ecat_out
+INFO:2061-[20251205010026] /////////////////////////////////////////////////////////////////
+INFO:2061-[20251205010026] state: Status word
+INFO:2061-[20251205010026] control: Control word
+INFO:2061-[20251205010026] mode: Modes of operation
+INFO:2061-[20251205010026] ac_position: Position actual value
+INFO:2061-[20251205010026] ac_velocity: Velocity actual value
+INFO:2061-[20251205010026] ac_torque: Torque actual value
+INFO:2061-[20251205010026] ac_position2: 
+INFO:2061-[20251205010026] ac_velocity2: 
+INFO:2061-[20251205010026] ac_sensor_torque: 
+INFO:2061-[20251205010026] ac_mode: Modes of operation displa
+INFO:2061-[20251205010026] ErrorCode: 
+INFO:2061-[20251205010026] FollowingErrorActualValue: 
+INFO:2061-[20251205010026] position: Profile target position
+INFO:2061-[20251205010026] velocity: Target Velocity
+INFO:2061-[20251205010026] torque: Target torque
+INFO:2061-[20251205010026] VelocityOffset: Velocity offset
+INFO:2061-[20251205010026] TorqueOffset: Torque offset
+INFO:2061-[20251205010026] TorqueMaxLimit: 
+INFO:2061-[20251205010026] TorqueMinLimit: 
+INFO:2061-[20251205010026] ec_di: 
+INFO:2061-[20251205010026] ec_do: 
+INFO:2061-[20251205010026] ec_ai: 
+INFO:2061-[20251205010026] ec_ao: 
+INFO:2061-[20251205010026] ec_li: 
+INFO:2061-[20251205010026] ec_lo: 
+INFO:2061-[20251205010026] Number of fields: 26
+INFO:2061-[20251205010026] busyTs: 5000000 ns
+INFO:2061-[20251205010026] /////////////////////////////////////////////////////////////////
+INFO:2061-[20251205010026] ec_device1/robot0: 
+INFO:2061-[20251205010026] DOF: 1
+INFO:2061-[20251205010026] 0_state: 0
+INFO:2061-[20251205010026] 0_control: 0
+INFO:2061-[20251205010026] 0_mode: 16
+INFO:2061-[20251205010026] 0_ac_position: 32
+INFO:2061-[20251205010026] 0_ac_velocity: 96
+INFO:2061-[20251205010026] 0_ac_torque: 128
+INFO:2061-[20251205010026] 0_ac_current: -999999
+INFO:2061-[20251205010026] 0_ac_position2: -999999
+INFO:2061-[20251205010026] 0_ac_velocity2: -999999
+INFO:2061-[20251205010026] 0_ac_sensor_torque: -999999
+INFO:2061-[20251205010026] 0_ac_mode: 16
+INFO:2061-[20251205010026] 0_ErrorCode: -999999
+INFO:2061-[20251205010026] 0_FollowingErrorActualValue: -999999
+INFO:2061-[20251205010026] 0_position: 32
+INFO:2061-[20251205010026] 0_velocity: 112
+INFO:2061-[20251205010026] 0_torque: 144
+INFO:2061-[20251205010026] 0_VelocityOffset: 64
+INFO:2061-[20251205010026] 0_TorqueOffset: 96
+INFO:2061-[20251205010026] 0_TorqueMaxLimit: -999999
+INFO:2061-[20251205010026] 0_TorqueMinLimit: -999999
+INFO:2061-[20251205010026] /////////////////////////////////////////////////////////////////
+INFO:2061-[20251205010026] /////////////////////////////////////////////////////////////////
+INFO:2061-[20251205010026] /////////////////////////////////////////////////////////////////
+INFO:2061-[20251205010026] system_init:simulation_switch
+NOTICE:2061-[20251205010026] Device is running
+INFO:2061-[20251205010026] system_init:GetRobotSimulationState
+INFO:2061-[20251205010026] system_init:initSystemTimer2
+INFO:2061-[20251205010026] InitRobot
+INFO:2061-[20251205010026] Hardware Match
+NOTICE:2061-[20251205010026] Real machine running mode
+INFO:2061-[20251205010026] init_robot_teach
+INFO:2061-[20251205010026] set_robot_index
+INFO:2061-[20251205010026] set_addition_index
+INFO:2061-[20251205010026] get_addition_num
+INFO:2061-[20251205010026] get_robot_num
+INFO:2061-[20251205010026] start teach server port 6666
+INFO:2061-[20251205010026] start teach command server port 6667
+INFO:2061-[20251205010026] start teach feedback server port 6668
+INFO:2061-[20251205010026] initialize finish
+INFO:2061-[20251205010041] TCPConcurrentServer: client connect (47)
+INFO:2061-[20251205010041] TCPConcurrentServer: client connect (48)
+NOTICE:2061-[20251205010041] Teach feedback clock(0) cycle time is 50 ms
+INFO:2061-[20251205010043] device_error_clear
+INFO:2061-[20251205010045] device_teach_enable
+ERROR:2061-[20251205010045] group_power:axis(ID:1) error
+ERROR:2061-[20251205010045] robot_enable_i:robot <0> enable failure
+INFO:2061-[20251205010047] TCPConcurrentServer: client disconnect (47)
+INFO:2061-[20251205010047] TCPConcurrentServer: client disconnect (48)
+INFO:2061-[20251205010054] TCPConcurrentServer: client connect (47)
+INFO:2061-[20251205010054] TCPConcurrentServer: client connect (48)
+NOTICE:2061-[20251205010054] Teach feedback clock(0) cycle time is 50 ms
+INFO:2061-[20251205010055] get_data_robjoint_all
+INFO:2061-[20251205010055] get_data_robpose_all
+INFO:2061-[20251205010055] get_data_wobj_all
+INFO:2061-[20251205010055] get_data_zone_all
+INFO:2061-[20251205010055] get_data_tool_all
+INFO:2061-[20251205010055] get_data_speed_all
+INFO:2061-[20251205010055] get_data_user_all
+INFO:2061-[20251205010055] get_data_addition_all
+INFO:2061-[20251205010055] get_data_payload_all
+INFO:2061-[20251205010055] get_robot_data_path
+INFO:2061-[20251205010055] get_robot_index
+INFO:2061-[20251205010055] get_teach_move_type
+INFO:2061-[20251205010055] set_robot_run_type
+NOTICE:2061-[20251205010055] Device is running
+NOTICE:2061-[20251205010055] Real machine running mode
+INFO:2061-[20251205010055] get_robot_teach_velocity
+INFO:2061-[20251205010055] get_robot_run_type
+INFO:2061-[20251205010055] get_robot_run_type
+INFO:2061-[20251205010055] get_robot_tool
+INFO:2061-[20251205010055] get_teach_move_type
+INFO:2061-[20251205010055] get_robot_run_type
+INFO:2061-[20251205010055] get_robot_teach_velocity
+INFO:2061-[20251205010055] get_robot_run_type
+INFO:2061-[20251205010055] get_robot_wobj
+INFO:2061-[20251205010055] get_robot_teach_coordinate
+INFO:2061-[20251205010055] set_robot_index
+INFO:2061-[20251205010055] get_robot_tool
+INFO:2061-[20251205010055] get_robot_wobj
+INFO:2061-[20251205010056] device_teach_enable
+ERROR:2061-[20251205010056] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:2061-[20251205010126] device_teach_disenable
+INFO:2061-[20251205010400] device_teach_enable
+ERROR:2061-[20251205010400] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:2061-[20251205010402] TCPConcurrentServer: client disconnect (48)
+INFO:2061-[20251205010402] TCPConcurrentServer: client disconnect (47)
+INFO:2061-[20251205010410] TCPConcurrentServer: client connect (47)
+INFO:2061-[20251205010410] TCPConcurrentServer: client connect (48)
+NOTICE:2061-[20251205010410] Teach feedback clock(0) cycle time is 50 ms
+INFO:2061-[20251205010411] get_data_robjoint_all
+INFO:2061-[20251205010411] get_data_robpose_all
+INFO:2061-[20251205010411] get_data_speed_all
+INFO:2061-[20251205010411] get_data_zone_all
+INFO:2061-[20251205010411] get_data_tool_all
+INFO:2061-[20251205010411] get_data_wobj_all
+INFO:2061-[20251205010411] get_data_user_all
+INFO:2061-[20251205010411] get_data_addition_all
+INFO:2061-[20251205010411] get_data_payload_all
+INFO:2061-[20251205010411] get_robot_data_path
+INFO:2061-[20251205010411] get_robot_index
+INFO:2061-[20251205010411] get_teach_move_type
+INFO:2061-[20251205010411] set_robot_run_type
+NOTICE:2061-[20251205010411] Device is running
+NOTICE:2061-[20251205010411] Real machine running mode
+INFO:2061-[20251205010411] get_robot_teach_velocity
+INFO:2061-[20251205010411] get_robot_run_type
+INFO:2061-[20251205010411] get_robot_run_type
+INFO:2061-[20251205010411] get_robot_tool
+INFO:2061-[20251205010411] get_teach_move_type
+INFO:2061-[20251205010411] get_robot_wobj
+INFO:2061-[20251205010411] get_robot_run_type
+INFO:2061-[20251205010411] get_robot_teach_velocity
+INFO:2061-[20251205010411] get_robot_run_type
+INFO:2061-[20251205010411] get_robot_teach_coordinate
+INFO:2061-[20251205010411] set_robot_index
+INFO:2061-[20251205010411] get_robot_tool
+INFO:2061-[20251205010412] get_robot_wobj
+INFO:2061-[20251205010413] device_teach_enable
+ERROR:2061-[20251205010413] robot_enable_i: robot <0> state wrong(err=-176), can't enable

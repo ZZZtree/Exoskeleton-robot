@@ -1,0 +1,218 @@
+INFO:964-[20251216024454] verison: 12.2.0
+INFO:964-[20251216024454] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:964-[20251216024454] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:964-[20251216024454] Start system initialize!
+INFO:964-[20251216024454] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:964-[20251216024454] group init existing problem. Some fields are not found!
+WARNING:964-[20251216024454] dof num is 2
+WARNING:964-[20251216024454] control:2,state:2,mode:2
+WARNING:964-[20251216024454] ac_position:2,ac_velocity:2,ac_torque:2,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:2,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:964-[20251216024454] position:2,velocity:2,torque:2,VelocityOffset:2,TorqueOffset:2,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:964-[20251216024454] /////////////////////////////////////////////////////////////////
+INFO:964-[20251216024454] fd_ecat_in_name: /ecat_in
+INFO:964-[20251216024454] fd_ecat_out_name: /ecat_out
+INFO:964-[20251216024454] /////////////////////////////////////////////////////////////////
+INFO:964-[20251216024454] state: Status word
+INFO:964-[20251216024454] control: Control word
+INFO:964-[20251216024454] mode: Modes of operation
+INFO:964-[20251216024454] ac_position: Position actual value
+INFO:964-[20251216024454] ac_velocity: Velocity actual value
+INFO:964-[20251216024454] ac_torque: Torque actual value
+INFO:964-[20251216024454] ac_position2: 
+INFO:964-[20251216024454] ac_velocity2: 
+INFO:964-[20251216024454] ac_sensor_torque: 
+INFO:964-[20251216024454] ac_mode: Modes of operation displa
+INFO:964-[20251216024454] ErrorCode: 
+INFO:964-[20251216024454] FollowingErrorActualValue: 
+INFO:964-[20251216024454] position: Profile target position
+INFO:964-[20251216024454] velocity: Target Velocity
+INFO:964-[20251216024454] torque: Target torque
+INFO:964-[20251216024454] VelocityOffset: Velocity offset
+INFO:964-[20251216024454] TorqueOffset: Torque offset
+INFO:964-[20251216024454] TorqueMaxLimit: 
+INFO:964-[20251216024454] TorqueMinLimit: 
+INFO:964-[20251216024454] ec_di: 
+INFO:964-[20251216024454] ec_do: 
+INFO:964-[20251216024454] ec_ai: 
+INFO:964-[20251216024454] ec_ao: 
+INFO:964-[20251216024454] ec_li: 
+INFO:964-[20251216024454] ec_lo: 
+INFO:964-[20251216024454] Number of fields: 26
+INFO:964-[20251216024454] busyTs: 5000000 ns
+INFO:964-[20251216024454] /////////////////////////////////////////////////////////////////
+INFO:964-[20251216024454] ec_device1/robot0: 
+INFO:964-[20251216024454] DOF: 2
+INFO:964-[20251216024454] 0_state: 0
+INFO:964-[20251216024454] 0_control: 0
+INFO:964-[20251216024454] 0_mode: 16
+INFO:964-[20251216024454] 0_ac_position: 32
+INFO:964-[20251216024454] 0_ac_velocity: 96
+INFO:964-[20251216024454] 0_ac_torque: 128
+INFO:964-[20251216024454] 0_ac_current: -999999
+INFO:964-[20251216024454] 0_ac_position2: -999999
+INFO:964-[20251216024454] 0_ac_velocity2: -999999
+INFO:964-[20251216024454] 0_ac_sensor_torque: -999999
+INFO:964-[20251216024454] 0_ac_mode: 16
+INFO:964-[20251216024454] 0_ErrorCode: -999999
+INFO:964-[20251216024454] 0_FollowingErrorActualValue: -999999
+INFO:964-[20251216024454] 0_position: 32
+INFO:964-[20251216024454] 0_velocity: 112
+INFO:964-[20251216024454] 0_torque: 144
+INFO:964-[20251216024454] 0_VelocityOffset: 64
+INFO:964-[20251216024454] 0_TorqueOffset: 96
+INFO:964-[20251216024454] 0_TorqueMaxLimit: -999999
+INFO:964-[20251216024454] 0_TorqueMinLimit: -999999
+INFO:964-[20251216024454] 1_state: 0
+INFO:964-[20251216024454] 1_control: 0
+INFO:964-[20251216024454] 1_mode: 16
+INFO:964-[20251216024454] 1_ac_position: 32
+INFO:964-[20251216024454] 1_ac_velocity: 96
+INFO:964-[20251216024454] 1_ac_torque: 128
+INFO:964-[20251216024454] 1_ac_current: -999999
+INFO:964-[20251216024454] 1_ac_position2: -999999
+INFO:964-[20251216024454] 1_ac_velocity2: -999999
+INFO:964-[20251216024454] 1_ac_sensor_torque: -999999
+INFO:964-[20251216024454] 1_ac_mode: 16
+INFO:964-[20251216024454] 1_ErrorCode: -999999
+INFO:964-[20251216024454] 1_FollowingErrorActualValue: -999999
+INFO:964-[20251216024454] 1_position: 32
+INFO:964-[20251216024454] 1_velocity: 112
+INFO:964-[20251216024454] 1_torque: 144
+INFO:964-[20251216024454] 1_VelocityOffset: 64
+INFO:964-[20251216024454] 1_TorqueOffset: 96
+INFO:964-[20251216024454] 1_TorqueMaxLimit: -999999
+INFO:964-[20251216024454] 1_TorqueMinLimit: -999999
+INFO:964-[20251216024454] /////////////////////////////////////////////////////////////////
+INFO:964-[20251216024454] /////////////////////////////////////////////////////////////////
+INFO:964-[20251216024454] /////////////////////////////////////////////////////////////////
+INFO:964-[20251216024454] system_init:simulation_switch
+NOTICE:964-[20251216024454] Device is running
+INFO:964-[20251216024454] system_init:GetRobotSimulationState
+INFO:964-[20251216024454] system_init:initSystemTimer2
+INFO:964-[20251216024454] InitRobot
+INFO:964-[20251216024454] Hardware Match
+NOTICE:964-[20251216024454] Real machine running mode
+INFO:964-[20251216024454] init_robot_teach
+INFO:964-[20251216024454] set_robot_index
+INFO:964-[20251216024454] set_addition_index
+INFO:964-[20251216024454] get_addition_num
+INFO:964-[20251216024454] get_robot_num
+INFO:964-[20251216024454] start teach server port 6666
+INFO:964-[20251216024454] start teach command server port 6667
+INFO:964-[20251216024454] start teach feedback server port 6668
+INFO:964-[20251216024454] initialize finish
+INFO:964-[20251216025021] TCPConcurrentServer: client connect (47)
+INFO:964-[20251216025021] TCPConcurrentServer: client connect (48)
+NOTICE:964-[20251216025021] Teach feedback clock(0) cycle time is 50 ms
+INFO:964-[20251216025022] get_data_robjoint_all
+INFO:964-[20251216025022] get_data_robpose_all
+INFO:964-[20251216025022] get_data_speed_all
+INFO:964-[20251216025022] get_data_zone_all
+INFO:964-[20251216025022] get_data_tool_all
+INFO:964-[20251216025022] get_data_wobj_all
+INFO:964-[20251216025022] get_data_user_all
+INFO:964-[20251216025022] get_data_addition_all
+INFO:964-[20251216025022] get_data_payload_all
+INFO:964-[20251216025022] get_robot_data_path
+INFO:964-[20251216025023] get_robot_index
+INFO:964-[20251216025023] get_robot_run_type
+INFO:964-[20251216025023] get_robot_run_type
+INFO:964-[20251216025023] get_robot_teach_velocity
+INFO:964-[20251216025023] get_teach_move_type
+INFO:964-[20251216025023] set_robot_run_type
+NOTICE:964-[20251216025023] Device is running
+NOTICE:964-[20251216025023] Real machine running mode
+INFO:964-[20251216025023] get_teach_move_type
+INFO:964-[20251216025023] get_robot_run_type
+INFO:964-[20251216025023] get_robot_teach_velocity
+INFO:964-[20251216025023] get_robot_tool
+INFO:964-[20251216025023] get_robot_run_type
+INFO:964-[20251216025023] get_robot_wobj
+INFO:964-[20251216025023] get_robot_teach_coordinate
+INFO:964-[20251216025023] set_robot_index
+INFO:964-[20251216025023] get_robot_tool
+INFO:964-[20251216025023] get_robot_wobj
+WARNING:964-[20251216025025] feedback_action: network outage
+WARNING:964-[20251216025025] feedback_action: quit
+WARNING:964-[20251216025025] feedback_cmd_action: quit
+WARNING:964-[20251216025036] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:964-[20251216025036] TCPConcurrentServer: client connect (47)
+WARNING:964-[20251216025036] TCPConcurrentServer: custom_deal_function pathread join failure (48)
+INFO:964-[20251216025036] TCPConcurrentServer: client connect (48)
+NOTICE:964-[20251216025036] Teach feedback clock(0) cycle time is 50 ms
+INFO:964-[20251216025037] device_error_clear
+INFO:964-[20251216025039] device_teach_enable
+ERROR:964-[20251216025039] group_power:axis(ID:1) error
+ERROR:964-[20251216025039] robot_enable_i:robot <0> enable failure
+INFO:964-[20251216025040] device_teach_enable
+ERROR:964-[20251216025040] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:964-[20251216025042] device_error_clear
+INFO:964-[20251216025043] TCPConcurrentServer: client disconnect (47)
+INFO:964-[20251216025043] TCPConcurrentServer: client disconnect (48)
+INFO:964-[20251216025043] TCPConcurrentServer: client connect (47)
+INFO:964-[20251216025043] TCPConcurrentServer: client connect (48)
+NOTICE:964-[20251216025043] Teach feedback clock(0) cycle time is 50 ms
+INFO:964-[20251216025046] device_teach_enable
+ERROR:964-[20251216025046] group_power:axis(ID:1) error
+ERROR:964-[20251216025046] robot_enable_i:robot <0> enable failure
+INFO:964-[20251216025047] device_teach_enable
+ERROR:964-[20251216025047] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:964-[20251216025048] device_teach_disenable
+INFO:964-[20251216025049] device_teach_disenable
+INFO:964-[20251216025050] device_teach_enable
+ERROR:964-[20251216025050] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:964-[20251216025051] device_teach_disenable
+INFO:964-[20251216025053] TCPConcurrentServer: client disconnect (48)
+INFO:964-[20251216025053] TCPConcurrentServer: client disconnect (47)
+INFO:964-[20251216025101] TCPConcurrentServer: client connect (47)
+INFO:964-[20251216025101] TCPConcurrentServer: client connect (48)
+NOTICE:964-[20251216025101] Teach feedback clock(0) cycle time is 50 ms
+INFO:964-[20251216025102] get_data_robjoint_all
+INFO:964-[20251216025102] get_data_robpose_all
+INFO:964-[20251216025102] get_data_speed_all
+INFO:964-[20251216025102] get_data_user_all
+INFO:964-[20251216025102] get_data_tool_all
+INFO:964-[20251216025102] get_data_wobj_all
+INFO:964-[20251216025102] get_data_zone_all
+INFO:964-[20251216025102] get_data_addition_all
+INFO:964-[20251216025102] get_data_payload_all
+INFO:964-[20251216025102] get_robot_data_path
+INFO:964-[20251216025102] get_robot_index
+INFO:964-[20251216025102] get_robot_run_type
+INFO:964-[20251216025102] get_robot_run_type
+INFO:964-[20251216025102] get_robot_teach_velocity
+INFO:964-[20251216025102] get_teach_move_type
+INFO:964-[20251216025102] set_robot_run_type
+NOTICE:964-[20251216025102] Device is running
+NOTICE:964-[20251216025102] Real machine running mode
+INFO:964-[20251216025102] get_robot_tool
+INFO:964-[20251216025102] get_teach_move_type
+INFO:964-[20251216025102] get_robot_run_type
+INFO:964-[20251216025102] get_robot_teach_velocity
+INFO:964-[20251216025102] get_robot_run_type
+INFO:964-[20251216025102] get_robot_wobj
+INFO:964-[20251216025102] get_robot_teach_coordinate
+INFO:964-[20251216025102] set_robot_index
+INFO:964-[20251216025102] get_robot_tool
+INFO:964-[20251216025102] get_robot_wobj
+WARNING:964-[20251216025105] feedback_action: network outage
+WARNING:964-[20251216025105] feedback_action: quit
+WARNING:964-[20251216025105] feedback_cmd_action: quit
+WARNING:964-[20251216025105] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:964-[20251216025105] TCPConcurrentServer: client connect (47)
+WARNING:964-[20251216025105] TCPConcurrentServer: custom_deal_function pathread join failure (48)
+INFO:964-[20251216025105] TCPConcurrentServer: client connect (48)
+NOTICE:964-[20251216025105] Teach feedback clock(0) cycle time is 50 ms
+INFO:964-[20251216025107] device_error_clear
+INFO:964-[20251216025109] set_robot_teach_velocity
+INFO:964-[20251216025109] get_robot_teach_velocity
+INFO:964-[20251216025111] device_teach_enable
+ERROR:964-[20251216025111] group_power:axis(ID:1) error
+ERROR:964-[20251216025111] robot_enable_i:robot <0> enable failure
+INFO:964-[20251216025113] device_teach_enable
+ERROR:964-[20251216025113] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:964-[20251216025114] device_teach_enable
+ERROR:964-[20251216025114] device_teach_enable: robot(0) driver servo axis(1) error!
+WARNING:964-[20251216025115] feedback_action: network outage
+WARNING:964-[20251216025115] feedback_action: quit
+WARNING:964-[20251216025115] feedback_cmd_action: quit

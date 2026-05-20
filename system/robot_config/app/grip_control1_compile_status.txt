@@ -1,0 +1,4 @@
+/home/robot/Work/system/robot_config/data/grip_control1.c: In function ‘MainModule’:
+/home/robot/Work/system/robot_config/data/grip_control1.c:5:6: warning: variable ‘ret’ set but not used [-Wunused-but-set-variable]
+  int ret=0;
+      ^

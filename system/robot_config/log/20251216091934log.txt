@@ -1,0 +1,235 @@
+INFO:2048-[20251216091934] verison: 12.2.0
+INFO:2048-[20251216091934] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:2048-[20251216091934] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:2048-[20251216091934] Start system initialize!
+INFO:2048-[20251216091934] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:2048-[20251216091934] group init existing problem. Some fields are not found!
+WARNING:2048-[20251216091934] dof num is 2
+WARNING:2048-[20251216091934] control:2,state:2,mode:2
+WARNING:2048-[20251216091934] ac_position:2,ac_velocity:2,ac_torque:2,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:2,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:2048-[20251216091934] position:2,velocity:2,torque:2,VelocityOffset:2,TorqueOffset:2,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:2048-[20251216091934] /////////////////////////////////////////////////////////////////
+INFO:2048-[20251216091934] fd_ecat_in_name: /ecat_in
+INFO:2048-[20251216091934] fd_ecat_out_name: /ecat_out
+INFO:2048-[20251216091934] /////////////////////////////////////////////////////////////////
+INFO:2048-[20251216091934] state: Status word
+INFO:2048-[20251216091934] control: Control word
+INFO:2048-[20251216091934] mode: Modes of operation
+INFO:2048-[20251216091934] ac_position: Position actual value
+INFO:2048-[20251216091934] ac_velocity: Velocity actual value
+INFO:2048-[20251216091934] ac_torque: Torque actual value
+INFO:2048-[20251216091934] ac_position2: 
+INFO:2048-[20251216091934] ac_velocity2: 
+INFO:2048-[20251216091934] ac_sensor_torque: 
+INFO:2048-[20251216091934] ac_mode: Modes of operation displa
+INFO:2048-[20251216091934] ErrorCode: 
+INFO:2048-[20251216091934] FollowingErrorActualValue: 
+INFO:2048-[20251216091934] position: Profile target position
+INFO:2048-[20251216091934] velocity: Target Velocity
+INFO:2048-[20251216091934] torque: Target torque
+INFO:2048-[20251216091934] VelocityOffset: Velocity offset
+INFO:2048-[20251216091934] TorqueOffset: Torque offset
+INFO:2048-[20251216091934] TorqueMaxLimit: 
+INFO:2048-[20251216091934] TorqueMinLimit: 
+INFO:2048-[20251216091934] ec_di: 
+INFO:2048-[20251216091934] ec_do: 
+INFO:2048-[20251216091934] ec_ai: 
+INFO:2048-[20251216091934] ec_ao: 
+INFO:2048-[20251216091934] ec_li: 
+INFO:2048-[20251216091934] ec_lo: 
+INFO:2048-[20251216091934] Number of fields: 26
+INFO:2048-[20251216091934] busyTs: 5000000 ns
+INFO:2048-[20251216091934] /////////////////////////////////////////////////////////////////
+INFO:2048-[20251216091934] ec_device1/robot0: 
+INFO:2048-[20251216091934] DOF: 2
+INFO:2048-[20251216091934] 0_state: 0
+INFO:2048-[20251216091934] 0_control: 0
+INFO:2048-[20251216091934] 0_mode: 16
+INFO:2048-[20251216091934] 0_ac_position: 32
+INFO:2048-[20251216091934] 0_ac_velocity: 96
+INFO:2048-[20251216091934] 0_ac_torque: 128
+INFO:2048-[20251216091934] 0_ac_current: -999999
+INFO:2048-[20251216091934] 0_ac_position2: -999999
+INFO:2048-[20251216091934] 0_ac_velocity2: -999999
+INFO:2048-[20251216091934] 0_ac_sensor_torque: -999999
+INFO:2048-[20251216091934] 0_ac_mode: 16
+INFO:2048-[20251216091934] 0_ErrorCode: -999999
+INFO:2048-[20251216091934] 0_FollowingErrorActualValue: -999999
+INFO:2048-[20251216091934] 0_position: 32
+INFO:2048-[20251216091934] 0_velocity: 112
+INFO:2048-[20251216091934] 0_torque: 144
+INFO:2048-[20251216091934] 0_VelocityOffset: 64
+INFO:2048-[20251216091934] 0_TorqueOffset: 96
+INFO:2048-[20251216091934] 0_TorqueMaxLimit: -999999
+INFO:2048-[20251216091934] 0_TorqueMinLimit: -999999
+INFO:2048-[20251216091934] 1_state: 0
+INFO:2048-[20251216091934] 1_control: 0
+INFO:2048-[20251216091934] 1_mode: 16
+INFO:2048-[20251216091934] 1_ac_position: 32
+INFO:2048-[20251216091934] 1_ac_velocity: 96
+INFO:2048-[20251216091934] 1_ac_torque: 128
+INFO:2048-[20251216091934] 1_ac_current: -999999
+INFO:2048-[20251216091934] 1_ac_position2: -999999
+INFO:2048-[20251216091934] 1_ac_velocity2: -999999
+INFO:2048-[20251216091934] 1_ac_sensor_torque: -999999
+INFO:2048-[20251216091934] 1_ac_mode: 16
+INFO:2048-[20251216091934] 1_ErrorCode: -999999
+INFO:2048-[20251216091934] 1_FollowingErrorActualValue: -999999
+INFO:2048-[20251216091934] 1_position: 32
+INFO:2048-[20251216091934] 1_velocity: 112
+INFO:2048-[20251216091934] 1_torque: 144
+INFO:2048-[20251216091934] 1_VelocityOffset: 64
+INFO:2048-[20251216091934] 1_TorqueOffset: 96
+INFO:2048-[20251216091934] 1_TorqueMaxLimit: -999999
+INFO:2048-[20251216091934] 1_TorqueMinLimit: -999999
+INFO:2048-[20251216091934] /////////////////////////////////////////////////////////////////
+INFO:2048-[20251216091934] /////////////////////////////////////////////////////////////////
+INFO:2048-[20251216091934] /////////////////////////////////////////////////////////////////
+INFO:2048-[20251216091934] system_init:simulation_switch
+NOTICE:2048-[20251216091934] Device is running
+INFO:2048-[20251216091934] system_init:GetRobotSimulationState
+INFO:2048-[20251216091934] system_init:initSystemTimer2
+INFO:2048-[20251216091934] InitRobot
+INFO:2048-[20251216091934] Hardware Match
+NOTICE:2048-[20251216091934] Real machine running mode
+INFO:2048-[20251216091934] init_robot_teach
+INFO:2048-[20251216091934] set_robot_index
+INFO:2048-[20251216091934] set_addition_index
+INFO:2048-[20251216091934] get_addition_num
+INFO:2048-[20251216091934] get_robot_num
+INFO:2048-[20251216091934] start teach server port 6666
+INFO:2048-[20251216091934] start teach command server port 6667
+INFO:2048-[20251216091934] start teach feedback server port 6668
+INFO:2048-[20251216091934] initialize finish
+INFO:2048-[20251216091947] TCPConcurrentServer: client connect (47)
+INFO:2048-[20251216091947] TCPConcurrentServer: client connect (48)
+NOTICE:2048-[20251216091947] Teach feedback clock(0) cycle time is 50 ms
+INFO:2048-[20251216091951] device_teach_enable
+ERROR:2048-[20251216091951] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:2048-[20251216091952] device_error_clear
+INFO:2048-[20251216091953] device_teach_enable
+INFO:2048-[20251216091958] robot_teach_joint
+ERROR:2048-[20251216091958] JointSpaceExecution: robot(0) driver servo axis(1) error!
+INFO:2048-[20251216091958] robot_teach_stop
+INFO:2048-[20251216091959] robot_teach_joint
+INFO:2048-[20251216091959] robot_teach_stop
+INFO:2048-[20251216092000] device_error_clear
+INFO:2048-[20251216092002] robot_teach_joint
+INFO:2048-[20251216092002] robot_teach_stop
+INFO:2048-[20251216092003] robot_teach_joint
+INFO:2048-[20251216092003] robot_teach_stop
+INFO:2048-[20251216092006] robot_teach_joint
+INFO:2048-[20251216092007] robot_teach_stop
+INFO:2048-[20251216092007] robot_teach_joint
+INFO:2048-[20251216092007] robot_teach_stop
+INFO:2048-[20251216092007] robot_teach_joint
+INFO:2048-[20251216092007] robot_teach_stop
+INFO:2048-[20251216092008] robot_teach_joint
+INFO:2048-[20251216092008] robot_teach_stop
+INFO:2048-[20251216092008] device_teach_enable
+INFO:2048-[20251216092010] robot_teach_joint
+INFO:2048-[20251216092011] robot_teach_stop
+INFO:2048-[20251216092012] robot_teach_joint
+ERROR:2048-[20251216092012] JointSpaceExecution: robot(0) driver servo axis(1) error!
+INFO:2048-[20251216092012] robot_teach_stop
+INFO:2048-[20251216092013] robot_teach_joint
+INFO:2048-[20251216092013] robot_teach_stop
+INFO:2048-[20251216092014] device_teach_enable
+ERROR:2048-[20251216092014] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:2048-[20251216092014] device_error_clear
+INFO:2048-[20251216092015] device_teach_enable
+INFO:2048-[20251216092016] robot_teach_joint
+INFO:2048-[20251216092016] robot_teach_stop
+INFO:2048-[20251216092016] robot_teach_joint
+INFO:2048-[20251216092017] robot_teach_stop
+INFO:2048-[20251216092017] robot_teach_joint
+INFO:2048-[20251216092017] robot_teach_stop
+INFO:2048-[20251216092017] robot_teach_joint
+INFO:2048-[20251216092017] robot_teach_stop
+INFO:2048-[20251216092017] robot_teach_joint
+INFO:2048-[20251216092018] robot_teach_stop
+INFO:2048-[20251216092018] robot_teach_joint
+INFO:2048-[20251216092018] robot_teach_stop
+INFO:2048-[20251216092018] robot_teach_joint
+INFO:2048-[20251216092018] robot_teach_stop
+INFO:2048-[20251216092043] TCPConcurrentServer: client disconnect (47)
+INFO:2048-[20251216092043] TCPConcurrentServer: client connect (47)
+INFO:2048-[20251216092043] TCPConcurrentServer: client connect (49)
+NOTICE:2048-[20251216092043] Teach feedback clock(1) cycle time is 50 ms
+INFO:2048-[20251216092044] device_teach_enable
+ERROR:2048-[20251216092044] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:2048-[20251216092045] device_error_clear
+INFO:2048-[20251216092046] device_teach_enable
+INFO:2048-[20251216092047] robot_teach_joint
+INFO:2048-[20251216092047] robot_teach_stop
+INFO:2048-[20251216092048] robot_teach_joint
+INFO:2048-[20251216092050] robot_teach_stop
+WARNING:2048-[20251216092110] feedback_action: network outage
+WARNING:2048-[20251216092110] feedback_action: quit
+WARNING:2048-[20251216092110] feedback_cmd_action: quit
+WARNING:2048-[20251216092117] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:2048-[20251216092117] TCPConcurrentServer: client connect (47)
+WARNING:2048-[20251216092117] TCPConcurrentServer: custom_deal_function pathread join failure (48)
+INFO:2048-[20251216092117] TCPConcurrentServer: client connect (48)
+NOTICE:2048-[20251216092117] Teach feedback clock(0) cycle time is 50 ms
+INFO:2048-[20251216092120] device_teach_enable
+INFO:2048-[20251216092121] device_teach_enable
+INFO:2048-[20251216092121] robot_teach_joint
+INFO:2048-[20251216092122] robot_teach_stop
+INFO:2048-[20251216092122] robot_teach_joint
+INFO:2048-[20251216092123] robot_teach_stop
+INFO:2048-[20251216092123] robot_teach_joint
+INFO:2048-[20251216092123] robot_teach_stop
+INFO:2048-[20251216092123] robot_teach_joint
+INFO:2048-[20251216092123] robot_teach_stop
+INFO:2048-[20251216092123] robot_teach_joint
+INFO:2048-[20251216092124] robot_teach_stop
+INFO:2048-[20251216092125] TCPConcurrentServer: client disconnect (47)
+INFO:2048-[20251216092125] TCPConcurrentServer: client disconnect (48)
+INFO:2048-[20251216092125] TCPConcurrentServer: client connect (47)
+INFO:2048-[20251216092125] TCPConcurrentServer: client connect (48)
+NOTICE:2048-[20251216092125] Teach feedback clock(0) cycle time is 50 ms
+INFO:2048-[20251216092126] device_teach_enable
+INFO:2048-[20251216092128] set_robot_teach_velocity
+INFO:2048-[20251216092128] get_robot_teach_velocity
+INFO:2048-[20251216092129] robot_teach_joint
+INFO:2048-[20251216092130] robot_teach_stop
+INFO:2048-[20251216092131] device_error_clear
+INFO:2048-[20251216092133] device_teach_disenable
+INFO:2048-[20251216092133] device_teach_enable
+INFO:2048-[20251216092134] robot_teach_joint
+INFO:2048-[20251216092136] robot_teach_stop
+INFO:2048-[20251216092136] robot_teach_joint
+INFO:2048-[20251216092137] robot_teach_stop
+INFO:2048-[20251216092139] robot_teach_joint
+INFO:2048-[20251216092139] robot_teach_stop
+INFO:2048-[20251216092140] robot_teach_joint
+INFO:2048-[20251216092140] robot_teach_stop
+INFO:2048-[20251216092140] robot_teach_joint
+INFO:2048-[20251216092140] robot_teach_stop
+INFO:2048-[20251216092140] robot_teach_joint
+INFO:2048-[20251216092140] robot_teach_stop
+INFO:2048-[20251216092141] robot_teach_joint
+INFO:2048-[20251216092141] robot_teach_stop
+INFO:2048-[20251216092141] robot_teach_joint
+INFO:2048-[20251216092141] robot_teach_stop
+INFO:2048-[20251216092142] robot_teach_joint
+INFO:2048-[20251216092142] robot_teach_stop
+INFO:2048-[20251216092142] robot_teach_joint
+INFO:2048-[20251216092142] robot_teach_stop
+INFO:2048-[20251216092142] robot_teach_joint
+INFO:2048-[20251216092143] robot_teach_stop
+INFO:2048-[20251216092143] robot_teach_joint
+INFO:2048-[20251216092143] robot_teach_stop
+INFO:2048-[20251216092143] robot_teach_joint
+INFO:2048-[20251216092144] robot_teach_stop
+INFO:2048-[20251216092144] robot_teach_joint
+INFO:2048-[20251216092144] robot_teach_stop
+INFO:2048-[20251216092144] robot_teach_joint
+INFO:2048-[20251216092144] robot_teach_stop
+INFO:2048-[20251216092144] robot_teach_joint
+INFO:2048-[20251216092145] robot_teach_stop
+WARNING:2048-[20251216092145] feedback_action: network outage
+WARNING:2048-[20251216092145] feedback_action: quit
+WARNING:2048-[20251216092145] feedback_cmd_action: quit
+INFO:2048-[20251216092208] Controller stop run!

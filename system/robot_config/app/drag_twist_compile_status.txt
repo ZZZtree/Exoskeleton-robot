@@ -1,0 +1,20 @@
+/home/robot/Work/system/robot_config/app/drag_twist.c: In function ‘MainModule’:
+/home/robot/Work/system/robot_config/app/drag_twist.c:51:198: warning: passing argument 11 of ‘dynamics_direct_teach_start’ from incompatible pointer type [-Wincompatible-pointer-types]
+   51 |   dynamics_direct_teach_start(StabilGain,BoundGain,friction_die,fv_compensation,fc_positive_compensation,fc_negative_compensation,angle_constraint,velocity_constraint,torque_constraint,select_axis,tooll1,NULL,0);
+      |                                                                                                                                                                                                      ^~~~~~
+      |                                                                                                                                                                                                      |
+      |                                                                                                                                                                                                      toolptr {aka tool *}
+/home/robot/Work/system/robot_config/app/drag_twist.c:20:291: note: expected ‘TOOL *’ but argument is of type ‘toolptr’ {aka ‘tool *’}
+   20 | int dynamics_direct_teach_start(double *StabilGain, double *BoundGain, double friction_die, double *fv_compensation, double *fc_positive_compensation, double *fc_negative_compensation,double angle_constraint, double velocity_constraint, double torque_constraint, uint32_t select_axis,TOOL *rtool, WOBJ *rwobj, int robot_index);
+      |                                                                                                                                                                                                                                                                                             ~~~~~~^~~~~
+/home/robot/Work/system/robot_config/app/drag_twist.c:52:198: warning: passing argument 11 of ‘dynamics_direct_teach_start’ from incompatible pointer type [-Wincompatible-pointer-types]
+   52 |   dynamics_direct_teach_start(StabilGain,BoundGain,friction_die,fv_compensation,fc_positive_compensation,fc_negative_compensation,angle_constraint,velocity_constraint,torque_constraint,select_axis,toolr1,NULL,1);
+      |                                                                                                                                                                                                      ^~~~~~
+      |                                                                                                                                                                                                      |
+      |                                                                                                                                                                                                      toolptr {aka tool *}
+/home/robot/Work/system/robot_config/app/drag_twist.c:20:291: note: expected ‘TOOL *’ but argument is of type ‘toolptr’ {aka ‘tool *’}
+   20 | int dynamics_direct_teach_start(double *StabilGain, double *BoundGain, double friction_die, double *fv_compensation, double *fc_positive_compensation, double *fc_negative_compensation,double angle_constraint, double velocity_constraint, double torque_constraint, uint32_t select_axis,TOOL *rtool, WOBJ *rwobj, int robot_index);
+      |                                                                                                                                                                                                                                                                                             ~~~~~~^~~~~
+/home/robot/Work/system/robot_config/app/drag_twist.c:55:15: warning: unused variable ‘robot_name’ [-Wunused-variable]
+   55 |   const char* robot_name=get_name_robot_device(get_deviceName(0,NULL),0);
+      |               ^~~~~~~~~~

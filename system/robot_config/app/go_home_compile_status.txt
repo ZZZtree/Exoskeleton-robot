@@ -1,0 +1,1 @@
+gcc: error: /robot/robot_config/data/go_home.c: No such file or directory

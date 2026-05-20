@@ -1,0 +1,168 @@
+INFO:685132-[20260403065337] verison: 12.2.0
+INFO:685132-[20260403065337] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:685132-[20260403065337] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:685132-[20260403065337] Start system initialize!
+INFO:685132-[20260403065337] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:685132-[20260403065337] group init existing problem. Some fields are not found!
+WARNING:685132-[20260403065337] dof num is 1
+WARNING:685132-[20260403065337] control:1,state:1,mode:1
+WARNING:685132-[20260403065337] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:685132-[20260403065337] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:685132-[20260403065337] /////////////////////////////////////////////////////////////////
+INFO:685132-[20260403065337] fd_ecat_in_name: /ecat_in
+INFO:685132-[20260403065337] fd_ecat_out_name: /ecat_out
+INFO:685132-[20260403065337] /////////////////////////////////////////////////////////////////
+INFO:685132-[20260403065337] state: Status word
+INFO:685132-[20260403065337] control: Control word
+INFO:685132-[20260403065337] mode: Modes of operation
+INFO:685132-[20260403065337] ac_position: Position actual value
+INFO:685132-[20260403065337] ac_velocity: Velocity actual value
+INFO:685132-[20260403065337] ac_torque: Torque actual value
+INFO:685132-[20260403065337] ac_position2: 
+INFO:685132-[20260403065337] ac_velocity2: 
+INFO:685132-[20260403065337] ac_sensor_torque: 
+INFO:685132-[20260403065337] ac_mode: Modes of operation displa
+INFO:685132-[20260403065337] ErrorCode: 
+INFO:685132-[20260403065337] FollowingErrorActualValue: 
+INFO:685132-[20260403065337] position: Profile target position
+INFO:685132-[20260403065337] velocity: Target Velocity
+INFO:685132-[20260403065337] torque: Target torque
+INFO:685132-[20260403065337] VelocityOffset: Velocity offset
+INFO:685132-[20260403065337] TorqueOffset: Torque offset
+INFO:685132-[20260403065337] TorqueMaxLimit: 
+INFO:685132-[20260403065337] TorqueMinLimit: 
+INFO:685132-[20260403065337] ec_di: 
+INFO:685132-[20260403065337] ec_do: 
+INFO:685132-[20260403065337] ec_ai: 
+INFO:685132-[20260403065337] ec_ao: 
+INFO:685132-[20260403065337] ec_li: 
+INFO:685132-[20260403065337] ec_lo: 
+INFO:685132-[20260403065337] Number of fields: 26
+INFO:685132-[20260403065337] busyTs: 5000000 ns
+INFO:685132-[20260403065337] /////////////////////////////////////////////////////////////////
+INFO:685132-[20260403065337] ec_device1/robot0: 
+INFO:685132-[20260403065337] DOF: 1
+INFO:685132-[20260403065337] 0_state: 0
+INFO:685132-[20260403065337] 0_control: 0
+INFO:685132-[20260403065337] 0_mode: 16
+INFO:685132-[20260403065337] 0_ac_position: 32
+INFO:685132-[20260403065337] 0_ac_velocity: 96
+INFO:685132-[20260403065337] 0_ac_torque: 128
+INFO:685132-[20260403065337] 0_ac_current: -999999
+INFO:685132-[20260403065337] 0_ac_position2: -999999
+INFO:685132-[20260403065337] 0_ac_velocity2: -999999
+INFO:685132-[20260403065337] 0_ac_sensor_torque: -999999
+INFO:685132-[20260403065337] 0_ac_mode: 16
+INFO:685132-[20260403065337] 0_ErrorCode: -999999
+INFO:685132-[20260403065337] 0_FollowingErrorActualValue: -999999
+INFO:685132-[20260403065337] 0_position: 32
+INFO:685132-[20260403065337] 0_velocity: 112
+INFO:685132-[20260403065337] 0_torque: 144
+INFO:685132-[20260403065337] 0_VelocityOffset: 64
+INFO:685132-[20260403065337] 0_TorqueOffset: 96
+INFO:685132-[20260403065337] 0_TorqueMaxLimit: -999999
+INFO:685132-[20260403065337] 0_TorqueMinLimit: -999999
+INFO:685132-[20260403065337] /////////////////////////////////////////////////////////////////
+INFO:685132-[20260403065337] /////////////////////////////////////////////////////////////////
+INFO:685132-[20260403065337] /////////////////////////////////////////////////////////////////
+INFO:685132-[20260403065337] system_init:simulation_switch
+NOTICE:685132-[20260403065337] Device is running
+INFO:685132-[20260403065337] system_init:GetRobotSimulationState
+INFO:685132-[20260403065337] system_init:initSystemTimer2
+INFO:685132-[20260403065337] InitRobot
+INFO:685132-[20260403065337] Hardware Match
+NOTICE:685132-[20260403065337] Real machine running mode
+INFO:685132-[20260403065337] init_robot_teach
+INFO:685132-[20260403065337] set_robot_index
+INFO:685132-[20260403065337] set_addition_index
+INFO:685132-[20260403065337] get_addition_num
+INFO:685132-[20260403065337] get_robot_num
+INFO:685132-[20260403065337] start teach server port 6666
+ERROR:685132-[20260403065337] TCPConcurrentServer: bind failure!
+ERROR:685132-[20260403065337] TeachServer: TCPConcurrentServer failure
+INFO:685132-[20260403065337] start teach command server port 6667
+ERROR:685132-[20260403065337] TCPConcurrentServer: bind failure!
+ERROR:685132-[20260403065337] TeachServer: TCPConcurrentServer failure
+INFO:685132-[20260403065337] start teach feedback server port 6668
+ERROR:685132-[20260403065337] TCPConcurrentServer: bind failure!
+ERROR:685132-[20260403065337] TeachServer: TCPConcurrentServer failure
+INFO:685909-[20260403065616] verison: 12.2.0
+INFO:685909-[20260403065616] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:685909-[20260403065616] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:685909-[20260403065616] Start system initialize!
+INFO:685909-[20260403065616] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:685909-[20260403065616] group init existing problem. Some fields are not found!
+WARNING:685909-[20260403065616] dof num is 1
+WARNING:685909-[20260403065616] control:1,state:1,mode:1
+WARNING:685909-[20260403065616] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:685909-[20260403065616] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:685909-[20260403065616] system_init:initSystemTimer2
+INFO:685909-[20260403065616] InitRobot
+INFO:685909-[20260403065616] Start system copy
+INFO:685909-[20260403065616] initialize finish
+INFO:685909-[20260403065658] verison: 12.2.0
+INFO:685909-[20260403065658] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:685909-[20260403065658] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:685909-[20260403065658] Start system initialize!
+INFO:685909-[20260403065658] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+ERROR:685909-[20260403065658] EC_deviceListInsert2: ec_device1 is exist! Please rename!
+INFO:685909-[20260403065658] /////////////////////////////////////////////////////////////////
+INFO:685909-[20260403065658] fd_ecat_in_name: /ecat_in
+INFO:685909-[20260403065658] fd_ecat_out_name: /ecat_out
+INFO:685909-[20260403065658] /////////////////////////////////////////////////////////////////
+INFO:685909-[20260403065658] state: Status word
+INFO:685909-[20260403065658] control: Control word
+INFO:685909-[20260403065658] mode: Modes of operation
+INFO:685909-[20260403065658] ac_position: Position actual value
+INFO:685909-[20260403065658] ac_velocity: Velocity actual value
+INFO:685909-[20260403065658] ac_torque: Torque actual value
+INFO:685909-[20260403065658] ac_position2: 
+INFO:685909-[20260403065658] ac_velocity2: 
+INFO:685909-[20260403065658] ac_sensor_torque: 
+INFO:685909-[20260403065658] ac_mode: Modes of operation displa
+INFO:685909-[20260403065658] ErrorCode: 
+INFO:685909-[20260403065658] FollowingErrorActualValue: 
+INFO:685909-[20260403065658] position: Profile target position
+INFO:685909-[20260403065658] velocity: Target Velocity
+INFO:685909-[20260403065658] torque: Target torque
+INFO:685909-[20260403065658] VelocityOffset: Velocity offset
+INFO:685909-[20260403065658] TorqueOffset: Torque offset
+INFO:685909-[20260403065658] TorqueMaxLimit: 
+INFO:685909-[20260403065658] TorqueMinLimit: 
+INFO:685909-[20260403065658] ec_di: 
+INFO:685909-[20260403065658] ec_do: 
+INFO:685909-[20260403065658] ec_ai: 
+INFO:685909-[20260403065658] ec_ao: 
+INFO:685909-[20260403065658] ec_li: 
+INFO:685909-[20260403065658] ec_lo: 
+INFO:685909-[20260403065658] Number of fields: 26
+INFO:685909-[20260403065658] busyTs: 5000000 ns
+INFO:685909-[20260403065658] /////////////////////////////////////////////////////////////////
+INFO:685909-[20260403065658] ec_device1/robot0: 
+INFO:685909-[20260403065658] DOF: 1
+INFO:685909-[20260403065658] 0_state: 0
+INFO:685909-[20260403065658] 0_control: 0
+INFO:685909-[20260403065658] 0_mode: 16
+INFO:685909-[20260403065658] 0_ac_position: 32
+INFO:685909-[20260403065658] 0_ac_velocity: 96
+INFO:685909-[20260403065658] 0_ac_torque: 128
+INFO:685909-[20260403065658] 0_ac_current: -999999
+INFO:685909-[20260403065658] 0_ac_position2: -999999
+INFO:685909-[20260403065658] 0_ac_velocity2: -999999
+INFO:685909-[20260403065658] 0_ac_sensor_torque: -999999
+INFO:685909-[20260403065658] 0_ac_mode: 16
+INFO:685909-[20260403065658] 0_ErrorCode: -999999
+INFO:685909-[20260403065658] 0_FollowingErrorActualValue: -999999
+INFO:685909-[20260403065658] 0_position: 32
+INFO:685909-[20260403065658] 0_velocity: 112
+INFO:685909-[20260403065658] 0_torque: 144
+INFO:685909-[20260403065658] 0_VelocityOffset: 64
+INFO:685909-[20260403065658] 0_TorqueOffset: 96
+INFO:685909-[20260403065658] 0_TorqueMaxLimit: -999999
+INFO:685909-[20260403065658] 0_TorqueMinLimit: -999999
+INFO:685909-[20260403065658] /////////////////////////////////////////////////////////////////
+INFO:685909-[20260403065658] /////////////////////////////////////////////////////////////////
+INFO:685909-[20260403065658] /////////////////////////////////////////////////////////////////
+ERROR:685909-[20260403065658] system_init: Init_device failure, err=-1
+ERROR:685909-[20260403065658] system initialize failure
+INFO:685909-[20260403065658] End system copy

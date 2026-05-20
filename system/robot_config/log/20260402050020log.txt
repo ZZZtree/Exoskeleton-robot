@@ -1,0 +1,60 @@
+INFO:271976-[20260402050020] verison: 12.2.0
+INFO:271976-[20260402050020] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:271976-[20260402050020] load_configure_data: BusConfig version mismatch
+ERROR:271976-[20260402050020] common_init: load_configure_data failure, err=-147
+INFO:272059-[20260402050030] verison: 12.2.0
+INFO:272059-[20260402050030] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:272059-[20260402050030] load_configure_data: BusConfig version mismatch
+ERROR:272059-[20260402050030] common_init: load_configure_data failure, err=-147
+INFO:272163-[20260402050055] verison: 12.2.0
+INFO:272163-[20260402050055] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:272163-[20260402050055] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:272163-[20260402050055] Start system initialize!
+INFO:272163-[20260402050055] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:272163-[20260402050055] group init existing problem. Some fields are not found!
+WARNING:272163-[20260402050055] dof num is 1
+WARNING:272163-[20260402050055] control:1,state:1,mode:1
+WARNING:272163-[20260402050055] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:272163-[20260402050055] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:272163-[20260402050055] system_init:initSystemTimer2
+INFO:272163-[20260402050055] InitRobot
+INFO:272163-[20260402050055] Start system copy
+INFO:272163-[20260402050055] initialize finish
+INFO:272163-[20260402050057] Controller stop run!
+INFO:272163-[20260402050058] End system copy
+INFO:276895-[20260402052101] verison: 12.2.1
+INFO:276895-[20260402052101] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:276895-[20260402052101] load_configure_data: BusConfig version mismatch
+ERROR:276895-[20260402052101] common_init: load_configure_data failure, err=-147
+INFO:277124-[20260402052148] verison: 12.2.0
+INFO:277124-[20260402052148] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:277124-[20260402052148] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:277124-[20260402052148] Start system initialize!
+INFO:277124-[20260402052148] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:277124-[20260402052148] group init existing problem. Some fields are not found!
+WARNING:277124-[20260402052148] dof num is 1
+WARNING:277124-[20260402052148] control:1,state:1,mode:1
+WARNING:277124-[20260402052148] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:277124-[20260402052148] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:277124-[20260402052148] system_init:initSystemTimer2
+INFO:277124-[20260402052148] InitRobot
+INFO:277124-[20260402052148] Start system copy
+INFO:277124-[20260402052148] initialize finish
+INFO:277124-[20260402052153] Controller stop run!
+INFO:277124-[20260402052153] End system copy
+INFO:277254-[20260402052205] verison: 12.2.0
+INFO:277254-[20260402052205] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:277254-[20260402052205] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:277254-[20260402052205] Start system initialize!
+INFO:277254-[20260402052205] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:277254-[20260402052205] group init existing problem. Some fields are not found!
+WARNING:277254-[20260402052205] dof num is 1
+WARNING:277254-[20260402052205] control:1,state:1,mode:1
+WARNING:277254-[20260402052205] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:277254-[20260402052205] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:277254-[20260402052205] system_init:initSystemTimer2
+INFO:277254-[20260402052205] InitRobot
+INFO:277254-[20260402052205] Start system copy
+INFO:277254-[20260402052206] initialize finish
+INFO:277254-[20260402052211] Controller stop run!
+INFO:277254-[20260402052211] End system copy

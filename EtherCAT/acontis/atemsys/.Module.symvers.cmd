@@ -1,0 +1,1 @@
+cmd_/home/robot/Work/EtherCAT/acontis/atemsys/Module.symvers := sed 's/\.ko$$/\.o/' /home/robot/Work/EtherCAT/acontis/atemsys/modules.order | scripts/mod/modpost -m -a  -o /home/robot/Work/EtherCAT/acontis/atemsys/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,174 @@
+INFO:2807-[20251217043334] verison: 12.2.0
+INFO:2807-[20251217043334] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:2807-[20251217043334] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:2807-[20251217043334] Start system initialize!
+INFO:2807-[20251217043334] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:2807-[20251217043334] group init existing problem. Some fields are not found!
+WARNING:2807-[20251217043334] dof num is 1
+WARNING:2807-[20251217043334] control:1,state:1,mode:1
+WARNING:2807-[20251217043334] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:2807-[20251217043334] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:2807-[20251217043334] /////////////////////////////////////////////////////////////////
+INFO:2807-[20251217043334] fd_ecat_in_name: /ecat_in
+INFO:2807-[20251217043334] fd_ecat_out_name: /ecat_out
+INFO:2807-[20251217043334] /////////////////////////////////////////////////////////////////
+INFO:2807-[20251217043334] state: Status word
+INFO:2807-[20251217043334] control: Control word
+INFO:2807-[20251217043334] mode: Modes of operation
+INFO:2807-[20251217043334] ac_position: Position actual value
+INFO:2807-[20251217043334] ac_velocity: Velocity actual value
+INFO:2807-[20251217043334] ac_torque: Torque actual value
+INFO:2807-[20251217043334] ac_position2: 
+INFO:2807-[20251217043334] ac_velocity2: 
+INFO:2807-[20251217043334] ac_sensor_torque: 
+INFO:2807-[20251217043334] ac_mode: Modes of operation displa
+INFO:2807-[20251217043334] ErrorCode: 
+INFO:2807-[20251217043334] FollowingErrorActualValue: 
+INFO:2807-[20251217043334] position: Profile target position
+INFO:2807-[20251217043334] velocity: Target Velocity
+INFO:2807-[20251217043334] torque: Target torque
+INFO:2807-[20251217043334] VelocityOffset: Velocity offset
+INFO:2807-[20251217043334] TorqueOffset: Torque offset
+INFO:2807-[20251217043334] TorqueMaxLimit: 
+INFO:2807-[20251217043334] TorqueMinLimit: 
+INFO:2807-[20251217043334] ec_di: 
+INFO:2807-[20251217043334] ec_do: 
+INFO:2807-[20251217043334] ec_ai: 
+INFO:2807-[20251217043334] ec_ao: 
+INFO:2807-[20251217043334] ec_li: 
+INFO:2807-[20251217043334] ec_lo: 
+INFO:2807-[20251217043334] Number of fields: 26
+INFO:2807-[20251217043334] busyTs: 5000000 ns
+INFO:2807-[20251217043334] /////////////////////////////////////////////////////////////////
+INFO:2807-[20251217043334] ec_device1/robot0: 
+INFO:2807-[20251217043334] DOF: 1
+INFO:2807-[20251217043334] 0_state: 0
+INFO:2807-[20251217043334] 0_control: 0
+INFO:2807-[20251217043334] 0_mode: 16
+INFO:2807-[20251217043334] 0_ac_position: 32
+INFO:2807-[20251217043334] 0_ac_velocity: 96
+INFO:2807-[20251217043334] 0_ac_torque: 128
+INFO:2807-[20251217043334] 0_ac_current: -999999
+INFO:2807-[20251217043334] 0_ac_position2: -999999
+INFO:2807-[20251217043334] 0_ac_velocity2: -999999
+INFO:2807-[20251217043334] 0_ac_sensor_torque: -999999
+INFO:2807-[20251217043334] 0_ac_mode: 16
+INFO:2807-[20251217043334] 0_ErrorCode: -999999
+INFO:2807-[20251217043334] 0_FollowingErrorActualValue: -999999
+INFO:2807-[20251217043334] 0_position: 32
+INFO:2807-[20251217043334] 0_velocity: 112
+INFO:2807-[20251217043334] 0_torque: 144
+INFO:2807-[20251217043334] 0_VelocityOffset: 64
+INFO:2807-[20251217043334] 0_TorqueOffset: 96
+INFO:2807-[20251217043334] 0_TorqueMaxLimit: -999999
+INFO:2807-[20251217043334] 0_TorqueMinLimit: -999999
+INFO:2807-[20251217043334] /////////////////////////////////////////////////////////////////
+INFO:2807-[20251217043334] /////////////////////////////////////////////////////////////////
+INFO:2807-[20251217043334] /////////////////////////////////////////////////////////////////
+INFO:2807-[20251217043334] system_init:simulation_switch
+NOTICE:2807-[20251217043334] Device is running
+INFO:2807-[20251217043334] system_init:GetRobotSimulationState
+INFO:2807-[20251217043334] system_init:initSystemTimer2
+INFO:2807-[20251217043334] InitRobot
+INFO:2807-[20251217043334] Hardware Match
+NOTICE:2807-[20251217043334] Real machine running mode
+INFO:2807-[20251217043334] init_robot_teach
+INFO:2807-[20251217043334] set_robot_index
+INFO:2807-[20251217043334] set_addition_index
+INFO:2807-[20251217043334] get_addition_num
+INFO:2807-[20251217043334] get_robot_num
+INFO:2807-[20251217043334] start teach server port 6666
+INFO:2807-[20251217043334] start teach command server port 6667
+INFO:2807-[20251217043334] start teach feedback server port 6668
+INFO:2807-[20251217043334] initialize finish
+INFO:2807-[20251217043408] TCPConcurrentServer: client connect (47)
+INFO:2807-[20251217043408] TCPConcurrentServer: client connect (48)
+NOTICE:2807-[20251217043408] Teach feedback clock(0) cycle time is 50 ms
+INFO:2807-[20251217043410] get_data_robjoint_all
+INFO:2807-[20251217043410] get_data_robpose_all
+INFO:2807-[20251217043410] get_data_speed_all
+INFO:2807-[20251217043410] get_data_zone_all
+INFO:2807-[20251217043410] get_data_tool_all
+INFO:2807-[20251217043410] get_data_wobj_all
+INFO:2807-[20251217043410] get_data_user_all
+INFO:2807-[20251217043410] get_data_addition_all
+INFO:2807-[20251217043410] get_data_payload_all
+INFO:2807-[20251217043410] get_robot_data_path
+INFO:2807-[20251217043410] get_robot_index
+INFO:2807-[20251217043410] get_teach_move_type
+INFO:2807-[20251217043410] get_robot_run_type
+INFO:2807-[20251217043410] get_robot_teach_velocity
+INFO:2807-[20251217043410] get_robot_run_type
+INFO:2807-[20251217043410] get_robot_run_type
+INFO:2807-[20251217043410] get_robot_teach_velocity
+INFO:2807-[20251217043410] get_teach_move_type
+INFO:2807-[20251217043410] get_robot_tool
+INFO:2807-[20251217043410] get_robot_wobj
+INFO:2807-[20251217043410] get_robot_teach_coordinate
+INFO:2807-[20251217043410] set_robot_index
+INFO:2807-[20251217043410] get_robot_tool
+INFO:2807-[20251217043410] get_robot_wobj
+INFO:2807-[20251217043412] device_teach_enable
+INFO:2807-[20251217043415] set_robot_teach_velocity
+INFO:2807-[20251217043415] get_robot_teach_velocity
+INFO:2807-[20251217043417] robot_teach_joint
+INFO:2807-[20251217043418] robot_teach_stop
+INFO:2807-[20251217043420] robot_teach_joint
+INFO:2807-[20251217043421] robot_teach_stop
+INFO:2807-[20251217043421] robot_teach_joint
+INFO:2807-[20251217043422] robot_teach_stop
+INFO:2807-[20251217043425] robot_teach_joint
+INFO:2807-[20251217043426] robot_teach_stop
+INFO:2807-[20251217043427] robot_teach_joint
+INFO:2807-[20251217043428] robot_teach_stop
+INFO:2807-[20251217043429] robot_teach_joint
+INFO:2807-[20251217043430] robot_teach_stop
+INFO:2807-[20251217043430] robot_teach_joint
+INFO:2807-[20251217043430] robot_teach_stop
+INFO:2807-[20251217043437] robot_teach_joint
+INFO:2807-[20251217043438] robot_teach_stop
+INFO:2807-[20251217043438] robot_teach_joint
+INFO:2807-[20251217043439] robot_teach_stop
+INFO:2807-[20251217043440] robot_teach_joint
+INFO:2807-[20251217043441] robot_teach_stop
+INFO:2807-[20251217043441] robot_teach_joint
+INFO:2807-[20251217043442] robot_teach_stop
+INFO:2807-[20251217043442] robot_teach_joint
+INFO:2807-[20251217043444] robot_teach_stop
+INFO:2807-[20251217043444] robot_teach_joint
+INFO:2807-[20251217043445] robot_teach_stop
+INFO:2807-[20251217043445] robot_teach_joint
+INFO:2807-[20251217043446] robot_teach_stop
+INFO:2807-[20251217043447] robot_teach_joint
+INFO:2807-[20251217043448] robot_teach_stop
+INFO:2807-[20251217043535] set_robot_teach_velocity
+INFO:2807-[20251217043535] get_robot_teach_velocity
+INFO:2807-[20251217043535] robot_teach_joint
+INFO:2807-[20251217043537] robot_teach_stop
+INFO:2807-[20251217043538] robot_teach_joint
+INFO:2807-[20251217043539] robot_teach_stop
+INFO:2807-[20251217043539] robot_teach_joint
+INFO:2807-[20251217043539] robot_teach_stop
+INFO:2807-[20251217043539] robot_teach_joint
+INFO:2807-[20251217043539] robot_teach_stop
+INFO:2807-[20251217043539] robot_teach_joint
+INFO:2807-[20251217043539] robot_teach_stop
+INFO:2807-[20251217043539] robot_teach_joint
+INFO:2807-[20251217043540] robot_teach_stop
+INFO:2807-[20251217043540] robot_teach_joint
+INFO:2807-[20251217043540] robot_teach_stop
+INFO:2807-[20251217043540] robot_teach_joint
+INFO:2807-[20251217043540] robot_teach_stop
+INFO:2807-[20251217043540] robot_teach_joint
+INFO:2807-[20251217043540] robot_teach_stop
+INFO:2807-[20251217043547] robot_teach_joint
+INFO:2807-[20251217043548] robot_teach_stop
+INFO:2807-[20251217043549] robot_teach_joint
+INFO:2807-[20251217043549] robot_teach_stop
+INFO:2807-[20251217043549] robot_teach_joint
+INFO:2807-[20251217043550] robot_teach_stop
+INFO:2807-[20251217043550] robot_teach_joint
+INFO:2807-[20251217043550] robot_teach_stop
+INFO:2807-[20251217043550] robot_teach_joint
+INFO:2807-[20251217043550] robot_teach_stop
+INFO:2807-[20251217044259] Controller stop run!

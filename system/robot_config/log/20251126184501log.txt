@@ -1,0 +1,113 @@
+INFO:2176-[20251126184501] verison: 12.2.0
+INFO:2176-[20251126184501] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:2176-[20251126184501] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:2176-[20251126184501] Start system initialize!
+INFO:2176-[20251126184501] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:2176-[20251126184501] group init existing problem. Some fields are not found!
+WARNING:2176-[20251126184501] dof num is 1
+WARNING:2176-[20251126184501] control:1,state:1,mode:1
+WARNING:2176-[20251126184501] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:2176-[20251126184501] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:2176-[20251126184501] /////////////////////////////////////////////////////////////////
+INFO:2176-[20251126184501] fd_ecat_in_name: /ecat_in
+INFO:2176-[20251126184501] fd_ecat_out_name: /ecat_out
+INFO:2176-[20251126184501] /////////////////////////////////////////////////////////////////
+INFO:2176-[20251126184501] state: Status word
+INFO:2176-[20251126184501] control: Control word
+INFO:2176-[20251126184501] mode: Modes of operation
+INFO:2176-[20251126184501] ac_position: Position actual value
+INFO:2176-[20251126184501] ac_velocity: Velocity actual value
+INFO:2176-[20251126184501] ac_torque: Torque actual value
+INFO:2176-[20251126184501] ac_position2: 
+INFO:2176-[20251126184501] ac_velocity2: 
+INFO:2176-[20251126184501] ac_sensor_torque: 
+INFO:2176-[20251126184501] ac_mode: Modes of operation displa
+INFO:2176-[20251126184501] ErrorCode: 
+INFO:2176-[20251126184501] FollowingErrorActualValue: 
+INFO:2176-[20251126184501] position: Profile target position
+INFO:2176-[20251126184501] velocity: Target Velocity
+INFO:2176-[20251126184501] torque: Target torque
+INFO:2176-[20251126184501] VelocityOffset: Velocity offset
+INFO:2176-[20251126184501] TorqueOffset: Torque offset
+INFO:2176-[20251126184501] TorqueMaxLimit: 
+INFO:2176-[20251126184501] TorqueMinLimit: 
+INFO:2176-[20251126184501] ec_di: 
+INFO:2176-[20251126184501] ec_do: 
+INFO:2176-[20251126184501] ec_ai: 
+INFO:2176-[20251126184501] ec_ao: 
+INFO:2176-[20251126184501] ec_li: 
+INFO:2176-[20251126184501] ec_lo: 
+INFO:2176-[20251126184501] Number of fields: 26
+INFO:2176-[20251126184501] busyTs: 5000000 ns
+INFO:2176-[20251126184501] /////////////////////////////////////////////////////////////////
+INFO:2176-[20251126184501] ec_device1/robot0: 
+INFO:2176-[20251126184501] DOF: 1
+INFO:2176-[20251126184501] 0_state: 0
+INFO:2176-[20251126184501] 0_control: 0
+INFO:2176-[20251126184501] 0_mode: 16
+INFO:2176-[20251126184501] 0_ac_position: 32
+INFO:2176-[20251126184501] 0_ac_velocity: 96
+INFO:2176-[20251126184501] 0_ac_torque: 128
+INFO:2176-[20251126184501] 0_ac_current: -999999
+INFO:2176-[20251126184501] 0_ac_position2: -999999
+INFO:2176-[20251126184501] 0_ac_velocity2: -999999
+INFO:2176-[20251126184501] 0_ac_sensor_torque: -999999
+INFO:2176-[20251126184501] 0_ac_mode: 16
+INFO:2176-[20251126184501] 0_ErrorCode: -999999
+INFO:2176-[20251126184501] 0_FollowingErrorActualValue: -999999
+INFO:2176-[20251126184501] 0_position: 32
+INFO:2176-[20251126184501] 0_velocity: 112
+INFO:2176-[20251126184501] 0_torque: 144
+INFO:2176-[20251126184501] 0_VelocityOffset: 64
+INFO:2176-[20251126184501] 0_TorqueOffset: 96
+INFO:2176-[20251126184501] 0_TorqueMaxLimit: -999999
+INFO:2176-[20251126184501] 0_TorqueMinLimit: -999999
+INFO:2176-[20251126184501] /////////////////////////////////////////////////////////////////
+INFO:2176-[20251126184501] /////////////////////////////////////////////////////////////////
+INFO:2176-[20251126184501] /////////////////////////////////////////////////////////////////
+INFO:2176-[20251126184501] system_init:simulation_switch
+NOTICE:2176-[20251126184501] Device is running
+INFO:2176-[20251126184501] system_init:GetRobotSimulationState
+INFO:2176-[20251126184501] system_init:initSystemTimer2
+INFO:2176-[20251126184501] InitRobot
+INFO:2176-[20251126184501] Hardware Match
+NOTICE:2176-[20251126184501] Real machine running mode
+INFO:2176-[20251126184501] init_robot_teach
+INFO:2176-[20251126184501] set_robot_index
+INFO:2176-[20251126184501] set_addition_index
+INFO:2176-[20251126184501] get_addition_num
+INFO:2176-[20251126184501] get_robot_num
+INFO:2176-[20251126184501] start teach server port 6666
+INFO:2176-[20251126184501] start teach feedback server port 6668
+INFO:2176-[20251126184501] start teach command server port 6667
+INFO:2176-[20251126184501] initialize finish
+INFO:2176-[20251126184518] TCPConcurrentServer: client connect (47)
+INFO:2176-[20251126184518] TCPConcurrentServer: client connect (48)
+NOTICE:2176-[20251126184518] Teach feedback clock(0) cycle time is 50 ms
+INFO:2176-[20251126184519] get_data_robjoint_all
+INFO:2176-[20251126184519] get_data_robpose_all
+INFO:2176-[20251126184519] get_data_speed_all
+INFO:2176-[20251126184519] get_data_zone_all
+INFO:2176-[20251126184519] get_data_tool_all
+INFO:2176-[20251126184519] get_data_wobj_all
+INFO:2176-[20251126184519] get_data_user_all
+INFO:2176-[20251126184519] get_data_addition_all
+INFO:2176-[20251126184519] get_data_payload_all
+INFO:2176-[20251126184520] get_robot_data_path
+INFO:2176-[20251126184520] get_robot_index
+INFO:2176-[20251126184520] get_robot_run_type
+INFO:2176-[20251126184520] get_robot_run_type
+INFO:2176-[20251126184520] get_robot_teach_velocity
+INFO:2176-[20251126184520] get_teach_move_type
+INFO:2176-[20251126184520] get_robot_run_type
+INFO:2176-[20251126184520] get_robot_teach_velocity
+INFO:2176-[20251126184520] get_teach_move_type
+INFO:2176-[20251126184520] get_robot_tool
+INFO:2176-[20251126184520] get_robot_wobj
+INFO:2176-[20251126184520] get_robot_teach_coordinate
+INFO:2176-[20251126184520] set_robot_index
+INFO:2176-[20251126184520] get_robot_tool
+INFO:2176-[20251126184520] get_robot_wobj
+INFO:2176-[20251126184522] device_teach_enable
+ERROR:2176-[20251126184522] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:2176-[20251126185338] Controller stop run!

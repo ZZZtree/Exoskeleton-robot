@@ -1,0 +1,4 @@
+INFO:269459-[20260402045003] verison: 12.2.1
+INFO:269459-[20260402045003] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:269459-[20260402045003] load_configure_data: BusConfig version mismatch
+ERROR:269459-[20260402045003] common_init: load_configure_data failure, err=-147

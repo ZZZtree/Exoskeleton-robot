@@ -1,0 +1,4 @@
+/home/hanbing/work/program/robot/config/data/XB4_V8.9.0/data/moved.c: In function ‘MainModule’:
+/home/hanbing/work/program/robot/config/data/XB4_V8.9.0/data/moved.c:16:6: warning: unused variable ‘ret’ [-Wunused-variable]
+  int ret=moveD(rpose,sp,NULL,NULL,0);
+      ^
