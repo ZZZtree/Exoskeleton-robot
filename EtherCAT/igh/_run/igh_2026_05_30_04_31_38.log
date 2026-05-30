@@ -1,0 +1,84 @@
+[2026-05-30 04:31:39.343] [igh_file_logger] [warning] Slaves nubmer: 6
+[2026-05-30 04:31:39.343] [igh_file_logger] [warning] AL states: 0x2, <PREOP>
+[2026-05-30 04:31:39.343] [igh_file_logger] [warning] Link is up
+[2026-05-30 04:31:39.409] [igh_file_logger] [warning] Domain: WC 2
+[2026-05-30 04:31:39.409] [igh_file_logger] [warning] Domain: State 1, some of the registered process data were exchanged.
+[2026-05-30 04:31:39.410] [igh_file_logger] [warning] Domain: WC 3
+[2026-05-30 04:31:40.306] [igh_file_logger] [warning] Domain: WC 4
+[2026-05-30 04:31:40.310] [igh_file_logger] [warning] Domain: WC 6
+[2026-05-30 04:31:40.445] [igh_file_logger] [warning] Domain: WC 8
+[2026-05-30 04:31:40.446] [igh_file_logger] [warning] Domain: WC 9
+[2026-05-30 04:31:41.331] [igh_file_logger] [warning] Domain: WC 10
+[2026-05-30 04:31:41.337] [igh_file_logger] [warning] Domain: WC 12
+[2026-05-30 04:31:41.469] [igh_file_logger] [warning] Domain: WC 14
+[2026-05-30 04:31:41.470] [igh_file_logger] [warning] Domain: WC 15
+[2026-05-30 04:31:42.353] [igh_file_logger] [warning] Domain: WC 16
+[2026-05-30 04:31:42.357] [igh_file_logger] [warning] Domain: WC 18
+[2026-05-30 04:31:42.357] [igh_file_logger] [warning] Domain: State 2, all registered process data were exchanged.
+[2026-05-30 04:31:42.454] [igh_file_logger] [warning] AL states: 0x8, <OP>
+[2026-05-30 04:31:42.455] [igh_file_logger] [warning] period(us)     min:4294967.3   cur:1000.5   max:1000.5
+[2026-05-30 04:31:42.455] [igh_file_logger] [warning] period(us)     min:1000.5   cur:1000.5   max:1000.5
+[2026-05-30 04:31:42.455] [igh_file_logger] [warning] exec(us)       min:4294967.3   cur:4.1   max:4.1
+[2026-05-30 04:31:42.455] [igh_file_logger] [warning] exec(us)       min:4.1   cur:4.1   max:4.1
+[2026-05-30 04:31:42.456] [igh_file_logger] [warning] period(us)     min:999.4   cur:999.4   max:1000.5
+[2026-05-30 04:31:42.456] [igh_file_logger] [warning] exec(us)       min:4.1   cur:17.0   max:17.0
+[2026-05-30 04:31:42.458] [igh_file_logger] [warning] exec(us)       min:1.9   cur:1.9   max:17.0
+[2026-05-30 04:31:42.460] [igh_file_logger] [warning] exec(us)       min:1.9   cur:1.9   max:17.0
+[2026-05-30 04:31:42.462] [igh_file_logger] [warning] exec(us)       min:1.8   cur:1.8   max:17.0
+[2026-05-30 04:31:42.464] [igh_file_logger] [warning] period(us)     min:999.4   cur:1000.6   max:1000.6
+[2026-05-30 04:31:42.467] [igh_file_logger] [warning] exec(us)       min:1.8   cur:1.8   max:17.0
+[2026-05-30 04:31:42.471] [igh_file_logger] [warning] exec(us)       min:1.7   cur:1.7   max:17.0
+[2026-05-30 04:31:42.476] [igh_file_logger] [warning] period(us)     min:999.4   cur:999.4   max:1000.6
+[2026-05-30 04:31:42.479] [igh_file_logger] [warning] period(us)     min:999.4   cur:1000.7   max:1000.7
+[2026-05-30 04:31:42.480] [igh_file_logger] [warning] period(us)     min:999.3   cur:999.3   max:1000.7
+[2026-05-30 04:31:42.482] [igh_file_logger] [warning] period(us)     min:999.3   cur:999.3   max:1000.7
+[2026-05-30 04:31:42.490] [igh_file_logger] [warning] period(us)     min:999.2   cur:999.2   max:1000.7
+[2026-05-30 04:31:42.491] [igh_file_logger] [warning] period(us)     min:999.2   cur:1000.7   max:1000.7
+[2026-05-30 04:31:42.498] [igh_file_logger] [warning] period(us)     min:999.2   cur:1008.5   max:1008.5
+[2026-05-30 04:31:42.499] [igh_file_logger] [warning] period(us)     min:992.4   cur:992.4   max:1008.5
+[2026-05-30 04:31:42.507] [igh_file_logger] [warning] exec(us)       min:1.7   cur:1.7   max:17.0
+[2026-05-30 04:31:42.529] [igh_file_logger] [warning] exec(us)       min:1.7   cur:1.7   max:17.0
+[2026-05-30 04:31:42.542] [igh_file_logger] [warning] exec(us)       min:1.7   cur:1.7   max:17.0
+[2026-05-30 04:31:42.603] [igh_file_logger] [warning] exec(us)       min:1.7   cur:1.7   max:17.0
+[2026-05-30 04:31:42.617] [igh_file_logger] [warning] exec(us)       min:1.7   cur:1.7   max:17.0
+[2026-05-30 04:31:42.629] [igh_file_logger] [warning] exec(us)       min:1.6   cur:1.6   max:17.0
+[2026-05-30 04:31:42.806] [igh_file_logger] [warning] period(us)     min:992.4   cur:1008.7   max:1008.7
+[2026-05-30 04:31:42.807] [igh_file_logger] [warning] period(us)     min:991.2   cur:991.2   max:1008.7
+[2026-05-30 04:31:43.021] [igh_file_logger] [warning] period(us)     min:991.2   cur:1009.3   max:1009.3
+[2026-05-30 04:31:43.022] [igh_file_logger] [warning] period(us)     min:991.0   cur:991.0   max:1009.3
+[2026-05-30 04:31:43.530] [igh_file_logger] [warning] exec(us)       min:1.6   cur:1.6   max:17.0
+[2026-05-30 04:31:44.125] [igh_file_logger] [warning] exec(us)       min:1.6   cur:1.6   max:17.0
+[2026-05-30 04:31:44.581] [igh_file_logger] [warning] period(us)     min:991.0   cur:1009.3   max:1009.3
+[2026-05-30 04:31:44.582] [igh_file_logger] [warning] period(us)     min:990.3   cur:990.3   max:1009.3
+[2026-05-30 04:31:44.803] [igh_file_logger] [warning] period(us)     min:990.3   cur:1009.5   max:1009.5
+[2026-05-30 04:31:45.083] [igh_file_logger] [warning] exec(us)       min:1.6   cur:20.2   max:20.2
+[2026-05-30 04:31:45.126] [igh_file_logger] [warning] period(us)     min:990.3   cur:1017.1   max:1017.1
+[2026-05-30 04:31:45.127] [igh_file_logger] [warning] period(us)     min:982.4   cur:982.4   max:1017.1
+[2026-05-30 04:31:45.127] [igh_file_logger] [warning] exec(us)       min:1.6   cur:21.5   max:21.5
+[2026-05-30 04:31:46.481] [igh_file_logger] [warning] exec(us)       min:1.6   cur:1.6   max:21.5
+[2026-05-30 04:31:48.205] [igh_file_logger] [warning] exec(us)       min:1.6   cur:1.6   max:21.5
+[2026-05-30 04:31:49.686] [igh_file_logger] [warning] period(us)     min:982.4   cur:1025.8   max:1025.8
+[2026-05-30 04:31:49.686] [igh_file_logger] [warning] period(us)     min:974.6   cur:974.6   max:1025.8
+[2026-05-30 04:31:49.686] [igh_file_logger] [warning] exec(us)       min:1.6   cur:33.9   max:33.9
+[2026-05-30 04:31:50.880] [igh_file_logger] [warning] period(us)     min:974.6   cur:974.6   max:1025.8
+[2026-05-30 04:31:55.505] [igh_file_logger] [warning] period(us)     min:974.6   cur:1027.4   max:1027.4
+[2026-05-30 04:31:55.506] [igh_file_logger] [warning] period(us)     min:972.1   cur:972.1   max:1027.4
+[2026-05-30 04:31:55.506] [igh_file_logger] [warning] exec(us)       min:1.6   cur:34.6   max:34.6
+[2026-05-30 04:31:58.025] [igh_file_logger] [warning] exec(us)       min:1.6   cur:1.6   max:34.6
+[2026-05-30 04:32:02.392] [igh_file_logger] [warning] period(us)     min:972.1   cur:1027.7   max:1027.7
+[2026-05-30 04:32:02.393] [igh_file_logger] [warning] exec(us)       min:1.6   cur:36.1   max:36.1
+[2026-05-30 04:32:33.402] [igh_file_logger] [warning] Domain: WC 3
+[2026-05-30 04:32:33.402] [igh_file_logger] [warning] Domain: State 1, some of the registered process data were exchanged.
+[2026-05-30 04:32:33.405] [igh_file_logger] [warning] period(us)     min:972.1   cur:1055.7   max:1055.7
+[2026-05-30 04:32:33.405] [igh_file_logger] [warning] Slaves nubmer: 1
+[2026-05-30 04:32:33.406] [igh_file_logger] [warning] ecrt_master_reference_clock_time failure: ret=-5, Input/output error;
+[2026-05-30 04:32:33.406] [igh_file_logger] [warning] DC diff tmie(ns): 0; system tmie(ns): 164200979614241; app tmie(ns): 164200978777651;
+[2026-05-30 04:32:33.406] [igh_file_logger] [warning] period(us)     min:943.8   cur:943.8   max:1055.7
+[2026-05-30 04:32:33.461] [igh_file_logger] [warning] Domain: WC 0
+[2026-05-30 04:32:33.461] [igh_file_logger] [warning] Domain: State 0, no registered process data were exchanged.
+[2026-05-30 04:32:33.485] [igh_file_logger] [warning] Slaves nubmer: 0
+[2026-05-30 04:32:33.485] [igh_file_logger] [warning] AL states: 0x0, unknown
+[2026-05-30 04:32:35.461] [igh_file_logger] [warning] Link is down
+[2026-05-30 04:49:44.125] [igh_file_logger] [warning] exec(us)       min:1.6   cur:37.7   max:37.7
+[2026-05-30 05:06:24.792] [igh_file_logger] [warning] exec(us)       min:1.6   cur:39.3   max:39.3
+[2026-05-30 05:13:33.561] [igh_file_logger] [warning] exec(us)       min:1.6   cur:39.8   max:39.8
