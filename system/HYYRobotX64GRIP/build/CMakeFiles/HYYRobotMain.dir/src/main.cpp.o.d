@@ -80,13 +80,13 @@ CMakeFiles/HYYRobotMain.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /home/robot/Work/system/HYYRobotX64GRIP/include/HYYRobotInterface.h \
  /usr/include/string.h /usr/include/strings.h \
  /home/robot/Work/system/HYYRobotX64GRIP/include/Move/MovePlan.h \
  /home/robot/Work/system/HYYRobotX64GRIP/include/Base/RobotStruct.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /home/robot/Work/system/HYYRobotX64GRIP/include/Comm/Communication.h \
  /home/robot/Work/system/HYYRobotX64GRIP/include/Comm/SerialCommunication.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \

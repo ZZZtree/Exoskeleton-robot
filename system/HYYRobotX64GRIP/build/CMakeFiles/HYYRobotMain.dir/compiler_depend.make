@@ -4050,6 +4050,7 @@ CMakeFiles/HYYRobotMain.dir/src/ServoDemo.cpp.o: /home/robot/Work/system/HYYRobo
   /home/robot/Work/system/HYYRobotX64GRIP/include/Model/DynamicsInterface.h \
   /home/robot/Work/system/HYYRobotX64GRIP/include/Model/KinematicInterface.h \
   /home/robot/Work/system/HYYRobotX64GRIP/include/Model/LimitDetection.h \
+  /home/robot/Work/system/HYYRobotX64GRIP/include/MotorMonitorData.h \
   /home/robot/Work/system/HYYRobotX64GRIP/include/Move/JointSensorForceControl.h \
   /home/robot/Work/system/HYYRobotX64GRIP/include/Move/MovePlan.h \
   /home/robot/Work/system/HYYRobotX64GRIP/include/Move/SafeAreas.h \
@@ -4131,6 +4132,10 @@ CMakeFiles/HYYRobotMain.dir/src/ServoDemo.cpp.o: /home/robot/Work/system/HYYRobo
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-linux.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-map-flags-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-shared.h \
+  /usr/include/x86_64-linux-gnu/bits/mman.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
@@ -4179,6 +4184,7 @@ CMakeFiles/HYYRobotMain.dir/src/ServoDemo.cpp.o: /home/robot/Work/system/HYYRobo
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/ioctl.h \
+  /usr/include/x86_64-linux-gnu/sys/mman.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/time.h \
   /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
@@ -7242,6 +7248,12 @@ CMakeFiles/HYYRobotMain.dir/src/robot_control.cpp.o: /home/robot/Work/system/HYY
 
 /home/robot/Work/system/HYYRobotX64GRIP/src/ServoJointDemo.cpp:
 
+/usr/include/x86_64-linux-gnu/bits/mman.h:
+
+/usr/include/x86_64-linux-gnu/bits/mman-shared.h:
+
+/usr/include/x86_64-linux-gnu/bits/mman-map-flags-generic.h:
+
 /home/robot/Work/system/HYYRobotX64GRIP/src/ServoDemo.cpp:
 
 /home/robot/Work/system/HYYRobotX64GRIP/src/ServoCartesianDemo.cpp:
@@ -7331,6 +7343,8 @@ CMakeFiles/HYYRobotMain.dir/src/robot_control.cpp.o: /home/robot/Work/system/HYY
 /usr/include/c++/11/initializer_list:
 
 /usr/include/c++/11/bits/istream.tcc:
+
+/usr/include/x86_64-linux-gnu/sys/mman.h:
 
 /usr/include/c++/11/ext/type_traits.h:
 
@@ -7900,6 +7914,8 @@ CMakeFiles/HYYRobotMain.dir/src/robot_control.cpp.o: /home/robot/Work/system/HYY
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
+/home/robot/Work/system/HYYRobotX64GRIP/include/MotorMonitorData.h:
+
 /home/robot/Work/system/HYYRobotX64GRIP/src/DataStructDemo.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
@@ -7999,6 +8015,8 @@ CMakeFiles/HYYRobotMain.dir/src/robot_control.cpp.o: /home/robot/Work/system/HYY
 /usr/include/x86_64-linux-gnu/sys/time.h:
 
 /usr/include/x86_64-linux-gnu/sys/ttydefaults.h:
+
+/usr/include/x86_64-linux-gnu/bits/mman-linux.h:
 
 /usr/include/x86_64-linux-gnu/bits/fcntl.h:
 

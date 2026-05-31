@@ -136,4 +136,10 @@ CMakeFiles/HYYRobotMain.dir/src/ServoDemo.cpp.o: \
  /home/robot/Work/system/HYYRobotX64GRIP/include/Tool/ExternalPlugin.h \
  /home/robot/Work/system/HYYRobotX64GRIP/include/Technology/stack/StackInterface.h \
  /home/robot/Work/system/HYYRobotX64GRIP/include/Move/MovePlan.h \
- /home/robot/Work/system/HYYRobotX64GRIP/include/Teach/robot_teach_interface.h
+ /home/robot/Work/system/HYYRobotX64GRIP/include/Teach/robot_teach_interface.h \
+ /home/robot/Work/system/HYYRobotX64GRIP/include/MotorMonitorData.h \
+ /usr/include/x86_64-linux-gnu/sys/mman.h \
+ /usr/include/x86_64-linux-gnu/bits/mman.h \
+ /usr/include/x86_64-linux-gnu/bits/mman-map-flags-generic.h \
+ /usr/include/x86_64-linux-gnu/bits/mman-linux.h \
+ /usr/include/x86_64-linux-gnu/bits/mman-shared.h
