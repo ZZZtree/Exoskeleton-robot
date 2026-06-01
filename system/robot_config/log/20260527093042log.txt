@@ -1,0 +1,72 @@
+INFO:38263-[20260527093042] verison: 12.2.0
+INFO:38263-[20260527093042] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:38263-[20260527093042] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:38263-[20260527093042] Start system initialize!
+INFO:38263-[20260527093042] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:38263-[20260527093042] group init existing problem. Some fields are not found!
+WARNING:38263-[20260527093042] dof num is 1
+WARNING:38263-[20260527093042] control:1,state:1,mode:1
+WARNING:38263-[20260527093042] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:38263-[20260527093042] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+ERROR:38263-[20260527093042] ethercat slave station number is differernt configure file!,slave number: 1<configure number: 2
+ERROR:38263-[20260527093042] ec_deviceInit: ec_device_handleInit failure
+ERROR:38263-[20260527093042] EC_device_init2: ec_deviceInit failure
+ERROR:38263-[20260527093042] EC_deviceListInsert2: EC_device_init2 failure
+ERROR:38263-[20260527093042] FindEC_device: ec_device1 is not exist!
+INFO:38263-[20260527093042] EC_device is NULL
+ERROR:38263-[20260527093042] system_init: Init_device failure, err=-149
+ERROR:38263-[20260527093042] system initialize failure
+INFO:38398-[20260527093127] verison: 12.2.0
+INFO:38398-[20260527093127] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:38398-[20260527093127] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:38398-[20260527093127] Start system initialize!
+INFO:38398-[20260527093127] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:38398-[20260527093127] group init existing problem. Some fields are not found!
+WARNING:38398-[20260527093127] dof num is 1
+WARNING:38398-[20260527093127] control:1,state:1,mode:1
+WARNING:38398-[20260527093127] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:38398-[20260527093127] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+ERROR:38398-[20260527093127] ethercat slave station number is differernt configure file!,slave number: 1<configure number: 2
+ERROR:38398-[20260527093127] ec_deviceInit: ec_device_handleInit failure
+ERROR:38398-[20260527093127] EC_device_init2: ec_deviceInit failure
+ERROR:38398-[20260527093127] EC_deviceListInsert2: EC_device_init2 failure
+ERROR:38398-[20260527093127] system_init: Init_device failure, err=-149
+ERROR:38398-[20260527093127] system initialize failure
+INFO:40289-[20260527103245] verison: 12.2.0
+INFO:40289-[20260527103245] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:40289-[20260527103245] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:40289-[20260527103245] Start system initialize!
+INFO:40289-[20260527103245] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+ERROR:40289-[20260527103245] get_process_image: xmlReadFile failure
+ERROR:40289-[20260527103245] ec_deviceInit: get_process_image failue
+ERROR:40289-[20260527103245] EC_device_init2: ec_deviceInit failure
+ERROR:40289-[20260527103245] EC_deviceListInsert2: EC_device_init2 failure
+ERROR:40289-[20260527103245] system_init: Init_device failure, err=-148
+ERROR:40289-[20260527103245] system initialize failure
+INFO:40362-[20260527103413] verison: 12.2.0
+INFO:40362-[20260527103413] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:40362-[20260527103413] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:40362-[20260527103413] Start system initialize!
+INFO:40362-[20260527103413] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+ERROR:40362-[20260527103413] ethercat slave station number is differernt configure file!,slave number: 0<configure number: 2
+ERROR:40362-[20260527103413] ec_deviceInit: ec_device_handleInit failure
+ERROR:40362-[20260527103413] EC_device_init2: ec_deviceInit failure
+ERROR:40362-[20260527103413] EC_deviceListInsert2: EC_device_init2 failure
+ERROR:40362-[20260527103413] system_init: Init_device failure, err=-149
+ERROR:40362-[20260527103413] system initialize failure
+INFO:41056-[20260527112126] verison: 12.2.0
+INFO:41056-[20260527112126] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:41056-[20260527112126] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:41056-[20260527112126] Start system initialize!
+INFO:41056-[20260527112126] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:41056-[20260527112126] group init existing problem. Some fields are not found!
+WARNING:41056-[20260527112126] dof num is 1
+WARNING:41056-[20260527112126] control:1,state:1,mode:1
+WARNING:41056-[20260527112126] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:41056-[20260527112126] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+ERROR:41056-[20260527112126] ethercat slave station number is differernt configure file!,slave number: 1<configure number: 2
+ERROR:41056-[20260527112126] ec_deviceInit: ec_device_handleInit failure
+ERROR:41056-[20260527112126] EC_device_init2: ec_deviceInit failure
+ERROR:41056-[20260527112126] EC_deviceListInsert2: EC_device_init2 failure
+ERROR:41056-[20260527112126] system_init: Init_device failure, err=-149
+ERROR:41056-[20260527112126] system initialize failure

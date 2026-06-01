@@ -1,0 +1,35 @@
+[33mcommit bd94f560d5c4dbe26b09923be32c6baf2b87e63f[m[33m ([m[1;36mHEAD -> [m[1;32mnew_multi_motor[m[33m)[m
+Author: ZZZtree <962816573@qq.com>
+Date:   Mon Jun 1 10:32:24 2026 -0400
+
+    remove liner motor torque
+
+[33mcommit 8600354ef366fee507ce141e2aae76fd9fbb5e20[m
+Author: ZZZtree <962816573@qq.com>
+Date:   Sun May 31 23:57:58 2026 -0400
+
+    4motor-torque-qt
+
+[33mcommit 75bb2aed1f9820aa561948bf51d0220fcb64b0ee[m
+Author: ZZZtree <962816573@qq.com>
+Date:   Sun May 31 03:25:26 2026 -0400
+
+    beta
+
+[33mcommit 173533e75d4a25dd7681ddd119090a398a3a8e24[m
+Author: ZZZtree <962816573@qq.com>
+Date:   Sat May 30 07:04:54 2026 -0400
+
+    new motor
+
+[33mcommit a758be2bec9cfa4b6f7dff0c062119b353fe2a01[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: ZZZtree <962816573@qq.com>
+Date:   Wed May 20 11:08:24 2026 -0400
+
+    first commit
+
+[33mcommit 5b42fe28aaa9610b2fa738f5e72da417c94f5053[m
+Author: ZZZtree <962816573@qq.com>
+Date:   Wed May 20 10:45:34 2026 -0400
+
+    first commit

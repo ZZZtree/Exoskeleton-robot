@@ -1,0 +1,34 @@
+INFO:57621-[20260527122253] verison: 12.2.0
+INFO:57621-[20260527122253] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:57621-[20260527122253] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:57621-[20260527122253] Start system initialize!
+INFO:57621-[20260527122253] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:57621-[20260527122253] group init existing problem. Some fields are not found!
+WARNING:57621-[20260527122253] dof num is 1
+WARNING:57621-[20260527122253] control:1,state:1,mode:1
+WARNING:57621-[20260527122253] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:57621-[20260527122253] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+ERROR:57621-[20260527122253] ethercat slave station number is differernt configure file!,slave number: 1<configure number: 2
+ERROR:57621-[20260527122253] ec_deviceInit: ec_device_handleInit failure
+ERROR:57621-[20260527122253] EC_device_init2: ec_deviceInit failure
+ERROR:57621-[20260527122253] EC_deviceListInsert2: EC_device_init2 failure
+ERROR:57621-[20260527122253] FindEC_device: ec_device1 is not exist!
+INFO:57621-[20260527122253] EC_device is NULL
+ERROR:57621-[20260527122253] system_init: Init_device failure, err=-149
+ERROR:57621-[20260527122253] system initialize failure
+INFO:58100-[20260527122350] verison: 12.2.0
+INFO:58100-[20260527122350] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:58100-[20260527122350] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:58100-[20260527122350] Start system initialize!
+INFO:58100-[20260527122350] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:58100-[20260527122350] group init existing problem. Some fields are not found!
+WARNING:58100-[20260527122350] dof num is 1
+WARNING:58100-[20260527122350] control:1,state:1,mode:1
+WARNING:58100-[20260527122350] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:58100-[20260527122350] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+ERROR:58100-[20260527122350] ethercat slave station number is differernt configure file!,slave number: 1<configure number: 2
+ERROR:58100-[20260527122350] ec_deviceInit: ec_device_handleInit failure
+ERROR:58100-[20260527122350] EC_device_init2: ec_deviceInit failure
+ERROR:58100-[20260527122350] EC_deviceListInsert2: EC_device_init2 failure
+ERROR:58100-[20260527122350] system_init: Init_device failure, err=-149
+ERROR:58100-[20260527122350] system initialize failure
