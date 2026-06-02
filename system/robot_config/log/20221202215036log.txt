@@ -1,0 +1,32 @@
+INFO:17604-[20221202215036] verison: 11.4.3
+INFO:17604-[20221202215036] Author: HanBing
+INFO:17604-[20221202215036] Email: A994055925@163.com
+NOTICE:17604-[20221202215036] Data file path: /home/hanbing/work/program/robot/config/robot/ur5e_v11.4.3/robot_config/data/
+INFO:17604-[20221202215036] Start system initialize!
+INFO:17604-[20221202215036] MOTOR MULTITURN ABSOLUTE ENCOUDER
+INFO:17604-[20221202215036] /////////////////////////////////////////////////////////////////
+INFO:17604-[20221202215036] Ts: 0.002000
+INFO:17604-[20221202215036] subdevice num: 3
+INFO:17604-[20221202215036] <------------------device type: dio------------------->
+INFO:17604-[20221202215036] device name: ec_device1/dio
+INFO:17604-[20221202215036] device num: 6
+INFO:17604-[20221202215036] <------------------device type: aio------------------->
+INFO:17604-[20221202215036] device name: ec_device1/aio
+INFO:17604-[20221202215036] device num: 6
+INFO:17604-[20221202215036] <------------------device type: robot------------------->
+INFO:17604-[20221202215036] device name: ec_device1/robot0
+INFO:17604-[20221202215036] device dof: 6
+INFO:17604-[20221202215036] device index: 0
+NOTICE:17604-[20221202215036] Device is not run, start simulation timer
+INFO:17604-[20221202215036] InitRobot
+INFO:17604-[20221202215036] Hardware Match
+NOTICE:17604-[20221202215036] Unlicensed, stop controller after 10 minutes!
+INFO:17604-[20221202215036] init_robot_teach
+INFO:17604-[20221202215036] set_robot_index
+INFO:17604-[20221202215036] get_robot_num
+INFO:17604-[20221202215036] set_addition_index
+INFO:17604-[20221202215036] get_addition_num
+INFO:17604-[20221202215036] get_robot_num
+INFO:17604-[20221202215036] initialize finish
+ERROR:17604-[20221202215036] ListInsert: Server Accept Failed!
+INFO:17604-[20221202215043] Controller stop run!

@@ -1,0 +1,4 @@
+INFO:268808-[20260402044824] verison: 12.2.1
+INFO:268808-[20260402044824] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:268808-[20260402044824] load_configure_data: BusConfig version mismatch
+ERROR:268808-[20260402044824] common_init: load_configure_data failure, err=-147

@@ -1,0 +1,152 @@
+INFO:3896-[20251127082616] verison: 12.2.0
+INFO:3896-[20251127082616] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:3896-[20251127082616] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:3896-[20251127082616] Start system initialize!
+INFO:3896-[20251127082616] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:3896-[20251127082616] group init existing problem. Some fields are not found!
+WARNING:3896-[20251127082616] dof num is 1
+WARNING:3896-[20251127082616] control:1,state:1,mode:1
+WARNING:3896-[20251127082616] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:3896-[20251127082616] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:3896-[20251127082616] /////////////////////////////////////////////////////////////////
+INFO:3896-[20251127082616] fd_ecat_in_name: /ecat_in
+INFO:3896-[20251127082616] fd_ecat_out_name: /ecat_out
+INFO:3896-[20251127082616] /////////////////////////////////////////////////////////////////
+INFO:3896-[20251127082616] state: Status word
+INFO:3896-[20251127082616] control: Control word
+INFO:3896-[20251127082616] mode: Modes of operation
+INFO:3896-[20251127082616] ac_position: Position actual value
+INFO:3896-[20251127082616] ac_velocity: Velocity actual value
+INFO:3896-[20251127082616] ac_torque: Torque actual value
+INFO:3896-[20251127082616] ac_position2: 
+INFO:3896-[20251127082616] ac_velocity2: 
+INFO:3896-[20251127082616] ac_sensor_torque: 
+INFO:3896-[20251127082616] ac_mode: Modes of operation displa
+INFO:3896-[20251127082616] ErrorCode: 
+INFO:3896-[20251127082616] FollowingErrorActualValue: 
+INFO:3896-[20251127082616] position: Profile target position
+INFO:3896-[20251127082616] velocity: Target Velocity
+INFO:3896-[20251127082616] torque: Target torque
+INFO:3896-[20251127082616] VelocityOffset: Velocity offset
+INFO:3896-[20251127082616] TorqueOffset: Torque offset
+INFO:3896-[20251127082616] TorqueMaxLimit: 
+INFO:3896-[20251127082616] TorqueMinLimit: 
+INFO:3896-[20251127082616] ec_di: 
+INFO:3896-[20251127082616] ec_do: 
+INFO:3896-[20251127082616] ec_ai: 
+INFO:3896-[20251127082616] ec_ao: 
+INFO:3896-[20251127082616] ec_li: 
+INFO:3896-[20251127082616] ec_lo: 
+INFO:3896-[20251127082616] Number of fields: 26
+INFO:3896-[20251127082616] busyTs: 5000000 ns
+INFO:3896-[20251127082616] /////////////////////////////////////////////////////////////////
+INFO:3896-[20251127082616] ec_device1/robot0: 
+INFO:3896-[20251127082616] DOF: 1
+INFO:3896-[20251127082616] 0_state: 0
+INFO:3896-[20251127082616] 0_control: 0
+INFO:3896-[20251127082616] 0_mode: 16
+INFO:3896-[20251127082616] 0_ac_position: 32
+INFO:3896-[20251127082616] 0_ac_velocity: 96
+INFO:3896-[20251127082616] 0_ac_torque: 128
+INFO:3896-[20251127082616] 0_ac_current: -999999
+INFO:3896-[20251127082616] 0_ac_position2: -999999
+INFO:3896-[20251127082616] 0_ac_velocity2: -999999
+INFO:3896-[20251127082616] 0_ac_sensor_torque: -999999
+INFO:3896-[20251127082616] 0_ac_mode: 16
+INFO:3896-[20251127082616] 0_ErrorCode: -999999
+INFO:3896-[20251127082616] 0_FollowingErrorActualValue: -999999
+INFO:3896-[20251127082616] 0_position: 32
+INFO:3896-[20251127082616] 0_velocity: 112
+INFO:3896-[20251127082616] 0_torque: 144
+INFO:3896-[20251127082616] 0_VelocityOffset: 64
+INFO:3896-[20251127082616] 0_TorqueOffset: 96
+INFO:3896-[20251127082616] 0_TorqueMaxLimit: -999999
+INFO:3896-[20251127082616] 0_TorqueMinLimit: -999999
+INFO:3896-[20251127082616] /////////////////////////////////////////////////////////////////
+INFO:3896-[20251127082616] /////////////////////////////////////////////////////////////////
+INFO:3896-[20251127082616] /////////////////////////////////////////////////////////////////
+INFO:3896-[20251127082616] system_init:simulation_switch
+NOTICE:3896-[20251127082616] Device is running
+INFO:3896-[20251127082616] system_init:GetRobotSimulationState
+INFO:3896-[20251127082616] system_init:initSystemTimer2
+INFO:3896-[20251127082616] InitRobot
+INFO:3896-[20251127082616] Hardware Match
+NOTICE:3896-[20251127082616] Real machine running mode
+INFO:3896-[20251127082616] init_robot_teach
+INFO:3896-[20251127082616] set_robot_index
+INFO:3896-[20251127082616] set_addition_index
+INFO:3896-[20251127082616] get_addition_num
+INFO:3896-[20251127082616] get_robot_num
+INFO:3896-[20251127082616] start teach server port 6666
+INFO:3896-[20251127082616] start teach command server port 6667
+INFO:3896-[20251127082616] start teach feedback server port 6668
+INFO:3896-[20251127082616] initialize finish
+INFO:3896-[20251127082633] TCPConcurrentServer: client connect (47)
+INFO:3896-[20251127082633] TCPConcurrentServer: client connect (48)
+NOTICE:3896-[20251127082633] Teach feedback clock(0) cycle time is 50 ms
+INFO:3896-[20251127082634] get_data_robjoint_all
+INFO:3896-[20251127082634] get_data_robpose_all
+INFO:3896-[20251127082634] get_data_speed_all
+INFO:3896-[20251127082634] get_data_zone_all
+INFO:3896-[20251127082634] get_data_tool_all
+INFO:3896-[20251127082634] get_data_payload_all
+INFO:3896-[20251127082634] get_data_user_all
+INFO:3896-[20251127082634] get_data_addition_all
+INFO:3896-[20251127082634] get_data_wobj_all
+INFO:3896-[20251127082634] get_robot_data_path
+INFO:3896-[20251127082634] get_robot_index
+INFO:3896-[20251127082634] get_robot_run_type
+INFO:3896-[20251127082634] get_robot_run_type
+INFO:3896-[20251127082634] get_robot_teach_velocity
+INFO:3896-[20251127082634] get_teach_move_type
+INFO:3896-[20251127082635] get_robot_run_type
+INFO:3896-[20251127082635] get_robot_teach_velocity
+INFO:3896-[20251127082635] get_teach_move_type
+INFO:3896-[20251127082635] get_robot_tool
+INFO:3896-[20251127082635] get_robot_wobj
+INFO:3896-[20251127082635] get_robot_teach_coordinate
+INFO:3896-[20251127082635] set_robot_index
+INFO:3896-[20251127082635] get_robot_tool
+INFO:3896-[20251127082635] get_robot_wobj
+INFO:3896-[20251127082637] device_teach_enable
+INFO:3896-[20251127082639] robot_teach_joint
+INFO:3896-[20251127082640] robot_teach_stop
+INFO:3896-[20251127082640] robot_teach_joint
+INFO:3896-[20251127082641] robot_teach_stop
+INFO:3896-[20251127082641] robot_teach_joint
+INFO:3896-[20251127082643] robot_teach_stop
+INFO:3896-[20251127082645] robot_teach_joint
+INFO:3896-[20251127082645] robot_teach_stop
+INFO:3896-[20251127082646] robot_teach_joint
+INFO:3896-[20251127082648] robot_teach_stop
+INFO:3896-[20251127082650] set_robot_teach_velocity
+INFO:3896-[20251127082650] get_robot_teach_velocity
+INFO:3896-[20251127082650] robot_teach_joint
+INFO:3896-[20251127082653] robot_teach_stop
+INFO:3896-[20251127082700] set_robot_teach_velocity
+INFO:3896-[20251127082700] get_robot_teach_velocity
+INFO:3896-[20251127082701] set_robot_teach_velocity
+INFO:3896-[20251127082701] get_robot_teach_velocity
+INFO:3896-[20251127082702] robot_teach_joint
+INFO:3896-[20251127082703] robot_teach_stop
+INFO:3896-[20251127082703] set_robot_teach_velocity
+INFO:3896-[20251127082704] get_robot_teach_velocity
+INFO:3896-[20251127082704] robot_teach_joint
+INFO:3896-[20251127082705] robot_teach_stop
+INFO:3896-[20251127082706] set_robot_teach_velocity
+INFO:3896-[20251127082706] get_robot_teach_velocity
+INFO:3896-[20251127082707] robot_teach_joint
+INFO:3896-[20251127082709] robot_teach_stop
+INFO:3896-[20251127082710] set_robot_teach_velocity
+INFO:3896-[20251127082710] get_robot_teach_velocity
+INFO:3896-[20251127082710] robot_teach_joint
+INFO:3896-[20251127082712] robot_teach_stop
+INFO:3896-[20251127082714] set_robot_teach_velocity
+INFO:3896-[20251127082714] get_robot_teach_velocity
+INFO:3896-[20251127082715] robot_teach_joint
+INFO:3896-[20251127082718] robot_teach_stop
+INFO:3896-[20251127082811] device_teach_disenable
+INFO:3896-[20251127083126] device_teach_disenable
+INFO:3896-[20251127083127] TCPConcurrentServer: client disconnect (47)
+INFO:3896-[20251127083127] TCPConcurrentServer: client disconnect (48)
+INFO:3896-[20251127083132] Controller stop run!

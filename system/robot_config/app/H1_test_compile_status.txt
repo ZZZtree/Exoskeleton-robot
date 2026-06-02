@@ -1,0 +1,4 @@
+/home/robot/Work/system/robot_config/app/H1_test.c: In function ‘MainModule’:
+/home/robot/Work/system/robot_config/app/H1_test.c:5:21: warning: unused variable ‘robot_name’ [-Wunused-variable]
+    5 |         const char* robot_name=get_name_robot_device(get_deviceName(0,NULL),1);
+      |                     ^~~~~~~~~~

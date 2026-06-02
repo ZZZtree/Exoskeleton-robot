@@ -1,0 +1,50 @@
+INFO:14848-[20221202203706] verison: 11.4.3
+INFO:14848-[20221202203706] Author: HanBing
+INFO:14848-[20221202203706] Email: A994055925@163.com
+NOTICE:14848-[20221202203706] Data file path: /home/hanbing/work/program/robot/config/robot/ur5e_v11.4.3/robot_config/data/
+INFO:14848-[20221202203706] Start system initialize!
+INFO:14848-[20221202203706] MOTOR MULTITURN ABSOLUTE ENCOUDER
+INFO:14848-[20221202203706] /////////////////////////////////////////////////////////////////
+INFO:14848-[20221202203706] Ts: 0.002000
+INFO:14848-[20221202203706] subdevice num: 3
+INFO:14848-[20221202203706] <------------------device type: dio------------------->
+INFO:14848-[20221202203706] device name: ec_device1/dio
+INFO:14848-[20221202203706] device num: 6
+INFO:14848-[20221202203706] <------------------device type: aio------------------->
+INFO:14848-[20221202203706] device name: ec_device1/aio
+INFO:14848-[20221202203706] device num: 6
+INFO:14848-[20221202203706] <------------------device type: robot------------------->
+INFO:14848-[20221202203706] device name: ec_device1/robot0
+INFO:14848-[20221202203706] device dof: 6
+INFO:14848-[20221202203706] device index: 0
+NOTICE:14848-[20221202203706] Device is not run, start simulation timer
+INFO:14848-[20221202203706] InitRobot
+INFO:14848-[20221202203706] Hardware Match
+NOTICE:14848-[20221202203706] Unlicensed, stop controller after 10 minutes!
+INFO:14848-[20221202203706] init_robot_teach
+INFO:14848-[20221202203706] set_robot_index
+INFO:14848-[20221202203706] get_robot_num
+INFO:14848-[20221202203706] set_addition_index
+INFO:14848-[20221202203706] get_addition_num
+INFO:14848-[20221202203706] get_robot_num
+INFO:14848-[20221202203706] initialize finish
+INFO:14848-[20221202203713] TCPConcurrentServer: client connect (66)
+INFO:14848-[20221202203713] get_robot_run_type
+INFO:14848-[20221202203713] get_robot_num
+INFO:14848-[20221202203713] get_addition_num
+INFO:14848-[20221202203713] get_robot_tool_num
+INFO:14848-[20221202203713] get_robot_tool
+INFO:14848-[20221202203713] get_robot_wobj_num
+INFO:14848-[20221202203713] get_robot_wobj
+INFO:14848-[20221202203713] get_robot_teach_coordinate
+INFO:14848-[20221202203713] set_robot_teach_coordinate
+INFO:14848-[20221202203713] get_robot_teach_velocity
+INFO:14848-[20221202203713] get_teach_move_type
+INFO:14848-[20221202203716] robot_teach_enable
+INFO:14848-[20221202203717] set_robot_teach_coordinate
+INFO:14848-[20221202203717] set_robot_teach_coordinate
+INFO:14848-[20221202203717] get_robot_teach_velocity
+INFO:14848-[20221202203719] robot_teach_cartesian
+ERROR:14848-[20221202203719] _get_name_g_devicetype: device is no exit this data
+INFO:14848-[20221202203720] robot_teach_stop
+INFO:14848-[20221202204203] Controller stop run!

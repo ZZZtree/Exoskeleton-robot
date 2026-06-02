@@ -1,0 +1,4 @@
+INFO:270768-[20260402045536] verison: 12.2.1
+INFO:270768-[20260402045536] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:270768-[20260402045536] load_configure_data: BusConfig version mismatch
+ERROR:270768-[20260402045536] common_init: load_configure_data failure, err=-147

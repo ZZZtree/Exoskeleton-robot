@@ -1,0 +1,31 @@
+INFO:13842-[20221202201909] verison: 11.4.3
+INFO:13842-[20221202201909] Author: HanBing
+INFO:13842-[20221202201909] Email: A994055925@163.com
+NOTICE:13842-[20221202201909] Data file path: /home/hanbing/work/program/robot/config/robot/ur5e_v11.4.3/robot_config/data/
+INFO:13842-[20221202201909] Start system initialize!
+INFO:13842-[20221202201909] MOTOR MULTITURN ABSOLUTE ENCOUDER
+INFO:13842-[20221202201909] /////////////////////////////////////////////////////////////////
+INFO:13842-[20221202201909] Ts: 0.002000
+INFO:13842-[20221202201909] subdevice num: 3
+INFO:13842-[20221202201909] <------------------device type: dio------------------->
+INFO:13842-[20221202201909] device name: ec_device1/dio
+INFO:13842-[20221202201909] device num: 6
+INFO:13842-[20221202201909] <------------------device type: aio------------------->
+INFO:13842-[20221202201909] device name: ec_device1/aio
+INFO:13842-[20221202201909] device num: 6
+INFO:13842-[20221202201909] <------------------device type: robot------------------->
+INFO:13842-[20221202201909] device name: ec_device1/robot0
+INFO:13842-[20221202201909] device dof: 6
+INFO:13842-[20221202201909] device index: 0
+NOTICE:13842-[20221202201909] Device is not run, start simulation timer
+INFO:13842-[20221202201909] InitRobot
+INFO:13842-[20221202201909] Hardware Match
+NOTICE:13842-[20221202201909] Unlicensed, stop controller after 10 minutes!
+INFO:13842-[20221202201909] init_robot_teach
+INFO:13842-[20221202201909] set_robot_index
+INFO:13842-[20221202201909] get_robot_num
+INFO:13842-[20221202201909] set_addition_index
+INFO:13842-[20221202201909] get_addition_num
+INFO:13842-[20221202201909] get_robot_num
+INFO:13842-[20221202201909] initialize finish
+INFO:13842-[20221202201939] Controller stop run!

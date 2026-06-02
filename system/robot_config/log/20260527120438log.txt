@@ -1,0 +1,34 @@
+INFO:50826-[20260527120438] verison: 12.2.0
+INFO:50826-[20260527120438] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:50826-[20260527120438] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:50826-[20260527120438] Start system initialize!
+INFO:50826-[20260527120438] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:50826-[20260527120438] group init existing problem. Some fields are not found!
+WARNING:50826-[20260527120438] dof num is 1
+WARNING:50826-[20260527120438] control:1,state:1,mode:1
+WARNING:50826-[20260527120438] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:50826-[20260527120438] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+ERROR:50826-[20260527120438] ethercat slave station number is differernt configure file!,slave number: 1<configure number: 2
+ERROR:50826-[20260527120438] ec_deviceInit: ec_device_handleInit failure
+ERROR:50826-[20260527120438] EC_device_init2: ec_deviceInit failure
+ERROR:50826-[20260527120438] EC_deviceListInsert2: EC_device_init2 failure
+ERROR:50826-[20260527120438] FindEC_device: ec_device1 is not exist!
+INFO:50826-[20260527120438] EC_device is NULL
+ERROR:50826-[20260527120438] system_init: Init_device failure, err=-149
+ERROR:50826-[20260527120438] system initialize failure
+INFO:50923-[20260527120451] verison: 12.2.0
+INFO:50923-[20260527120451] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:50923-[20260527120451] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:50923-[20260527120451] Start system initialize!
+INFO:50923-[20260527120451] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:50923-[20260527120451] group init existing problem. Some fields are not found!
+WARNING:50923-[20260527120451] dof num is 1
+WARNING:50923-[20260527120451] control:1,state:1,mode:1
+WARNING:50923-[20260527120451] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:50923-[20260527120451] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+ERROR:50923-[20260527120451] ethercat slave station number is differernt configure file!,slave number: 1<configure number: 2
+ERROR:50923-[20260527120451] ec_deviceInit: ec_device_handleInit failure
+ERROR:50923-[20260527120451] EC_device_init2: ec_deviceInit failure
+ERROR:50923-[20260527120451] EC_deviceListInsert2: EC_device_init2 failure
+ERROR:50923-[20260527120451] system_init: Init_device failure, err=-149
+ERROR:50923-[20260527120451] system initialize failure

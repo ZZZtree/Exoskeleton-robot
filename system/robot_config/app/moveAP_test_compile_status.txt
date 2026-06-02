@@ -1,0 +1,7 @@
+/home/hanbing/work/program/robot/config/robot/xb4/robot_config/data/moveAP_test.c: In function ‘MainModule’:
+/home/hanbing/work/program/robot/config/robot/xb4/robot_config/data/moveAP_test.c:29:3: warning: ‘return’ with no value, in function returning non-void
+   return;
+   ^
+/home/hanbing/work/program/robot/config/robot/xb4/robot_config/data/moveAP_test.c:31:9: warning: implicit declaration of function ‘robot_runing’ [-Wimplicit-function-declaration]
+  while (robot_runing())
+         ^

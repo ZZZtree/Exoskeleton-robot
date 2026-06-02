@@ -1,0 +1,4 @@
+INFO:1047-[20251216045924] verison: 12.2.0
+INFO:1047-[20251216045924] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:1047-[20251216045924] load_configure_data: load_device_config failure
+ERROR:1047-[20251216045924] common_init: load_configure_data failure, err=-146

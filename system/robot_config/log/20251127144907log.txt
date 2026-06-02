@@ -1,0 +1,273 @@
+INFO:4765-[20251127144907] verison: 12.2.0
+INFO:4765-[20251127144907] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:4765-[20251127144907] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:4765-[20251127144907] Start system initialize!
+INFO:4765-[20251127144907] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:4765-[20251127144907] group init existing problem. Some fields are not found!
+WARNING:4765-[20251127144907] dof num is 1
+WARNING:4765-[20251127144907] control:1,state:1,mode:1
+WARNING:4765-[20251127144907] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:4765-[20251127144907] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:4765-[20251127144907] /////////////////////////////////////////////////////////////////
+INFO:4765-[20251127144907] fd_ecat_in_name: /ecat_in
+INFO:4765-[20251127144907] fd_ecat_out_name: /ecat_out
+INFO:4765-[20251127144907] /////////////////////////////////////////////////////////////////
+INFO:4765-[20251127144907] state: Status word
+INFO:4765-[20251127144907] control: Control word
+INFO:4765-[20251127144907] mode: Modes of operation
+INFO:4765-[20251127144907] ac_position: Position actual value
+INFO:4765-[20251127144907] ac_velocity: Velocity actual value
+INFO:4765-[20251127144907] ac_torque: Torque actual value
+INFO:4765-[20251127144907] ac_position2: 
+INFO:4765-[20251127144907] ac_velocity2: 
+INFO:4765-[20251127144907] ac_sensor_torque: 
+INFO:4765-[20251127144907] ac_mode: Modes of operation displa
+INFO:4765-[20251127144907] ErrorCode: 
+INFO:4765-[20251127144907] FollowingErrorActualValue: 
+INFO:4765-[20251127144907] position: Profile target position
+INFO:4765-[20251127144907] velocity: Target Velocity
+INFO:4765-[20251127144907] torque: Target torque
+INFO:4765-[20251127144907] VelocityOffset: Velocity offset
+INFO:4765-[20251127144907] TorqueOffset: Torque offset
+INFO:4765-[20251127144907] TorqueMaxLimit: 
+INFO:4765-[20251127144907] TorqueMinLimit: 
+INFO:4765-[20251127144907] ec_di: 
+INFO:4765-[20251127144907] ec_do: 
+INFO:4765-[20251127144907] ec_ai: 
+INFO:4765-[20251127144907] ec_ao: 
+INFO:4765-[20251127144907] ec_li: 
+INFO:4765-[20251127144907] ec_lo: 
+INFO:4765-[20251127144907] Number of fields: 26
+INFO:4765-[20251127144907] busyTs: 5000000 ns
+INFO:4765-[20251127144907] /////////////////////////////////////////////////////////////////
+INFO:4765-[20251127144907] ec_device1/robot0: 
+INFO:4765-[20251127144907] DOF: 1
+INFO:4765-[20251127144907] 0_state: 0
+INFO:4765-[20251127144907] 0_control: 0
+INFO:4765-[20251127144907] 0_mode: 16
+INFO:4765-[20251127144907] 0_ac_position: 32
+INFO:4765-[20251127144907] 0_ac_velocity: 96
+INFO:4765-[20251127144907] 0_ac_torque: 128
+INFO:4765-[20251127144907] 0_ac_current: -999999
+INFO:4765-[20251127144907] 0_ac_position2: -999999
+INFO:4765-[20251127144907] 0_ac_velocity2: -999999
+INFO:4765-[20251127144907] 0_ac_sensor_torque: -999999
+INFO:4765-[20251127144907] 0_ac_mode: 16
+INFO:4765-[20251127144907] 0_ErrorCode: -999999
+INFO:4765-[20251127144907] 0_FollowingErrorActualValue: -999999
+INFO:4765-[20251127144907] 0_position: 32
+INFO:4765-[20251127144907] 0_velocity: 112
+INFO:4765-[20251127144907] 0_torque: 144
+INFO:4765-[20251127144907] 0_VelocityOffset: 64
+INFO:4765-[20251127144907] 0_TorqueOffset: 96
+INFO:4765-[20251127144907] 0_TorqueMaxLimit: -999999
+INFO:4765-[20251127144907] 0_TorqueMinLimit: -999999
+INFO:4765-[20251127144907] /////////////////////////////////////////////////////////////////
+INFO:4765-[20251127144907] /////////////////////////////////////////////////////////////////
+INFO:4765-[20251127144907] /////////////////////////////////////////////////////////////////
+INFO:4765-[20251127144907] system_init:simulation_switch
+NOTICE:4765-[20251127144907] Device is running
+INFO:4765-[20251127144907] system_init:GetRobotSimulationState
+INFO:4765-[20251127144907] system_init:initSystemTimer2
+INFO:4765-[20251127144907] InitRobot
+INFO:4765-[20251127144907] Hardware Match
+NOTICE:4765-[20251127144907] Real machine running mode
+INFO:4765-[20251127144907] init_robot_teach
+INFO:4765-[20251127144907] set_robot_index
+INFO:4765-[20251127144907] set_addition_index
+INFO:4765-[20251127144907] get_addition_num
+INFO:4765-[20251127144907] get_robot_num
+INFO:4765-[20251127144907] start teach server port 6666
+INFO:4765-[20251127144907] start teach command server port 6667
+INFO:4765-[20251127144907] start teach feedback server port 6668
+INFO:4765-[20251127144907] initialize finish
+INFO:4765-[20251127144912] TCPConcurrentServer: client connect (47)
+INFO:4765-[20251127144912] TCPConcurrentServer: client connect (48)
+NOTICE:4765-[20251127144912] Teach feedback clock(0) cycle time is 50 ms
+INFO:4765-[20251127144914] device_teach_enable
+ERROR:4765-[20251127144914] robot_enable_i: robot <0> state wrong(err=-176), can't enable
+INFO:4765-[20251127144915] device_error_clear
+INFO:4765-[20251127144916] device_teach_enable
+INFO:4765-[20251127144920] set_robot_teach_velocity
+INFO:4765-[20251127144920] get_robot_teach_velocity
+INFO:4765-[20251127144923] robot_teach_joint
+INFO:4765-[20251127144926] robot_teach_stop
+INFO:4765-[20251127144926] robot_teach_joint
+ERROR:4765-[20251127144926] JointSpaceExecution: robot(0) driver servo axis(1) error!
+INFO:4765-[20251127144927] robot_teach_stop
+INFO:4765-[20251127144929] set_robot_teach_velocity
+INFO:4765-[20251127144929] get_robot_teach_velocity
+INFO:4765-[20251127144929] robot_teach_joint
+INFO:4765-[20251127144930] robot_teach_stop
+INFO:4765-[20251127144930] robot_teach_joint
+INFO:4765-[20251127144931] robot_teach_stop
+INFO:4765-[20251127144944] robot_teach_joint
+INFO:4765-[20251127144944] robot_teach_stop
+INFO:4765-[20251127144945] robot_teach_joint
+INFO:4765-[20251127144946] robot_teach_stop
+INFO:4765-[20251127144946] robot_teach_joint
+INFO:4765-[20251127144947] robot_teach_stop
+INFO:4765-[20251127144947] robot_teach_joint
+INFO:4765-[20251127144948] robot_teach_stop
+INFO:4765-[20251127144951] robot_teach_joint
+INFO:4765-[20251127144951] robot_teach_stop
+INFO:4765-[20251127144953] TCPConcurrentServer: client disconnect (47)
+INFO:4765-[20251127144953] TCPConcurrentServer: client disconnect (48)
+INFO:4765-[20251127144953] TCPConcurrentServer: client connect (47)
+INFO:4765-[20251127144953] TCPConcurrentServer: client connect (48)
+NOTICE:4765-[20251127144953] Teach feedback clock(0) cycle time is 50 ms
+INFO:4765-[20251127144954] device_error_clear
+INFO:4765-[20251127144954] robot_teach_joint
+INFO:4765-[20251127144956] robot_teach_stop
+INFO:4765-[20251127144956] robot_teach_joint
+INFO:4765-[20251127144957] robot_teach_stop
+INFO:4765-[20251127144957] device_teach_enable
+ERROR:4765-[20251127144957] group_power:axis(ID:1) error
+ERROR:4765-[20251127144957] robot_enable_i:robot <0> enable failure
+INFO:4765-[20251127144959] robot_teach_joint
+ERROR:4765-[20251127144959] JointSpaceExecution: robot(0) driver servo axis(1) error!
+INFO:4765-[20251127144959] robot_teach_stop
+INFO:4765-[20251127145004] robot_teach_joint
+INFO:4765-[20251127145004] robot_teach_stop
+INFO:4765-[20251127145006] device_teach_disenable
+INFO:4765-[20251127145009] device_teach_enable
+ERROR:4765-[20251127145009] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:4765-[20251127145011] TCPConcurrentServer: client disconnect (47)
+INFO:4765-[20251127145011] TCPConcurrentServer: client connect (47)
+INFO:4765-[20251127145011] TCPConcurrentServer: client connect (49)
+NOTICE:4765-[20251127145011] Teach feedback clock(1) cycle time is 50 ms
+INFO:4765-[20251127145012] device_error_clear
+INFO:4765-[20251127145013] device_teach_enable
+INFO:4765-[20251127145015] robot_teach_joint
+ERROR:4765-[20251127145015] JointSpaceExecution: robot(0) driver servo axis(1) error!
+INFO:4765-[20251127145016] robot_teach_stop
+INFO:4765-[20251127145017] TCPConcurrentServer: client disconnect (47)
+INFO:4765-[20251127145017] TCPConcurrentServer: client connect (47)
+INFO:4765-[20251127145017] TCPConcurrentServer: client connect (50)
+NOTICE:4765-[20251127145017] Teach feedback clock(2) cycle time is 50 ms
+INFO:4765-[20251127145018] device_error_clear
+INFO:4765-[20251127145018] device_teach_enable
+ERROR:4765-[20251127145018] group_power:axis(ID:1) error
+ERROR:4765-[20251127145018] robot_enable_i:robot <0> enable failure
+INFO:4765-[20251127145019] robot_teach_joint
+ERROR:4765-[20251127145019] JointSpaceExecution: robot(0) driver servo axis(1) error!
+INFO:4765-[20251127145020] robot_teach_stop
+INFO:4765-[20251127145020] device_teach_enable
+ERROR:4765-[20251127145020] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:4765-[20251127145022] TCPConcurrentServer: client disconnect (47)
+INFO:4765-[20251127145022] TCPConcurrentServer: client connect (47)
+INFO:4765-[20251127145022] TCPConcurrentServer: client connect (51)
+NOTICE:4765-[20251127145022] Teach feedback clock(3) cycle time is 50 ms
+INFO:4765-[20251127145023] device_error_clear
+INFO:4765-[20251127145024] device_teach_disenable
+INFO:4765-[20251127145025] device_error_clear
+INFO:4765-[20251127145026] device_teach_enable
+INFO:4765-[20251127145027] robot_teach_joint
+ERROR:4765-[20251127145027] JointSpaceExecution: robot(0) driver servo axis(1) error!
+INFO:4765-[20251127145027] robot_teach_stop
+INFO:4765-[20251127145029] TCPConcurrentServer: client disconnect (47)
+INFO:4765-[20251127145029] TCPConcurrentServer: client connect (47)
+INFO:4765-[20251127145029] TCPConcurrentServer: client connect (52)
+NOTICE:4765-[20251127145029] Teach feedback clock(4) cycle time is 50 ms
+INFO:4765-[20251127145030] device_teach_enable
+ERROR:4765-[20251127145030] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:4765-[20251127145030] device_error_clear
+INFO:4765-[20251127145032] device_teach_enable
+ERROR:4765-[20251127145032] group_power:axis(ID:1) error
+ERROR:4765-[20251127145032] robot_enable_i:robot <0> enable failure
+INFO:4765-[20251127145034] device_teach_disenable
+INFO:4765-[20251127145036] device_teach_enable
+ERROR:4765-[20251127145036] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:4765-[20251127145038] device_teach_disenable
+INFO:4765-[20251127145039] device_error_clear
+INFO:4765-[20251127145040] TCPConcurrentServer: client disconnect (47)
+INFO:4765-[20251127145040] TCPConcurrentServer: client connect (47)
+INFO:4765-[20251127145040] TCPConcurrentServer: client connect (53)
+NOTICE:4765-[20251127145040] Teach feedback clock(-1) cycle time is 50 ms
+WARNING:4765-[20251127145040] feedback_action: quit
+WARNING:4765-[20251127145040] feedback_action: network outage
+WARNING:4765-[20251127145040] feedback_action: quit
+WARNING:4765-[20251127145040] feedback_cmd_action: quit
+WARNING:4765-[20251127145046] feedback_action: network outage
+WARNING:4765-[20251127145046] feedback_action: quit
+WARNING:4765-[20251127145051] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:4765-[20251127145051] TCPConcurrentServer: client connect (47)
+WARNING:4765-[20251127145051] TCPConcurrentServer: custom_deal_function pathread join failure (48)
+INFO:4765-[20251127145051] TCPConcurrentServer: client connect (48)
+NOTICE:4765-[20251127145051] Teach feedback clock(0) cycle time is 50 ms
+WARNING:4765-[20251127145051] feedback_action: network outage
+WARNING:4765-[20251127145051] feedback_action: quit
+WARNING:4765-[20251127145051] feedback_cmd_action: quit
+WARNING:4765-[20251127145058] feedback_action: network outage
+WARNING:4765-[20251127145058] feedback_action: quit
+WARNING:4765-[20251127145104] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:4765-[20251127145104] TCPConcurrentServer: client connect (47)
+WARNING:4765-[20251127145104] TCPConcurrentServer: custom_deal_function pathread join failure (49)
+INFO:4765-[20251127145104] TCPConcurrentServer: client connect (49)
+NOTICE:4765-[20251127145104] Teach feedback clock(1) cycle time is 50 ms
+INFO:4765-[20251127145105] device_error_clear
+INFO:4765-[20251127145107] robot_teach_joint
+ERROR:4765-[20251127145107] movej: robot not power, can't run
+INFO:4765-[20251127145107] robot_teach_stop
+INFO:4765-[20251127145108] device_teach_enable
+INFO:4765-[20251127145109] robot_teach_joint
+WARNING:4765-[20251127145109] feedback_action: network outage
+WARNING:4765-[20251127145109] feedback_action: quit
+WARNING:4765-[20251127145109] feedback_cmd_action: quit
+WARNING:4765-[20251127145120] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:4765-[20251127145120] TCPConcurrentServer: client connect (47)
+WARNING:4765-[20251127145120] TCPConcurrentServer: custom_deal_function pathread join failure (50)
+INFO:4765-[20251127145120] TCPConcurrentServer: client connect (50)
+NOTICE:4765-[20251127145120] Teach feedback clock(2) cycle time is 50 ms
+INFO:4765-[20251127145121] device_error_clear
+INFO:4765-[20251127145122] robot_teach_joint
+INFO:4765-[20251127145123] robot_teach_stop
+INFO:4765-[20251127145124] robot_teach_joint
+INFO:4765-[20251127145124] robot_teach_stop
+INFO:4765-[20251127145125] device_teach_enable
+ERROR:4765-[20251127145125] group_power:axis(ID:1) error
+ERROR:4765-[20251127145125] robot_enable_i:robot <0> enable failure
+INFO:4765-[20251127145126] TCPConcurrentServer: client disconnect (47)
+INFO:4765-[20251127145126] TCPConcurrentServer: client connect (47)
+WARNING:4765-[20251127145126] TCPConcurrentServer: custom_deal_function pathread join failure (51)
+INFO:4765-[20251127145126] TCPConcurrentServer: client connect (51)
+NOTICE:4765-[20251127145126] Teach feedback clock(3) cycle time is 50 ms
+INFO:4765-[20251127145127] device_error_clear
+INFO:4765-[20251127145128] device_teach_enable
+ERROR:4765-[20251127145128] group_power:axis(ID:1) error
+ERROR:4765-[20251127145128] robot_enable_i:robot <0> enable failure
+INFO:4765-[20251127145130] TCPConcurrentServer: client disconnect (47)
+INFO:4765-[20251127145130] TCPConcurrentServer: client connect (47)
+WARNING:4765-[20251127145130] TCPConcurrentServer: custom_deal_function pathread join failure (52)
+INFO:4765-[20251127145130] TCPConcurrentServer: client connect (52)
+NOTICE:4765-[20251127145130] Teach feedback clock(4) cycle time is 50 ms
+INFO:4765-[20251127145131] TCPConcurrentServer: client disconnect (47)
+INFO:4765-[20251127145131] TCPConcurrentServer: client connect (47)
+WARNING:4765-[20251127145131] TCPConcurrentServer: custom_deal_function pathread join failure (53)
+INFO:4765-[20251127145131] TCPConcurrentServer: client connect (53)
+NOTICE:4765-[20251127145131] Teach feedback clock(-1) cycle time is 50 ms
+WARNING:4765-[20251127145131] feedback_action: quit
+INFO:4765-[20251127145131] device_error_clear
+WARNING:4765-[20251127145134] feedback_action: network outage
+WARNING:4765-[20251127145134] feedback_action: quit
+WARNING:4765-[20251127145134] feedback_cmd_action: quit
+WARNING:4765-[20251127145141] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:4765-[20251127145141] TCPConcurrentServer: client connect (47)
+WARNING:4765-[20251127145141] TCPConcurrentServer: custom_deal_function pathread join failure (48)
+INFO:4765-[20251127145141] TCPConcurrentServer: client connect (48)
+NOTICE:4765-[20251127145141] Teach feedback clock(0) cycle time is 50 ms
+INFO:4765-[20251127145142] device_teach_enable
+INFO:4765-[20251127145145] robot_teach_joint
+INFO:4765-[20251127145146] robot_teach_stop
+INFO:4765-[20251127145147] robot_teach_joint
+WARNING:4765-[20251127145150] feedback_action: network outage
+WARNING:4765-[20251127145150] feedback_action: quit
+WARNING:4765-[20251127145150] feedback_cmd_action: quit
+WARNING:4765-[20251127145156] feedback_action: network outage
+WARNING:4765-[20251127145156] feedback_action: quit
+WARNING:4765-[20251127145200] feedback_action: network outage
+WARNING:4765-[20251127145200] feedback_action: quit
+WARNING:4765-[20251127145200] feedback_action: network outage
+WARNING:4765-[20251127145200] feedback_action: quit
+INFO:4765-[20251127145613] TCPConcurrentServer: client disconnect (48)
+INFO:4765-[20251128034502] Controller stop run!

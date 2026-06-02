@@ -1,0 +1,4 @@
+INFO:2030-[20251216050102] verison: 12.2.0
+INFO:2030-[20251216050102] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:2030-[20251216050102] load_configure_data: load_device_config failure
+ERROR:2030-[20251216050102] common_init: load_configure_data failure, err=-146

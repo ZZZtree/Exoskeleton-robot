@@ -1,0 +1,3 @@
+Cannot initialize EtherCAT-Master! (Result = ERROR: Not found 0x9811000c)
+003150 : Cannot stop EtherCAT-Master! ERROR: Invalid state (0x9811000e)
+003150 : Cannot de-initialize EtherCAT-Master! ERROR: Invalid state (0x9811000e)

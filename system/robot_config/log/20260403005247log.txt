@@ -1,0 +1,4 @@
+INFO:585639-[20260403005247] verison: 12.2.1
+INFO:585639-[20260403005247] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:585639-[20260403005247] load_configure_data: BusConfig version mismatch
+ERROR:585639-[20260403005247] common_init: load_configure_data failure, err=-147

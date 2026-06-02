@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                " \"${workspaceFolder}/**\",",
+                "                \"${workspaceFolder}/src\",",
+                "                \"${workspaceFolder}/inc\",",
+                "                \"${workspaceFolder}/include\",",
+                "\"${workspaceFolder}/../include\",",
+                "\"/usr/include\",",
+                "\"/usr/local/include\",",
+                "\"/usr/include/opencv4\"",
+                "/usr/include/opencv4",
+                "${workspaceFolder}/system/HYYRobotX64GRIP/include",
+                "${workspaceFolder}/system/vision_workspace/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

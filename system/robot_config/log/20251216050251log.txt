@@ -1,0 +1,4 @@
+INFO:2167-[20251216050251] verison: 12.2.0
+INFO:2167-[20251216050251] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:2167-[20251216050251] load_configure_data: load_device_config failure
+ERROR:2167-[20251216050251] common_init: load_configure_data failure, err=-146

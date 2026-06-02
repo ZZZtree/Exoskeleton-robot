@@ -1,0 +1,54 @@
+INFO:15094-[20221202204213] verison: 11.4.3
+INFO:15094-[20221202204213] Author: HanBing
+INFO:15094-[20221202204213] Email: A994055925@163.com
+NOTICE:15094-[20221202204213] Data file path: /home/hanbing/work/program/robot/config/robot/ur5e_v11.4.3/robot_config/data/
+INFO:15094-[20221202204213] Start system initialize!
+INFO:15094-[20221202204213] MOTOR MULTITURN ABSOLUTE ENCOUDER
+INFO:15094-[20221202204213] /////////////////////////////////////////////////////////////////
+INFO:15094-[20221202204213] Ts: 0.002000
+INFO:15094-[20221202204213] subdevice num: 3
+INFO:15094-[20221202204213] <------------------device type: dio------------------->
+INFO:15094-[20221202204213] device name: ec_device1/dio
+INFO:15094-[20221202204213] device num: 6
+INFO:15094-[20221202204213] <------------------device type: aio------------------->
+INFO:15094-[20221202204213] device name: ec_device1/aio
+INFO:15094-[20221202204213] device num: 6
+INFO:15094-[20221202204213] <------------------device type: robot------------------->
+INFO:15094-[20221202204213] device name: ec_device1/robot0
+INFO:15094-[20221202204213] device dof: 6
+INFO:15094-[20221202204213] device index: 0
+NOTICE:15094-[20221202204213] Device is not run, start simulation timer
+INFO:15094-[20221202204213] InitRobot
+INFO:15094-[20221202204213] Hardware Match
+NOTICE:15094-[20221202204213] Unlicensed, stop controller after 10 minutes!
+INFO:15094-[20221202204213] init_robot_teach
+INFO:15094-[20221202204213] set_robot_index
+INFO:15094-[20221202204213] get_robot_num
+INFO:15094-[20221202204213] set_addition_index
+INFO:15094-[20221202204213] get_addition_num
+INFO:15094-[20221202204213] get_robot_num
+INFO:15094-[20221202204213] initialize finish
+INFO:15094-[20221202204219] TCPConcurrentServer: client connect (66)
+INFO:15094-[20221202204219] get_robot_run_type
+INFO:15094-[20221202204219] get_robot_num
+INFO:15094-[20221202204219] get_addition_num
+INFO:15094-[20221202204219] get_robot_tool_num
+INFO:15094-[20221202204219] get_robot_tool
+INFO:15094-[20221202204219] get_robot_wobj_num
+INFO:15094-[20221202204219] get_robot_wobj
+INFO:15094-[20221202204219] get_robot_teach_coordinate
+INFO:15094-[20221202204219] set_robot_teach_coordinate
+INFO:15094-[20221202204219] get_robot_teach_velocity
+INFO:15094-[20221202204219] get_teach_move_type
+INFO:15094-[20221202204221] robot_teach_enable
+INFO:15094-[20221202204225] set_robot_teach_coordinate
+INFO:15094-[20221202204225] set_robot_teach_coordinate
+INFO:15094-[20221202204225] get_robot_teach_velocity
+INFO:15094-[20221202204231] robot_teach_cartesian
+INFO:15094-[20221202204233] robot_teach_stop
+INFO:15094-[20221202204234] robot_teach_cartesian
+INFO:15094-[20221202204235] robot_teach_stop
+INFO:15094-[20221202204236] robot_teach_cartesian
+INFO:15094-[20221202204237] robot_teach_stop
+INFO:15094-[20221202204239] robot_teach_disenable
+INFO:15094-[20221202204244] TCPConcurrentServer: client disconnect (66)

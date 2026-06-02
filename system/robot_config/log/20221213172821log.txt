@@ -1,0 +1,31 @@
+INFO:33925-[20221213172821] verison: 11.4.4
+INFO:33925-[20221213172821] Author: HanBing
+INFO:33925-[20221213172821] Email: A994055925@163.com
+NOTICE:33925-[20221213172821] Data file path: /home/hanbing/work/program/robot/config/robot/ur5e_v11.4.4/robot_config/data/
+INFO:33925-[20221213172821] Start system initialize!
+INFO:33925-[20221213172821] MOTOR MULTITURN ABSOLUTE ENCOUDER
+INFO:33925-[20221213172821] /////////////////////////////////////////////////////////////////
+INFO:33925-[20221213172821] Ts: 0.002000
+INFO:33925-[20221213172821] subdevice num: 3
+INFO:33925-[20221213172821] <------------------device type: dio------------------->
+INFO:33925-[20221213172821] device name: ec_device1/dio
+INFO:33925-[20221213172821] device num: 6
+INFO:33925-[20221213172821] <------------------device type: aio------------------->
+INFO:33925-[20221213172821] device name: ec_device1/aio
+INFO:33925-[20221213172821] device num: 6
+INFO:33925-[20221213172821] <------------------device type: robot------------------->
+INFO:33925-[20221213172821] device name: ec_device1/robot0
+INFO:33925-[20221213172821] device dof: 6
+INFO:33925-[20221213172821] device index: 0
+NOTICE:33925-[20221213172821] Device is not run, start simulation timer
+INFO:33925-[20221213172821] InitRobot
+INFO:33925-[20221213172821] Hardware Match
+NOTICE:33925-[20221213172821] Unlicensed, stop controller after 10 minutes!
+INFO:33925-[20221213172821] init_robot_teach
+INFO:33925-[20221213172821] set_robot_index
+INFO:33925-[20221213172821] get_robot_num
+INFO:33925-[20221213172821] set_addition_index
+INFO:33925-[20221213172821] get_addition_num
+INFO:33925-[20221213172821] get_robot_num
+INFO:33925-[20221213172821] initialize finish
+INFO:33925-[20221213172933] Controller stop run!

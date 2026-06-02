@@ -1,0 +1,1 @@
+cmd_/home/robot/Work/EtherCAT/acontis/atemsys/atemsys.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/robot/Work/EtherCAT/acontis/atemsys/atemsys.ko /home/robot/Work/EtherCAT/acontis/atemsys/atemsys.o /home/robot/Work/EtherCAT/acontis/atemsys/atemsys.mod.o;  true

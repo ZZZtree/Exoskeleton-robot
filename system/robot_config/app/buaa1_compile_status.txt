@@ -1,0 +1,1 @@
+gcc: error: /home/hanbing/work/program/robot/config/data/XB4_V8.7.0/data/buaa1.c: 没有那个文件或目录

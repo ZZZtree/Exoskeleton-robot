@@ -1,0 +1,1 @@
+cmd_/home/robot/Work/EtherCAT/acontis/atemsys/modules.order := {   echo /home/robot/Work/EtherCAT/acontis/atemsys/atemsys.ko; :; } | awk '!x[$$0]++' - > /home/robot/Work/EtherCAT/acontis/atemsys/modules.order

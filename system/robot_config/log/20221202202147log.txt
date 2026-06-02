@@ -1,0 +1,46 @@
+INFO:14035-[20221202202147] verison: 11.4.3
+INFO:14035-[20221202202147] Author: HanBing
+INFO:14035-[20221202202147] Email: A994055925@163.com
+NOTICE:14035-[20221202202147] Data file path: /home/hanbing/work/program/robot/config/robot/ur5e_v11.4.3/robot_config/data/
+INFO:14035-[20221202202147] Start system initialize!
+INFO:14035-[20221202202147] MOTOR MULTITURN ABSOLUTE ENCOUDER
+INFO:14035-[20221202202147] /////////////////////////////////////////////////////////////////
+INFO:14035-[20221202202147] Ts: 0.002000
+INFO:14035-[20221202202147] subdevice num: 3
+INFO:14035-[20221202202147] <------------------device type: dio------------------->
+INFO:14035-[20221202202147] device name: ec_device1/dio
+INFO:14035-[20221202202147] device num: 6
+INFO:14035-[20221202202147] <------------------device type: aio------------------->
+INFO:14035-[20221202202147] device name: ec_device1/aio
+INFO:14035-[20221202202147] device num: 6
+INFO:14035-[20221202202147] <------------------device type: robot------------------->
+INFO:14035-[20221202202147] device name: ec_device1/robot0
+INFO:14035-[20221202202147] device dof: 6
+INFO:14035-[20221202202147] device index: 0
+NOTICE:14035-[20221202202147] Device is not run, start simulation timer
+INFO:14035-[20221202202147] InitRobot
+INFO:14035-[20221202202147] Hardware Match
+NOTICE:14035-[20221202202147] Unlicensed, stop controller after 10 minutes!
+INFO:14035-[20221202202147] init_robot_teach
+INFO:14035-[20221202202147] set_robot_index
+INFO:14035-[20221202202147] get_robot_num
+INFO:14035-[20221202202147] set_addition_index
+INFO:14035-[20221202202147] get_addition_num
+INFO:14035-[20221202202147] get_robot_num
+INFO:14035-[20221202202147] initialize finish
+INFO:14035-[20221202202159] TCPConcurrentServer: client connect (66)
+INFO:14035-[20221202202159] get_robot_run_type
+INFO:14035-[20221202202159] get_robot_num
+INFO:14035-[20221202202159] get_addition_num
+INFO:14035-[20221202202159] get_robot_tool_num
+INFO:14035-[20221202202159] get_robot_tool
+INFO:14035-[20221202202159] get_robot_wobj_num
+INFO:14035-[20221202202159] get_robot_wobj
+INFO:14035-[20221202202159] get_robot_teach_coordinate
+INFO:14035-[20221202202159] set_robot_teach_coordinate
+INFO:14035-[20221202202159] get_robot_teach_velocity
+INFO:14035-[20221202202159] get_teach_move_type
+INFO:14035-[20221202202205] create_robot_torque_sensor
+INFO:14035-[20221202202208] destroy_robot_torque_sensor
+INFO:14035-[20221202202212] TCPConcurrentServer: client disconnect (66)
+INFO:14035-[20221202202433] Controller stop run!

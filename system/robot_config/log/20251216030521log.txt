@@ -1,0 +1,335 @@
+INFO:2551-[20251216030521] verison: 12.2.0
+INFO:2551-[20251216030521] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:2551-[20251216030521] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:2551-[20251216030521] Start system initialize!
+INFO:2551-[20251216030521] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:2551-[20251216030521] group init existing problem. Some fields are not found!
+WARNING:2551-[20251216030521] dof num is 2
+WARNING:2551-[20251216030521] control:2,state:2,mode:2
+WARNING:2551-[20251216030521] ac_position:2,ac_velocity:2,ac_torque:2,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:2,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:2551-[20251216030521] position:2,velocity:2,torque:2,VelocityOffset:2,TorqueOffset:2,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:2551-[20251216030521] /////////////////////////////////////////////////////////////////
+INFO:2551-[20251216030521] fd_ecat_in_name: /ecat_in
+INFO:2551-[20251216030521] fd_ecat_out_name: /ecat_out
+INFO:2551-[20251216030521] /////////////////////////////////////////////////////////////////
+INFO:2551-[20251216030521] state: Status word
+INFO:2551-[20251216030521] control: Control word
+INFO:2551-[20251216030521] mode: Modes of operation
+INFO:2551-[20251216030521] ac_position: Position actual value
+INFO:2551-[20251216030521] ac_velocity: Velocity actual value
+INFO:2551-[20251216030521] ac_torque: Torque actual value
+INFO:2551-[20251216030521] ac_position2: 
+INFO:2551-[20251216030521] ac_velocity2: 
+INFO:2551-[20251216030521] ac_sensor_torque: 
+INFO:2551-[20251216030521] ac_mode: Modes of operation displa
+INFO:2551-[20251216030521] ErrorCode: 
+INFO:2551-[20251216030521] FollowingErrorActualValue: 
+INFO:2551-[20251216030521] position: Profile target position
+INFO:2551-[20251216030521] velocity: Target Velocity
+INFO:2551-[20251216030521] torque: Target torque
+INFO:2551-[20251216030521] VelocityOffset: Velocity offset
+INFO:2551-[20251216030521] TorqueOffset: Torque offset
+INFO:2551-[20251216030521] TorqueMaxLimit: 
+INFO:2551-[20251216030521] TorqueMinLimit: 
+INFO:2551-[20251216030521] ec_di: 
+INFO:2551-[20251216030521] ec_do: 
+INFO:2551-[20251216030521] ec_ai: 
+INFO:2551-[20251216030521] ec_ao: 
+INFO:2551-[20251216030521] ec_li: 
+INFO:2551-[20251216030521] ec_lo: 
+INFO:2551-[20251216030521] Number of fields: 26
+INFO:2551-[20251216030521] busyTs: 5000000 ns
+INFO:2551-[20251216030521] /////////////////////////////////////////////////////////////////
+INFO:2551-[20251216030521] ec_device1/robot0: 
+INFO:2551-[20251216030521] DOF: 2
+INFO:2551-[20251216030521] 0_state: 0
+INFO:2551-[20251216030521] 0_control: 0
+INFO:2551-[20251216030521] 0_mode: 16
+INFO:2551-[20251216030521] 0_ac_position: 32
+INFO:2551-[20251216030521] 0_ac_velocity: 96
+INFO:2551-[20251216030521] 0_ac_torque: 128
+INFO:2551-[20251216030521] 0_ac_current: -999999
+INFO:2551-[20251216030521] 0_ac_position2: -999999
+INFO:2551-[20251216030521] 0_ac_velocity2: -999999
+INFO:2551-[20251216030521] 0_ac_sensor_torque: -999999
+INFO:2551-[20251216030521] 0_ac_mode: 16
+INFO:2551-[20251216030521] 0_ErrorCode: -999999
+INFO:2551-[20251216030521] 0_FollowingErrorActualValue: -999999
+INFO:2551-[20251216030521] 0_position: 32
+INFO:2551-[20251216030521] 0_velocity: 112
+INFO:2551-[20251216030521] 0_torque: 144
+INFO:2551-[20251216030521] 0_VelocityOffset: 64
+INFO:2551-[20251216030521] 0_TorqueOffset: 96
+INFO:2551-[20251216030521] 0_TorqueMaxLimit: -999999
+INFO:2551-[20251216030521] 0_TorqueMinLimit: -999999
+INFO:2551-[20251216030521] 1_state: 0
+INFO:2551-[20251216030521] 1_control: 0
+INFO:2551-[20251216030521] 1_mode: 16
+INFO:2551-[20251216030521] 1_ac_position: 32
+INFO:2551-[20251216030521] 1_ac_velocity: 96
+INFO:2551-[20251216030521] 1_ac_torque: 128
+INFO:2551-[20251216030521] 1_ac_current: -999999
+INFO:2551-[20251216030521] 1_ac_position2: -999999
+INFO:2551-[20251216030521] 1_ac_velocity2: -999999
+INFO:2551-[20251216030521] 1_ac_sensor_torque: -999999
+INFO:2551-[20251216030521] 1_ac_mode: 16
+INFO:2551-[20251216030521] 1_ErrorCode: -999999
+INFO:2551-[20251216030521] 1_FollowingErrorActualValue: -999999
+INFO:2551-[20251216030521] 1_position: 32
+INFO:2551-[20251216030521] 1_velocity: 112
+INFO:2551-[20251216030521] 1_torque: 144
+INFO:2551-[20251216030521] 1_VelocityOffset: 64
+INFO:2551-[20251216030521] 1_TorqueOffset: 96
+INFO:2551-[20251216030521] 1_TorqueMaxLimit: -999999
+INFO:2551-[20251216030521] 1_TorqueMinLimit: -999999
+INFO:2551-[20251216030521] /////////////////////////////////////////////////////////////////
+INFO:2551-[20251216030521] /////////////////////////////////////////////////////////////////
+INFO:2551-[20251216030521] /////////////////////////////////////////////////////////////////
+INFO:2551-[20251216030521] system_init:simulation_switch
+NOTICE:2551-[20251216030521] Device is running
+INFO:2551-[20251216030521] system_init:GetRobotSimulationState
+INFO:2551-[20251216030521] system_init:initSystemTimer2
+INFO:2551-[20251216030521] InitRobot
+INFO:2551-[20251216030521] Hardware Match
+NOTICE:2551-[20251216030521] Real machine running mode
+INFO:2551-[20251216030521] init_robot_teach
+INFO:2551-[20251216030521] set_robot_index
+INFO:2551-[20251216030521] set_addition_index
+INFO:2551-[20251216030521] get_addition_num
+INFO:2551-[20251216030521] get_robot_num
+INFO:2551-[20251216030521] start teach server port 6666
+INFO:2551-[20251216030521] start teach command server port 6667
+INFO:2551-[20251216030521] start teach feedback server port 6668
+INFO:2551-[20251216030521] initialize finish
+INFO:2551-[20251216030607] TCPConcurrentServer: client connect (47)
+INFO:2551-[20251216030607] TCPConcurrentServer: client connect (48)
+NOTICE:2551-[20251216030607] Teach feedback clock(0) cycle time is 50 ms
+INFO:2551-[20251216030608] get_data_robjoint_all
+INFO:2551-[20251216030608] get_data_robpose_all
+INFO:2551-[20251216030608] get_data_wobj_all
+INFO:2551-[20251216030608] get_data_zone_all
+INFO:2551-[20251216030608] get_data_tool_all
+INFO:2551-[20251216030608] get_data_payload_all
+INFO:2551-[20251216030608] get_data_user_all
+INFO:2551-[20251216030608] get_data_addition_all
+INFO:2551-[20251216030608] get_data_speed_all
+INFO:2551-[20251216030608] get_robot_data_path
+INFO:2551-[20251216030608] get_robot_index
+INFO:2551-[20251216030608] get_robot_run_type
+INFO:2551-[20251216030608] get_robot_run_type
+INFO:2551-[20251216030608] get_robot_tool
+INFO:2551-[20251216030608] get_teach_move_type
+INFO:2551-[20251216030608] set_robot_run_type
+NOTICE:2551-[20251216030608] Device is running
+NOTICE:2551-[20251216030608] Real machine running mode
+INFO:2551-[20251216030608] get_robot_teach_velocity
+INFO:2551-[20251216030608] get_robot_wobj
+INFO:2551-[20251216030608] get_robot_run_type
+INFO:2551-[20251216030608] get_robot_run_type
+INFO:2551-[20251216030608] get_robot_teach_velocity
+INFO:2551-[20251216030608] get_teach_move_type
+INFO:2551-[20251216030608] get_robot_teach_coordinate
+INFO:2551-[20251216030608] set_robot_index
+INFO:2551-[20251216030608] get_robot_tool
+INFO:2551-[20251216030608] get_robot_wobj
+WARNING:2551-[20251216030610] feedback_action: network outage
+WARNING:2551-[20251216030610] feedback_action: quit
+WARNING:2551-[20251216030610] feedback_cmd_action: quit
+WARNING:2551-[20251216030614] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:2551-[20251216030614] TCPConcurrentServer: client connect (47)
+WARNING:2551-[20251216030614] TCPConcurrentServer: custom_deal_function pathread join failure (48)
+INFO:2551-[20251216030614] TCPConcurrentServer: client connect (48)
+NOTICE:2551-[20251216030614] Teach feedback clock(0) cycle time is 50 ms
+INFO:2551-[20251216030615] device_teach_enable
+ERROR:2551-[20251216030615] robot_enable_i: robot <0> state wrong(err=-176), can't enable
+WARNING:2551-[20251216030620] feedback_action: network outage
+WARNING:2551-[20251216030620] feedback_action: quit
+WARNING:2551-[20251216030620] feedback_cmd_action: quit
+WARNING:2551-[20251216030901] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:2551-[20251216030901] TCPConcurrentServer: client connect (47)
+WARNING:2551-[20251216030901] TCPConcurrentServer: custom_deal_function pathread join failure (48)
+INFO:2551-[20251216030901] TCPConcurrentServer: client connect (48)
+NOTICE:2551-[20251216030901] Teach feedback clock(0) cycle time is 50 ms
+WARNING:2551-[20251216030904] feedback_action: network outage
+WARNING:2551-[20251216030904] feedback_action: quit
+WARNING:2551-[20251216030904] feedback_cmd_action: quit
+WARNING:2551-[20251216031104] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:2551-[20251216031104] TCPConcurrentServer: client connect (47)
+WARNING:2551-[20251216031104] TCPConcurrentServer: custom_deal_function pathread join failure (48)
+INFO:2551-[20251216031104] TCPConcurrentServer: client connect (48)
+NOTICE:2551-[20251216031104] Teach feedback clock(0) cycle time is 50 ms
+INFO:2551-[20251216031105] get_data_robjoint_all
+INFO:2551-[20251216031105] get_data_robpose_all
+INFO:2551-[20251216031105] get_data_speed_all
+INFO:2551-[20251216031105] get_data_zone_all
+INFO:2551-[20251216031105] get_data_addition_all
+INFO:2551-[20251216031105] get_data_wobj_all
+INFO:2551-[20251216031105] get_data_user_all
+INFO:2551-[20251216031105] get_data_tool_all
+INFO:2551-[20251216031105] get_data_payload_all
+INFO:2551-[20251216031105] get_robot_data_path
+INFO:2551-[20251216031106] get_robot_index
+INFO:2551-[20251216031106] get_robot_run_type
+INFO:2551-[20251216031106] get_robot_run_type
+INFO:2551-[20251216031106] get_robot_teach_velocity
+INFO:2551-[20251216031106] get_teach_move_type
+INFO:2551-[20251216031106] get_robot_tool
+INFO:2551-[20251216031106] get_robot_teach_velocity
+INFO:2551-[20251216031106] get_teach_move_type
+INFO:2551-[20251216031106] get_robot_run_type
+INFO:2551-[20251216031106] get_robot_wobj
+INFO:2551-[20251216031106] get_robot_teach_coordinate
+INFO:2551-[20251216031106] set_robot_index
+INFO:2551-[20251216031106] get_robot_tool
+INFO:2551-[20251216031106] get_robot_wobj
+WARNING:2551-[20251216031108] feedback_action: network outage
+WARNING:2551-[20251216031108] feedback_action: quit
+WARNING:2551-[20251216031108] feedback_cmd_action: quit
+WARNING:2551-[20251216031117] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:2551-[20251216031117] TCPConcurrentServer: client connect (47)
+WARNING:2551-[20251216031117] TCPConcurrentServer: custom_deal_function pathread join failure (48)
+INFO:2551-[20251216031117] TCPConcurrentServer: client connect (48)
+NOTICE:2551-[20251216031117] Teach feedback clock(0) cycle time is 50 ms
+INFO:2551-[20251216031118] TCPConcurrentServer: client disconnect (47)
+INFO:2551-[20251216031118] TCPConcurrentServer: client disconnect (48)
+INFO:2551-[20251216031118] TCPConcurrentServer: client connect (47)
+INFO:2551-[20251216031118] TCPConcurrentServer: client connect (48)
+NOTICE:2551-[20251216031118] Teach feedback clock(0) cycle time is 50 ms
+WARNING:2551-[20251216031120] feedback_action: network outage
+WARNING:2551-[20251216031120] feedback_action: quit
+WARNING:2551-[20251216031120] feedback_cmd_action: quit
+WARNING:2551-[20251216032139] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:2551-[20251216032139] TCPConcurrentServer: client connect (47)
+WARNING:2551-[20251216032139] TCPConcurrentServer: custom_deal_function pathread join failure (48)
+INFO:2551-[20251216032139] TCPConcurrentServer: client connect (48)
+NOTICE:2551-[20251216032139] Teach feedback clock(0) cycle time is 50 ms
+INFO:2551-[20251216032140] get_data_robjoint_all
+INFO:2551-[20251216032140] get_data_robpose_all
+INFO:2551-[20251216032140] get_data_speed_all
+INFO:2551-[20251216032140] get_data_zone_all
+INFO:2551-[20251216032140] get_data_tool_all
+INFO:2551-[20251216032140] get_data_wobj_all
+INFO:2551-[20251216032140] get_data_user_all
+INFO:2551-[20251216032140] get_data_addition_all
+INFO:2551-[20251216032140] get_data_payload_all
+INFO:2551-[20251216032140] get_robot_data_path
+INFO:2551-[20251216032140] get_robot_index
+INFO:2551-[20251216032140] get_robot_run_type
+INFO:2551-[20251216032141] set_robot_run_type
+NOTICE:2551-[20251216032141] Device is running
+NOTICE:2551-[20251216032141] Real machine running mode
+INFO:2551-[20251216032141] get_robot_teach_velocity
+INFO:2551-[20251216032141] get_teach_move_type
+INFO:2551-[20251216032141] get_robot_run_type
+INFO:2551-[20251216032141] get_robot_tool
+INFO:2551-[20251216032141] get_robot_run_type
+INFO:2551-[20251216032141] get_robot_run_type
+INFO:2551-[20251216032141] get_robot_teach_velocity
+INFO:2551-[20251216032141] get_teach_move_type
+INFO:2551-[20251216032141] get_robot_wobj
+INFO:2551-[20251216032141] get_robot_teach_coordinate
+INFO:2551-[20251216032141] set_robot_index
+INFO:2551-[20251216032141] get_robot_tool
+INFO:2551-[20251216032141] get_robot_wobj
+INFO:2551-[20251216032142] device_teach_enable
+ERROR:2551-[20251216032142] robot_enable_i: robot <0> state wrong(err=-176), can't enable
+INFO:2551-[20251216032145] device_error_clear
+WARNING:2551-[20251216032145] feedback_action: network outage
+WARNING:2551-[20251216032145] feedback_action: quit
+WARNING:2551-[20251216032145] feedback_cmd_action: quit
+WARNING:2551-[20251216032146] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:2551-[20251216032146] TCPConcurrentServer: client connect (47)
+WARNING:2551-[20251216032146] TCPConcurrentServer: custom_deal_function pathread join failure (48)
+INFO:2551-[20251216032146] TCPConcurrentServer: client connect (48)
+NOTICE:2551-[20251216032146] Teach feedback clock(0) cycle time is 50 ms
+INFO:2551-[20251216032147] device_teach_enable
+INFO:2551-[20251216032150] set_robot_teach_velocity
+INFO:2551-[20251216032150] get_robot_teach_velocity
+INFO:2551-[20251216032150] robot_teach_joint
+INFO:2551-[20251216032150] robot_teach_stop
+INFO:2551-[20251216032151] robot_teach_joint
+INFO:2551-[20251216032152] robot_teach_stop
+INFO:2551-[20251216032152] robot_teach_joint
+INFO:2551-[20251216032152] robot_teach_stop
+WARNING:2551-[20251216032152] feedback_action: network outage
+WARNING:2551-[20251216032152] feedback_action: quit
+WARNING:2551-[20251216032152] feedback_cmd_action: quit
+WARNING:2551-[20251216032559] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:2551-[20251216032559] TCPConcurrentServer: client connect (47)
+WARNING:2551-[20251216032559] TCPConcurrentServer: custom_deal_function pathread join failure (48)
+INFO:2551-[20251216032559] TCPConcurrentServer: client connect (48)
+NOTICE:2551-[20251216032559] Teach feedback clock(0) cycle time is 50 ms
+INFO:2551-[20251216032600] get_data_robjoint_all
+INFO:2551-[20251216032600] get_data_robpose_all
+INFO:2551-[20251216032600] get_data_speed_all
+INFO:2551-[20251216032600] get_data_user_all
+INFO:2551-[20251216032600] get_data_tool_all
+INFO:2551-[20251216032600] get_data_wobj_all
+INFO:2551-[20251216032600] get_data_zone_all
+INFO:2551-[20251216032600] get_data_addition_all
+INFO:2551-[20251216032600] get_data_payload_all
+INFO:2551-[20251216032600] get_robot_data_path
+INFO:2551-[20251216032600] get_robot_index
+INFO:2551-[20251216032600] get_robot_run_type
+INFO:2551-[20251216032600] set_robot_run_type
+WARNING:2551-[20251216032600] set_robot_run_type: power state can't set simulation type
+INFO:2551-[20251216032600] get_robot_teach_velocity
+INFO:2551-[20251216032600] get_teach_move_type
+INFO:2551-[20251216032600] get_robot_run_type
+INFO:2551-[20251216032600] get_robot_tool
+INFO:2551-[20251216032600] get_robot_run_type
+INFO:2551-[20251216032600] get_robot_run_type
+INFO:2551-[20251216032600] get_robot_teach_velocity
+INFO:2551-[20251216032600] get_teach_move_type
+INFO:2551-[20251216032600] get_robot_wobj
+INFO:2551-[20251216032600] get_robot_teach_coordinate
+INFO:2551-[20251216032600] set_robot_index
+INFO:2551-[20251216032600] get_robot_tool
+INFO:2551-[20251216032600] get_robot_wobj
+INFO:2551-[20251216032604] device_teach_enable
+INFO:2551-[20251216032607] robot_teach_joint
+INFO:2551-[20251216032607] robot_teach_stop
+INFO:2551-[20251216032607] robot_teach_joint
+INFO:2551-[20251216032608] robot_teach_stop
+INFO:2551-[20251216032608] robot_teach_joint
+INFO:2551-[20251216032609] robot_teach_stop
+INFO:2551-[20251216032609] robot_teach_joint
+INFO:2551-[20251216032609] robot_teach_stop
+INFO:2551-[20251216032609] robot_teach_joint
+INFO:2551-[20251216032609] robot_teach_stop
+INFO:2551-[20251216032609] robot_teach_joint
+INFO:2551-[20251216032609] robot_teach_stop
+INFO:2551-[20251216032611] robot_teach_joint
+INFO:2551-[20251216032611] robot_teach_stop
+INFO:2551-[20251216032611] robot_teach_joint
+INFO:2551-[20251216032612] robot_teach_stop
+INFO:2551-[20251216032612] robot_teach_joint
+INFO:2551-[20251216032612] robot_teach_stop
+INFO:2551-[20251216032614] robot_teach_joint
+INFO:2551-[20251216032614] robot_teach_stop
+INFO:2551-[20251216032614] robot_teach_joint
+INFO:2551-[20251216032614] robot_teach_stop
+INFO:2551-[20251216032615] robot_teach_joint
+INFO:2551-[20251216032615] robot_teach_stop
+INFO:2551-[20251216032618] robot_teach_joint
+INFO:2551-[20251216032622] robot_teach_stop
+INFO:2551-[20251216032627] robot_teach_joint
+INFO:2551-[20251216032628] robot_teach_stop
+INFO:2551-[20251216032629] robot_teach_joint
+INFO:2551-[20251216032635] robot_teach_stop
+INFO:2551-[20251216032637] set_robot_teach_velocity
+INFO:2551-[20251216032637] get_robot_teach_velocity
+INFO:2551-[20251216032638] robot_teach_joint
+INFO:2551-[20251216032639] robot_teach_stop
+INFO:2551-[20251216032640] device_teach_disenable
+INFO:2551-[20251216032642] device_teach_enable
+INFO:2551-[20251216032643] robot_teach_joint
+INFO:2551-[20251216032651] robot_teach_stop
+INFO:2551-[20251216032709] set_robot_teach_velocity
+INFO:2551-[20251216032709] get_robot_teach_velocity
+INFO:2551-[20251216032710] robot_teach_joint
+INFO:2551-[20251216032710] robot_teach_stop
+INFO:2551-[20251216032711] robot_teach_joint
+INFO:2551-[20251216032711] robot_teach_stop
+INFO:2551-[20251216032712] robot_teach_joint
+INFO:2551-[20251216032712] robot_teach_stop

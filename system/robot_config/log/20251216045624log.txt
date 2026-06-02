@@ -1,0 +1,4 @@
+INFO:2211-[20251216045624] verison: 12.2.0
+INFO:2211-[20251216045624] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:2211-[20251216045624] load_configure_data: load_device_config failure
+ERROR:2211-[20251216045624] common_init: load_configure_data failure, err=-146

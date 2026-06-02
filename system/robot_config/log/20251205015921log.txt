@@ -1,0 +1,439 @@
+INFO:2755-[20251205015921] verison: 12.2.0
+INFO:2755-[20251205015921] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:2755-[20251205015921] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:2755-[20251205015921] Start system initialize!
+INFO:2755-[20251205015921] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:2755-[20251205015921] group init existing problem. Some fields are not found!
+WARNING:2755-[20251205015921] dof num is 1
+WARNING:2755-[20251205015921] control:1,state:1,mode:1
+WARNING:2755-[20251205015921] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:2755-[20251205015921] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:2755-[20251205015921] /////////////////////////////////////////////////////////////////
+INFO:2755-[20251205015921] fd_ecat_in_name: /ecat_in
+INFO:2755-[20251205015921] fd_ecat_out_name: /ecat_out
+INFO:2755-[20251205015921] /////////////////////////////////////////////////////////////////
+INFO:2755-[20251205015921] state: Status word
+INFO:2755-[20251205015921] control: Control word
+INFO:2755-[20251205015921] mode: Modes of operation
+INFO:2755-[20251205015921] ac_position: Position actual value
+INFO:2755-[20251205015921] ac_velocity: Velocity actual value
+INFO:2755-[20251205015921] ac_torque: Torque actual value
+INFO:2755-[20251205015921] ac_position2: 
+INFO:2755-[20251205015921] ac_velocity2: 
+INFO:2755-[20251205015921] ac_sensor_torque: 
+INFO:2755-[20251205015921] ac_mode: Modes of operation displa
+INFO:2755-[20251205015921] ErrorCode: 
+INFO:2755-[20251205015921] FollowingErrorActualValue: 
+INFO:2755-[20251205015921] position: Profile target position
+INFO:2755-[20251205015921] velocity: Target Velocity
+INFO:2755-[20251205015921] torque: Target torque
+INFO:2755-[20251205015921] VelocityOffset: Velocity offset
+INFO:2755-[20251205015921] TorqueOffset: Torque offset
+INFO:2755-[20251205015921] TorqueMaxLimit: 
+INFO:2755-[20251205015921] TorqueMinLimit: 
+INFO:2755-[20251205015921] ec_di: 
+INFO:2755-[20251205015921] ec_do: 
+INFO:2755-[20251205015921] ec_ai: 
+INFO:2755-[20251205015921] ec_ao: 
+INFO:2755-[20251205015921] ec_li: 
+INFO:2755-[20251205015921] ec_lo: 
+INFO:2755-[20251205015921] Number of fields: 26
+INFO:2755-[20251205015921] busyTs: 5000000 ns
+INFO:2755-[20251205015921] /////////////////////////////////////////////////////////////////
+INFO:2755-[20251205015921] ec_device1/robot0: 
+INFO:2755-[20251205015921] DOF: 1
+INFO:2755-[20251205015921] 0_state: 0
+INFO:2755-[20251205015921] 0_control: 0
+INFO:2755-[20251205015921] 0_mode: 16
+INFO:2755-[20251205015921] 0_ac_position: 32
+INFO:2755-[20251205015921] 0_ac_velocity: 96
+INFO:2755-[20251205015921] 0_ac_torque: 128
+INFO:2755-[20251205015921] 0_ac_current: -999999
+INFO:2755-[20251205015921] 0_ac_position2: -999999
+INFO:2755-[20251205015921] 0_ac_velocity2: -999999
+INFO:2755-[20251205015921] 0_ac_sensor_torque: -999999
+INFO:2755-[20251205015921] 0_ac_mode: 16
+INFO:2755-[20251205015921] 0_ErrorCode: -999999
+INFO:2755-[20251205015921] 0_FollowingErrorActualValue: -999999
+INFO:2755-[20251205015921] 0_position: 32
+INFO:2755-[20251205015921] 0_velocity: 112
+INFO:2755-[20251205015921] 0_torque: 144
+INFO:2755-[20251205015921] 0_VelocityOffset: 64
+INFO:2755-[20251205015921] 0_TorqueOffset: 96
+INFO:2755-[20251205015921] 0_TorqueMaxLimit: -999999
+INFO:2755-[20251205015921] 0_TorqueMinLimit: -999999
+INFO:2755-[20251205015921] /////////////////////////////////////////////////////////////////
+INFO:2755-[20251205015921] /////////////////////////////////////////////////////////////////
+INFO:2755-[20251205015921] /////////////////////////////////////////////////////////////////
+INFO:2755-[20251205015921] system_init:simulation_switch
+NOTICE:2755-[20251205015921] Device is not run, start simulation timer
+INFO:2755-[20251205015921] system_init:GetRobotSimulationState
+INFO:2755-[20251205015921] system_init:initSystemTimer2
+INFO:2755-[20251205015921] InitRobot
+INFO:2755-[20251205015921] Hardware Match
+NOTICE:2755-[20251205015921] Simulation running mode
+INFO:2755-[20251205015921] init_robot_teach
+INFO:2755-[20251205015921] set_robot_index
+INFO:2755-[20251205015921] set_addition_index
+INFO:2755-[20251205015921] get_addition_num
+INFO:2755-[20251205015921] get_robot_num
+INFO:2755-[20251205015921] start teach server port 6666
+INFO:2755-[20251205015921] start teach command server port 6667
+INFO:2755-[20251205015921] start teach feedback server port 6668
+INFO:2755-[20251205015921] initialize finish
+INFO:2755-[20251205020141] TCPConcurrentServer: client connect (47)
+INFO:2755-[20251205020141] TCPConcurrentServer: client connect (48)
+NOTICE:2755-[20251205020141] Teach feedback clock(0) cycle time is 50 ms
+INFO:2755-[20251205020142] get_data_robjoint_all
+INFO:2755-[20251205020142] get_data_robpose_all
+INFO:2755-[20251205020142] get_data_speed_all
+INFO:2755-[20251205020142] get_data_zone_all
+INFO:2755-[20251205020142] get_data_tool_all
+INFO:2755-[20251205020142] get_data_payload_all
+INFO:2755-[20251205020142] get_data_user_all
+INFO:2755-[20251205020142] get_data_addition_all
+INFO:2755-[20251205020142] get_data_wobj_all
+INFO:2755-[20251205020142] get_robot_data_path
+INFO:2755-[20251205020142] get_robot_index
+INFO:2755-[20251205020142] get_teach_move_type
+INFO:2755-[20251205020142] set_robot_run_type
+NOTICE:2755-[20251205020142] Device is running
+NOTICE:2755-[20251205020142] Real machine running mode
+INFO:2755-[20251205020142] get_robot_teach_velocity
+INFO:2755-[20251205020142] get_robot_run_type
+INFO:2755-[20251205020142] get_robot_run_type
+INFO:2755-[20251205020142] get_robot_tool
+INFO:2755-[20251205020142] get_robot_run_type
+INFO:2755-[20251205020142] get_robot_wobj
+INFO:2755-[20251205020142] get_robot_teach_velocity
+INFO:2755-[20251205020142] get_robot_teach_coordinate
+INFO:2755-[20251205020142] get_robot_run_type
+INFO:2755-[20251205020142] set_robot_index
+INFO:2755-[20251205020142] get_teach_move_type
+INFO:2755-[20251205020142] get_robot_tool
+INFO:2755-[20251205020142] get_robot_wobj
+INFO:2755-[20251205020148] TCPConcurrentServer: client disconnect (48)
+INFO:2755-[20251205020148] TCPConcurrentServer: client disconnect (47)
+INFO:2927-[20251205020241] verison: 12.2.0
+INFO:2927-[20251205020241] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+NOTICE:2927-[20251205020241] Data file path: /home/robot/Work/system/robot_config/app/
+INFO:2927-[20251205020241] Start system initialize!
+INFO:2927-[20251205020241] OUT SINGLE ABSOLUTE ENCOUDER(POSITION CLOSED LOOP)
+WARNING:2927-[20251205020241] group init existing problem. Some fields are not found!
+WARNING:2927-[20251205020241] dof num is 1
+WARNING:2927-[20251205020241] control:1,state:1,mode:1
+WARNING:2927-[20251205020241] ac_position:1,ac_velocity:1,ac_torque:1,ac_position2:0,ac_velocity2:0,ac_sensor_torque:0,ac_mode:1,ErrorCode:0,FollowingErrorActualValue:0
+WARNING:2927-[20251205020241] position:1,velocity:1,torque:1,VelocityOffset:1,TorqueOffset:1,TorqueMaxLimit:0,TorqueMinLimit:0
+INFO:2927-[20251205020241] system_init:initSystemTimer2
+INFO:2927-[20251205020241] InitRobot
+INFO:2927-[20251205020241] Start system copy
+INFO:2927-[20251205020241] initialize finish
+INFO:2755-[20251205020257] TCPConcurrentServer: client connect (47)
+INFO:2755-[20251205020257] TCPConcurrentServer: client connect (48)
+NOTICE:2755-[20251205020257] Teach feedback clock(0) cycle time is 50 ms
+INFO:2755-[20251205020258] get_data_robjoint_all
+INFO:2755-[20251205020258] get_data_robpose_all
+INFO:2755-[20251205020258] get_data_speed_all
+INFO:2755-[20251205020258] get_data_user_all
+INFO:2755-[20251205020258] get_data_tool_all
+INFO:2755-[20251205020258] get_data_wobj_all
+INFO:2755-[20251205020258] get_data_zone_all
+INFO:2755-[20251205020258] get_data_addition_all
+INFO:2755-[20251205020258] get_data_payload_all
+INFO:2755-[20251205020258] get_robot_data_path
+INFO:2755-[20251205020258] get_robot_index
+INFO:2755-[20251205020258] get_teach_move_type
+INFO:2755-[20251205020258] set_robot_run_type
+NOTICE:2755-[20251205020258] Device is running
+NOTICE:2755-[20251205020258] Real machine running mode
+INFO:2755-[20251205020258] get_robot_teach_velocity
+INFO:2755-[20251205020258] get_robot_run_type
+INFO:2755-[20251205020258] get_robot_run_type
+INFO:2755-[20251205020258] get_robot_tool
+INFO:2755-[20251205020258] get_teach_move_type
+INFO:2755-[20251205020258] get_robot_run_type
+INFO:2755-[20251205020258] get_robot_teach_velocity
+INFO:2755-[20251205020258] get_robot_run_type
+INFO:2755-[20251205020258] get_robot_wobj
+INFO:2755-[20251205020258] get_robot_teach_coordinate
+INFO:2755-[20251205020258] set_robot_index
+INFO:2755-[20251205020258] get_robot_tool
+INFO:2755-[20251205020258] get_robot_wobj
+INFO:2755-[20251205020302] device_teach_enable
+ERROR:2755-[20251205020302] device_teach_enable: robot(0) driver servo axis(1) error!
+INFO:2755-[20251205020303] TCPConcurrentServer: client disconnect (47)
+INFO:2755-[20251205020303] TCPConcurrentServer: client disconnect (48)
+INFO:2755-[20251205020303] TCPConcurrentServer: client connect (47)
+INFO:2755-[20251205020303] TCPConcurrentServer: client connect (48)
+NOTICE:2755-[20251205020303] Teach feedback clock(0) cycle time is 50 ms
+INFO:2755-[20251205020304] device_error_clear
+INFO:2755-[20251205020306] device_teach_enable
+ERROR:2755-[20251205020306] group_power:axis(ID:1) error
+ERROR:2755-[20251205020306] robot_enable_i:robot <0> enable failure
+INFO:2755-[20251205020309] TCPConcurrentServer: client disconnect (48)
+INFO:2755-[20251205020309] TCPConcurrentServer: client disconnect (47)
+INFO:2755-[20251205021210] TCPConcurrentServer: client connect (47)
+INFO:2755-[20251205021210] TCPConcurrentServer: client connect (48)
+NOTICE:2755-[20251205021210] Teach feedback clock(0) cycle time is 50 ms
+INFO:2755-[20251205021211] get_data_robjoint_all
+INFO:2755-[20251205021211] get_data_tool_all
+INFO:2755-[20251205021211] get_data_speed_all
+INFO:2755-[20251205021211] get_data_zone_all
+INFO:2755-[20251205021211] get_data_robpose_all
+INFO:2755-[20251205021211] get_data_wobj_all
+INFO:2755-[20251205021211] get_data_user_all
+INFO:2755-[20251205021211] get_data_addition_all
+INFO:2755-[20251205021211] get_data_payload_all
+INFO:2755-[20251205021211] get_robot_data_path
+INFO:2755-[20251205021211] get_robot_index
+INFO:2755-[20251205021211] get_robot_run_type
+INFO:2755-[20251205021211] set_robot_run_type
+NOTICE:2755-[20251205021211] Device is running
+NOTICE:2755-[20251205021211] Real machine running mode
+INFO:2755-[20251205021211] get_robot_teach_velocity
+INFO:2755-[20251205021211] get_robot_run_type
+INFO:2755-[20251205021211] get_robot_run_type
+INFO:2755-[20251205021212] get_robot_tool
+INFO:2755-[20251205021212] get_teach_move_type
+INFO:2755-[20251205021212] get_robot_run_type
+INFO:2755-[20251205021212] get_teach_move_type
+INFO:2755-[20251205021212] get_robot_wobj
+INFO:2755-[20251205021212] get_robot_teach_velocity
+INFO:2755-[20251205021212] get_robot_teach_coordinate
+INFO:2755-[20251205021212] set_robot_index
+INFO:2755-[20251205021212] get_robot_tool
+INFO:2755-[20251205021212] get_robot_wobj
+INFO:2755-[20251205021239] device_teach_disenable
+INFO:2755-[20251205021242] device_teach_disenable
+INFO:2755-[20251205021243] TCPConcurrentServer: client disconnect (47)
+INFO:2755-[20251205021243] TCPConcurrentServer: client disconnect (48)
+INFO:2755-[20251205021418] TCPConcurrentServer: client connect (47)
+INFO:2755-[20251205021418] TCPConcurrentServer: client connect (48)
+NOTICE:2755-[20251205021418] Teach feedback clock(0) cycle time is 50 ms
+INFO:2755-[20251205021419] get_data_robjoint_all
+INFO:2755-[20251205021419] get_data_robpose_all
+INFO:2755-[20251205021419] get_data_speed_all
+INFO:2755-[20251205021419] get_data_zone_all
+INFO:2755-[20251205021419] get_data_tool_all
+INFO:2755-[20251205021419] get_data_wobj_all
+INFO:2755-[20251205021419] get_data_user_all
+INFO:2755-[20251205021419] get_data_addition_all
+INFO:2755-[20251205021419] get_data_payload_all
+INFO:2755-[20251205021419] get_robot_data_path
+INFO:2755-[20251205021419] get_robot_index
+INFO:2755-[20251205021419] get_robot_run_type
+INFO:2755-[20251205021419] set_robot_run_type
+NOTICE:2755-[20251205021419] Device is running
+NOTICE:2755-[20251205021419] Real machine running mode
+INFO:2755-[20251205021419] get_robot_teach_velocity
+INFO:2755-[20251205021419] get_teach_move_type
+INFO:2755-[20251205021419] get_robot_run_type
+INFO:2755-[20251205021419] get_robot_tool
+INFO:2755-[20251205021419] get_robot_run_type
+INFO:2755-[20251205021419] get_robot_run_type
+INFO:2755-[20251205021419] get_robot_teach_velocity
+INFO:2755-[20251205021419] get_teach_move_type
+INFO:2755-[20251205021419] get_robot_wobj
+INFO:2755-[20251205021419] get_robot_teach_coordinate
+INFO:2755-[20251205021419] set_robot_index
+INFO:2755-[20251205021419] get_robot_tool
+INFO:2755-[20251205021419] get_robot_wobj
+INFO:2755-[20251205021422] device_error_clear
+INFO:2755-[20251205021423] device_error_clear
+INFO:2755-[20251205021424] device_error_clear
+INFO:2755-[20251205021425] device_error_clear
+INFO:2755-[20251205021425] device_error_clear
+INFO:2755-[20251205021425] device_error_clear
+INFO:2755-[20251205021426] TCPConcurrentServer: client disconnect (47)
+INFO:2755-[20251205021426] TCPConcurrentServer: client disconnect (48)
+INFO:2755-[20251205021426] TCPConcurrentServer: client connect (47)
+INFO:2755-[20251205021426] TCPConcurrentServer: client connect (48)
+NOTICE:2755-[20251205021426] Teach feedback clock(0) cycle time is 50 ms
+INFO:2755-[20251205021427] device_error_clear
+INFO:2755-[20251205021431] device_teach_enable
+ERROR:2755-[20251205021431] group_power:axis(ID:1) error
+ERROR:2755-[20251205021431] robot_enable_i:robot <0> enable failure
+INFO:2755-[20251205021433] device_error_clear
+INFO:2755-[20251205021438] device_teach_enable
+ERROR:2755-[20251205021438] group_power:axis(ID:1) error
+ERROR:2755-[20251205021438] robot_enable_i:robot <0> enable failure
+INFO:2755-[20251205021439] TCPConcurrentServer: client disconnect (47)
+INFO:2755-[20251205021439] TCPConcurrentServer: client disconnect (48)
+INFO:2755-[20251205021439] TCPConcurrentServer: client connect (47)
+INFO:2755-[20251205021439] TCPConcurrentServer: client connect (48)
+NOTICE:2755-[20251205021439] Teach feedback clock(0) cycle time is 50 ms
+INFO:2755-[20251205021441] device_error_clear
+INFO:2755-[20251205021507] device_error_clear
+INFO:2755-[20251205021509] device_error_clear
+INFO:2755-[20251205021511] device_teach_enable
+ERROR:2755-[20251205021511] group_power:axis(ID:1) error
+ERROR:2755-[20251205021511] robot_enable_i:robot <0> enable failure
+INFO:2755-[20251205021518] device_error_clear
+INFO:2755-[20251205021520] device_error_clear
+INFO:2755-[20251205021522] TCPConcurrentServer: client disconnect (47)
+INFO:2755-[20251205021532] TCPConcurrentServer: client disconnect (48)
+INFO:2755-[20251205025337] TCPConcurrentServer: client connect (47)
+INFO:2755-[20251205025337] TCPConcurrentServer: client connect (48)
+NOTICE:2755-[20251205025337] Teach feedback clock(0) cycle time is 50 ms
+INFO:2755-[20251205025338] get_data_robjoint_all
+INFO:2755-[20251205025338] get_data_robpose_all
+INFO:2755-[20251205025338] get_data_speed_all
+INFO:2755-[20251205025338] get_data_zone_all
+INFO:2755-[20251205025339] get_data_tool_all
+INFO:2755-[20251205025339] get_data_wobj_all
+INFO:2755-[20251205025339] get_data_user_all
+INFO:2755-[20251205025339] get_data_addition_all
+INFO:2755-[20251205025339] get_data_payload_all
+INFO:2755-[20251205025339] get_robot_data_path
+INFO:2755-[20251205025339] get_robot_index
+INFO:2755-[20251205025339] get_robot_run_type
+INFO:2755-[20251205025339] set_robot_run_type
+NOTICE:2755-[20251205025339] Device is not run, start simulation timer
+NOTICE:2755-[20251205025339] Simulation running mode
+INFO:2755-[20251205025339] get_robot_teach_velocity
+INFO:2755-[20251205025339] get_teach_move_type
+INFO:2755-[20251205025339] get_robot_run_type
+INFO:2755-[20251205025339] get_robot_tool
+INFO:2755-[20251205025339] get_robot_run_type
+INFO:2755-[20251205025339] get_robot_run_type
+INFO:2755-[20251205025339] get_robot_teach_velocity
+INFO:2755-[20251205025339] get_teach_move_type
+INFO:2755-[20251205025339] get_robot_wobj
+INFO:2755-[20251205025339] get_robot_teach_coordinate
+INFO:2755-[20251205025339] set_robot_index
+INFO:2755-[20251205025339] get_robot_tool
+INFO:2755-[20251205025339] get_robot_wobj
+INFO:2755-[20251205025342] device_teach_disenable
+INFO:2755-[20251205025343] TCPConcurrentServer: client disconnect (47)
+INFO:2755-[20251205025343] TCPConcurrentServer: client disconnect (48)
+INFO:2755-[20251205025343] TCPConcurrentServer: client connect (47)
+INFO:2755-[20251205025343] TCPConcurrentServer: client connect (48)
+NOTICE:2755-[20251205025343] Teach feedback clock(0) cycle time is 50 ms
+INFO:2755-[20251205025344] device_error_clear
+INFO:2755-[20251205025345] device_teach_enable
+INFO:2755-[20251205025346] TCPConcurrentServer: client disconnect (48)
+INFO:2755-[20251205025346] TCPConcurrentServer: client disconnect (47)
+INFO:2755-[20251205031232] TCPConcurrentServer: client connect (47)
+INFO:2755-[20251205031232] TCPConcurrentServer: client connect (48)
+NOTICE:2755-[20251205031232] Teach feedback clock(0) cycle time is 50 ms
+INFO:2755-[20251205031233] get_data_robjoint_all
+INFO:2755-[20251205031233] get_data_robpose_all
+INFO:2755-[20251205031233] get_data_speed_all
+INFO:2755-[20251205031233] get_data_zone_all
+INFO:2755-[20251205031233] get_data_tool_all
+INFO:2755-[20251205031233] get_data_wobj_all
+INFO:2755-[20251205031233] get_data_user_all
+INFO:2755-[20251205031233] get_data_addition_all
+INFO:2755-[20251205031233] get_data_payload_all
+INFO:2755-[20251205031233] get_robot_data_path
+INFO:2755-[20251205031233] get_robot_index
+INFO:2755-[20251205031233] get_robot_run_type
+INFO:2755-[20251205031233] set_robot_run_type
+NOTICE:2755-[20251205031233] Device is running
+NOTICE:2755-[20251205031233] Real machine running mode
+INFO:2755-[20251205031233] get_robot_teach_velocity
+INFO:2755-[20251205031233] get_teach_move_type
+INFO:2755-[20251205031233] get_robot_run_type
+INFO:2755-[20251205031233] get_robot_tool
+INFO:2755-[20251205031233] get_teach_move_type
+INFO:2755-[20251205031233] get_robot_run_type
+INFO:2755-[20251205031233] get_robot_teach_velocity
+INFO:2755-[20251205031234] get_robot_run_type
+INFO:2755-[20251205031234] get_robot_wobj
+INFO:2755-[20251205031234] get_robot_teach_coordinate
+INFO:2755-[20251205031234] set_robot_index
+INFO:2755-[20251205031234] get_robot_tool
+INFO:2755-[20251205031234] get_robot_wobj
+INFO:2755-[20251205031236] device_teach_enable
+INFO:2755-[20251205031240] set_robot_teach_velocity
+INFO:2755-[20251205031240] get_robot_teach_velocity
+INFO:2755-[20251205031241] robot_teach_joint
+INFO:2755-[20251205031241] robot_teach_stop
+INFO:2755-[20251205031244] set_robot_teach_velocity
+INFO:2755-[20251205031244] get_robot_teach_velocity
+INFO:2755-[20251205031254] robot_teach_joint
+INFO:2755-[20251205031254] robot_teach_stop
+INFO:2755-[20251205031254] robot_teach_joint
+INFO:2755-[20251205031257] robot_teach_stop
+INFO:2755-[20251205031257] robot_teach_joint
+INFO:2755-[20251205031258] robot_teach_stop
+INFO:2755-[20251205031259] robot_teach_joint
+INFO:2755-[20251205031300] robot_teach_stop
+INFO:2755-[20251205031303] robot_teach_joint
+INFO:2755-[20251205031305] robot_teach_stop
+INFO:2755-[20251205031306] robot_teach_joint
+INFO:2755-[20251205031307] robot_teach_stop
+INFO:2755-[20251205031322] robot_teach_joint
+INFO:2755-[20251205031324] robot_teach_stop
+INFO:2755-[20251205031330] device_teach_disenable
+INFO:2755-[20251205031649] device_teach_enable
+ERROR:2755-[20251205031659] group_power:power timeout
+ERROR:2755-[20251205031659] robot_enable_i:robot <0> enable failure
+INFO:2755-[20251205031659] external_action: The number of received protocol data items is 2
+INFO:2755-[20251205031659] device_teach_enable
+ERROR:2755-[20251205031709] group_power:power timeout
+ERROR:2755-[20251205031709] robot_enable_i:robot <0> enable failure
+INFO:2755-[20251205031709] device_teach_disenable
+INFO:2755-[20251205031709] device_teach_enable
+INFO:2755-[20251205031718] TCPConcurrentServer: client disconnect (48)
+ERROR:2755-[20251205031719] group_power:power timeout
+ERROR:2755-[20251205031719] robot_enable_i:robot <0> enable failure
+INFO:2755-[20251205031719] external_action: The number of received protocol data items is 4
+INFO:2755-[20251205031719] device_teach_enable
+WARNING:2755-[20251205031719] feedback_cmd_action: quit
+INFO:2755-[20251205031725] TCPConcurrentServer: client connect (47)
+NOTICE:2755-[20251205031725] Teach feedback clock(0) cycle time is 50 ms
+ERROR:2755-[20251205031729] group_power:power timeout
+ERROR:2755-[20251205031729] robot_enable_i:robot <0> enable failure
+INFO:2755-[20251205031729] device_teach_enable
+INFO:2755-[20251205031733] TCPConcurrentServer: client disconnect (47)
+ERROR:2755-[20251205031739] group_power:power timeout
+ERROR:2755-[20251205031739] robot_enable_i:robot <0> enable failure
+INFO:2755-[20251205031739] device_teach_disenable
+INFO:2755-[20251205031739] device_teach_enable
+ERROR:2755-[20251205031749] group_power:power timeout
+ERROR:2755-[20251205031749] robot_enable_i:robot <0> enable failure
+WARNING:2755-[20251205031749] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:2755-[20251205031749] TCPConcurrentServer: client connect (47)
+INFO:2755-[20251205031749] external_action: The number of received protocol data items is 5
+INFO:2755-[20251205031749] get_data_robjoint_all
+INFO:2755-[20251205031749] get_data_robpose_all
+INFO:2755-[20251205031749] get_data_speed_all
+INFO:2755-[20251205031749] get_data_zone_all
+INFO:2755-[20251205031749] get_data_tool_all
+WARNING:2755-[20251205031749] feedback_cmd_action: quit
+WARNING:2755-[20251205031756] TCPConcurrentServer: custom_deal_function pathread join failure (47)
+INFO:2755-[20251205031756] TCPConcurrentServer: client connect (47)
+INFO:2755-[20251205031756] TCPConcurrentServer: client connect (48)
+NOTICE:2755-[20251205031756] Teach feedback clock(0) cycle time is 50 ms
+INFO:2755-[20251205031757] get_data_robjoint_all
+INFO:2755-[20251205031757] get_data_robpose_all
+INFO:2755-[20251205031757] get_data_speed_all
+INFO:2755-[20251205031757] get_data_zone_all
+INFO:2755-[20251205031757] get_data_tool_all
+INFO:2755-[20251205031757] get_data_wobj_all
+INFO:2755-[20251205031757] get_data_user_all
+INFO:2755-[20251205031757] get_data_addition_all
+INFO:2755-[20251205031757] get_data_payload_all
+INFO:2755-[20251205031757] get_robot_data_path
+INFO:2755-[20251205031757] get_robot_index
+INFO:2755-[20251205031757] get_teach_move_type
+INFO:2755-[20251205031757] set_robot_run_type
+NOTICE:2755-[20251205031757] Device is running
+NOTICE:2755-[20251205031757] Real machine running mode
+INFO:2755-[20251205031757] get_robot_teach_velocity
+INFO:2755-[20251205031757] get_robot_run_type
+INFO:2755-[20251205031757] get_robot_run_type
+INFO:2755-[20251205031757] get_robot_tool
+INFO:2755-[20251205031757] get_robot_run_type
+INFO:2755-[20251205031757] get_robot_run_type
+INFO:2755-[20251205031757] get_robot_teach_velocity
+INFO:2755-[20251205031757] get_robot_wobj
+INFO:2755-[20251205031757] get_teach_move_type
+INFO:2755-[20251205031757] get_robot_teach_coordinate
+INFO:2755-[20251205031757] set_robot_index
+INFO:2755-[20251205031757] get_robot_tool
+INFO:2755-[20251205031757] get_robot_wobj
+INFO:2755-[20251205031759] device_teach_enable
+ERROR:2755-[20251205031809] group_power:power timeout
+ERROR:2755-[20251205031809] robot_enable_i:robot <0> enable failure
