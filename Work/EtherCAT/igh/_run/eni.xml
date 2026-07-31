@@ -1,0 +1,2456 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EtherCATConfig>
+  <Config>
+    <Master>
+      <Index>0</Index>
+    </Master>
+		<Slave>
+            <Info>
+				<Alias>0</Alias>
+				<Position>0</Position>
+				<VendorId>0x00000009</VendorId>
+				<ProductCode>0x00009252</ProductCode>
+            </Info>
+            <ProcessData>
+                <TxPdo Sm="3">
+					<Index>#x1a00</Index>
+					<Name>Inputs</Name>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input01</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input02</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>3</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input03</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>4</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input04</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>5</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input05</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>6</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input06</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>7</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input07</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>8</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input08</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>9</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input09</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>10</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input10</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>11</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input11</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>12</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input12</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>13</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input13</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>14</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input14</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input15</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input16</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>17</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input17</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>18</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input18</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>19</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input19</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>20</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input20</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<RxPdo Sm="2">
+					<Index>#x1600</Index>
+					<Name>Outputs</Name>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved1</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved2</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>3</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved3</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>4</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved4</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+				</RxPdo>
+            </ProcessData>
+            <Dc>
+                <AssignActivate>0x0300</AssignActivate>
+                <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+                <ShiftTimeSync0>0</ShiftTimeSync0>
+                <CycleTimeSync1 Factor="0">0</CycleTimeSync1>
+                <ShiftTimeSync1>0</ShiftTimeSync1>
+            </Dc>
+            <WatchDog>
+                <Divider>0</Divider>
+                <Intervals>0</Intervals>
+            </WatchDog>
+        </Slave>
+
+    <Slave>
+      <Info>
+        <Alias>0</Alias>
+        <Position>1</Position>
+        <VendorId>#x00000C48</VendorId>
+        <ProductCode>#x00030924</ProductCode>
+      </Info>
+      <ProcessData>
+<TxPdo Sm="3">
+<Index>0x1a07</Index>
+<Entry>
+<Index>0x6041</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Status word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6061</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation display</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x6064</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60f4</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position loop error.</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x606c</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6077</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque actual value</Name>
+<DataType>INT</DataType>
+</Entry>
+</TxPdo>
+<RxPdo Sm="2">
+<Index>0x1607</Index>
+<Entry>
+<Index>0x6040</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Control word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6060</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x607a</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Profile target position</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b1</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity offset</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b2</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque offset</Name>
+<DataType>INT</DataType>
+</Entry>
+<Entry>
+<Index>0x60FF</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Target Velocity</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6071</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Target torque</Name>
+<DataType>INT</DataType>
+</Entry>
+</RxPdo>
+      </ProcessData>
+      <Dc>
+        <AssignActivate>0x0300</AssignActivate>
+        <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+        <ShiftTimeSync0>0</ShiftTimeSync0>
+        <CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+        <ShiftTimeSync1>0</ShiftTimeSync1>
+      </Dc>
+      <WatchDog>
+        <Divider>0</Divider>
+        <Intervals>0</Intervals>
+      </WatchDog>
+    </Slave>
+    <Slave>
+      <Info>
+        <Alias>0</Alias>
+        <Position>2</Position>
+        <VendorId>#x00000C48</VendorId>
+        <ProductCode>#x00030924</ProductCode>
+      </Info>
+      <ProcessData>
+<TxPdo Sm="3">
+<Index>0x1a07</Index>
+<Entry>
+<Index>0x6041</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Status word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6061</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation display</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x6064</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60f4</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position loop error.</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x606c</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6077</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque actual value</Name>
+<DataType>INT</DataType>
+</Entry>
+</TxPdo>
+<RxPdo Sm="2">
+<Index>0x1607</Index>
+<Entry>
+<Index>0x6040</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Control word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6060</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x607a</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Profile target position</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b1</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity offset</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b2</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque offset</Name>
+<DataType>INT</DataType>
+</Entry>
+<Entry>
+<Index>0x60FF</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Target Velocity</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6071</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Target torque</Name>
+<DataType>INT</DataType>
+</Entry>
+</RxPdo>
+      </ProcessData>
+      <Dc>
+        <AssignActivate>0x0300</AssignActivate>
+        <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+        <ShiftTimeSync0>0</ShiftTimeSync0>
+        <CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+        <ShiftTimeSync1>0</ShiftTimeSync1>
+      </Dc>
+      <WatchDog>
+        <Divider>0</Divider>
+        <Intervals>0</Intervals>
+      </WatchDog>
+    </Slave>
+    <Slave>
+            <Info>
+				<Alias>0</Alias>
+				<Position>3</Position>
+				<VendorId>0x00000009</VendorId>
+				<ProductCode>0x00009252</ProductCode>
+            </Info>
+            <ProcessData>
+                <TxPdo Sm="3">
+					<Index>#x1a00</Index>
+					<Name>Inputs</Name>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input01</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input02</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>3</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input03</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>4</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input04</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>5</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input05</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>6</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input06</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>7</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input07</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>8</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input08</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>9</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input09</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>10</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input10</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>11</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input11</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>12</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input12</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>13</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input13</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>14</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input14</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input15</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input16</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>17</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input17</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>18</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input18</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>19</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input19</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>20</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input20</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<RxPdo Sm="2">
+					<Index>#x1600</Index>
+					<Name>Outputs</Name>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved1</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved2</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>3</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved3</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>4</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved4</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+				</RxPdo>
+            </ProcessData>
+            <Dc>
+                <AssignActivate>0x0300</AssignActivate>
+                <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+                <ShiftTimeSync0>0</ShiftTimeSync0>
+                <CycleTimeSync1 Factor="0">0</CycleTimeSync1>
+                <ShiftTimeSync1>0</ShiftTimeSync1>
+            </Dc>
+            <WatchDog>
+                <Divider>0</Divider>
+                <Intervals>0</Intervals>
+            </WatchDog>
+        </Slave>
+        <Slave>
+      <Info>
+        <Alias>0</Alias>
+        <Position>4</Position>
+        <VendorId>#x00000C48</VendorId>
+        <ProductCode>#x00030924</ProductCode>
+      </Info>
+      <ProcessData>
+<TxPdo Sm="3">
+<Index>0x1a07</Index>
+<Entry>
+<Index>0x6041</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Status word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6061</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation display</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x6064</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60f4</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position loop error.</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x606c</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6077</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque actual value</Name>
+<DataType>INT</DataType>
+</Entry>
+</TxPdo>
+<RxPdo Sm="2">
+<Index>0x1607</Index>
+<Entry>
+<Index>0x6040</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Control word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6060</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x607a</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Profile target position</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b1</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity offset</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b2</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque offset</Name>
+<DataType>INT</DataType>
+</Entry>
+<Entry>
+<Index>0x60FF</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Target Velocity</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6071</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Target torque</Name>
+<DataType>INT</DataType>
+</Entry>
+</RxPdo>
+      </ProcessData>
+      <Dc>
+        <AssignActivate>0x0300</AssignActivate>
+        <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+        <ShiftTimeSync0>0</ShiftTimeSync0>
+        <CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+        <ShiftTimeSync1>0</ShiftTimeSync1>
+      </Dc>
+      <WatchDog>
+        <Divider>0</Divider>
+        <Intervals>0</Intervals>
+      </WatchDog>
+    </Slave>
+    <Slave>
+            <Info>
+				<Alias>0</Alias>
+				<Position>5</Position>
+				<VendorId>0x00000009</VendorId>
+				<ProductCode>0x00009252</ProductCode>
+            </Info>
+            <ProcessData>
+                <TxPdo Sm="3">
+					<Index>#x1a00</Index>
+					<Name>Inputs</Name>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input01</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input02</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>3</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input03</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>4</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input04</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>5</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input05</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>6</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input06</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>7</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input07</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>8</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input08</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>9</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input09</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>10</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input10</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>11</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input11</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>12</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input12</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>13</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input13</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>14</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input14</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input15</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input16</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>17</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input17</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>18</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input18</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>19</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input19</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>20</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input20</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<RxPdo Sm="2">
+					<Index>#x1600</Index>
+					<Name>Outputs</Name>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved1</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved2</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>3</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved3</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>4</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved4</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+				</RxPdo>
+            </ProcessData>
+            <Dc>
+                <AssignActivate>0x0300</AssignActivate>
+                <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+                <ShiftTimeSync0>0</ShiftTimeSync0>
+                <CycleTimeSync1 Factor="0">0</CycleTimeSync1>
+                <ShiftTimeSync1>0</ShiftTimeSync1>
+            </Dc>
+            <WatchDog>
+                <Divider>0</Divider>
+                <Intervals>0</Intervals>
+            </WatchDog>
+        </Slave>
+        <Slave>
+      <Info>
+        <Alias>0</Alias>
+        <Position>6</Position>
+        <VendorId>#x00000C48</VendorId>
+        <ProductCode>#x00030924</ProductCode>
+      </Info>
+      <ProcessData>
+<TxPdo Sm="3">
+<Index>0x1a07</Index>
+<Entry>
+<Index>0x6041</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Status word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6061</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation display</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x6064</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60f4</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position loop error.</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x606c</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6077</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque actual value</Name>
+<DataType>INT</DataType>
+</Entry>
+</TxPdo>
+<RxPdo Sm="2">
+<Index>0x1607</Index>
+<Entry>
+<Index>0x6040</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Control word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6060</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x607a</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Profile target position</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b1</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity offset</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b2</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque offset</Name>
+<DataType>INT</DataType>
+</Entry>
+<Entry>
+<Index>0x60FF</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Target Velocity</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6071</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Target torque</Name>
+<DataType>INT</DataType>
+</Entry>
+</RxPdo>
+      </ProcessData>
+      <Dc>
+        <AssignActivate>0x0300</AssignActivate>
+        <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+        <ShiftTimeSync0>0</ShiftTimeSync0>
+        <CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+        <ShiftTimeSync1>0</ShiftTimeSync1>
+      </Dc>
+      <WatchDog>
+        <Divider>0</Divider>
+        <Intervals>0</Intervals>
+      </WatchDog>
+    </Slave>
+    
+    <Slave>
+            <Info>
+				<Alias>0</Alias>
+				<Position>7</Position>
+				<VendorId>0x00000009</VendorId>
+				<ProductCode>0x00009252</ProductCode>
+            </Info>
+            <ProcessData>
+                <TxPdo Sm="3">
+					<Index>#x1a00</Index>
+					<Name>Inputs</Name>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input01</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input02</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>3</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input03</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>4</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input04</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>5</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input05</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>6</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input06</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>7</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input07</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>8</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input08</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>9</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input09</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>10</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input10</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>11</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input11</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>12</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input12</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>13</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input13</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>14</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input14</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input15</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input16</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>17</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input17</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>18</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input18</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>19</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input19</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>20</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input20</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<RxPdo Sm="2">
+					<Index>#x1600</Index>
+					<Name>Outputs</Name>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved1</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved2</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>3</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved3</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>4</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved4</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+				</RxPdo>
+            </ProcessData>
+            <Dc>
+                <AssignActivate>0x0300</AssignActivate>
+                <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+                <ShiftTimeSync0>0</ShiftTimeSync0>
+                <CycleTimeSync1 Factor="0">0</CycleTimeSync1>
+                <ShiftTimeSync1>0</ShiftTimeSync1>
+            </Dc>
+            <WatchDog>
+                <Divider>0</Divider>
+                <Intervals>0</Intervals>
+            </WatchDog>
+        </Slave>
+        <Slave>
+      <Info>
+        <Alias>0</Alias>
+        <Position>8</Position>
+        <VendorId>#x00000C48</VendorId>
+        <ProductCode>#x00030924</ProductCode>
+      </Info>
+      <ProcessData>
+<TxPdo Sm="3">
+<Index>0x1a07</Index>
+<Entry>
+<Index>0x6041</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Status word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6061</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation display</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x6064</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60f4</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position loop error.</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x606c</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6077</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque actual value</Name>
+<DataType>INT</DataType>
+</Entry>
+</TxPdo>
+<RxPdo Sm="2">
+<Index>0x1607</Index>
+<Entry>
+<Index>0x6040</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Control word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6060</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x607a</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Profile target position</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b1</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity offset</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b2</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque offset</Name>
+<DataType>INT</DataType>
+</Entry>
+<Entry>
+<Index>0x60FF</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Target Velocity</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6071</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Target torque</Name>
+<DataType>INT</DataType>
+</Entry>
+</RxPdo>
+      </ProcessData>
+      <Dc>
+        <AssignActivate>0x0300</AssignActivate>
+        <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+        <ShiftTimeSync0>0</ShiftTimeSync0>
+        <CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+        <ShiftTimeSync1>0</ShiftTimeSync1>
+      </Dc>
+      <WatchDog>
+        <Divider>0</Divider>
+        <Intervals>0</Intervals>
+      </WatchDog>
+    </Slave>
+    <Slave>
+      <Info>
+        <Alias>0</Alias>
+        <Position>9</Position>
+        <VendorId>#x00000C48</VendorId>
+        <ProductCode>#x00030924</ProductCode>
+      </Info>
+      <ProcessData>
+<TxPdo Sm="3">
+<Index>0x1a07</Index>
+<Entry>
+<Index>0x6041</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Status word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6061</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation display</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x6064</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60f4</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position loop error.</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x606c</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6077</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque actual value</Name>
+<DataType>INT</DataType>
+</Entry>
+</TxPdo>
+<RxPdo Sm="2">
+<Index>0x1607</Index>
+<Entry>
+<Index>0x6040</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Control word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6060</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x607a</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Profile target position</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b1</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity offset</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b2</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque offset</Name>
+<DataType>INT</DataType>
+</Entry>
+<Entry>
+<Index>0x60FF</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Target Velocity</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6071</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Target torque</Name>
+<DataType>INT</DataType>
+</Entry>
+</RxPdo>
+      </ProcessData>
+      <Dc>
+        <AssignActivate>0x0300</AssignActivate>
+        <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+        <ShiftTimeSync0>0</ShiftTimeSync0>
+        <CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+        <ShiftTimeSync1>0</ShiftTimeSync1>
+      </Dc>
+      <WatchDog>
+        <Divider>0</Divider>
+        <Intervals>0</Intervals>
+      </WatchDog>
+    </Slave>
+    <Slave>
+            <Info>
+				<Alias>0</Alias>
+				<Position>10</Position>
+				<VendorId>0x00000009</VendorId>
+				<ProductCode>0x00009252</ProductCode>
+            </Info>
+            <ProcessData>
+                <TxPdo Sm="3">
+					<Index>#x1a00</Index>
+					<Name>Inputs</Name>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input01</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input02</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>3</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input03</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>4</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input04</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>5</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input05</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>6</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input06</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>7</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input07</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>8</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input08</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>9</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input09</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>10</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input10</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>11</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input11</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>12</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input12</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>13</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input13</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>14</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input14</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input15</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input16</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>17</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input17</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>18</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input18</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>19</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input19</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>20</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input20</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<RxPdo Sm="2">
+					<Index>#x1600</Index>
+					<Name>Outputs</Name>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved1</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved2</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>3</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved3</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>4</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved4</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+				</RxPdo>
+            </ProcessData>
+            <Dc>
+                <AssignActivate>0x0300</AssignActivate>
+                <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+                <ShiftTimeSync0>0</ShiftTimeSync0>
+                <CycleTimeSync1 Factor="0">0</CycleTimeSync1>
+                <ShiftTimeSync1>0</ShiftTimeSync1>
+            </Dc>
+            <WatchDog>
+                <Divider>0</Divider>
+                <Intervals>0</Intervals>
+            </WatchDog>
+        </Slave>
+        <Slave>
+      <Info>
+        <Alias>0</Alias>
+        <Position>11</Position>
+        <VendorId>#x00000C48</VendorId>
+        <ProductCode>#x00030924</ProductCode>
+      </Info>
+      <ProcessData>
+<TxPdo Sm="3">
+<Index>0x1a07</Index>
+<Entry>
+<Index>0x6041</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Status word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6061</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation display</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x6064</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60f4</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position loop error.</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x606c</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6077</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque actual value</Name>
+<DataType>INT</DataType>
+</Entry>
+</TxPdo>
+<RxPdo Sm="2">
+<Index>0x1607</Index>
+<Entry>
+<Index>0x6040</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Control word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6060</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x607a</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Profile target position</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b1</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity offset</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b2</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque offset</Name>
+<DataType>INT</DataType>
+</Entry>
+<Entry>
+<Index>0x60FF</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Target Velocity</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6071</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Target torque</Name>
+<DataType>INT</DataType>
+</Entry>
+</RxPdo>
+      </ProcessData>
+      <Dc>
+        <AssignActivate>0x0300</AssignActivate>
+        <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+        <ShiftTimeSync0>0</ShiftTimeSync0>
+        <CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+        <ShiftTimeSync1>0</ShiftTimeSync1>
+      </Dc>
+      <WatchDog>
+        <Divider>0</Divider>
+        <Intervals>0</Intervals>
+      </WatchDog>
+    </Slave>
+    <Slave>
+      <Info>
+        <Alias>0</Alias>
+        <Position>12</Position>
+        <VendorId>#x00000C48</VendorId>
+        <ProductCode>#x00030924</ProductCode>
+      </Info>
+      <ProcessData>
+<TxPdo Sm="3">
+<Index>0x1a07</Index>
+<Entry>
+<Index>0x6041</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Status word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6061</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation display</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x6064</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60f4</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position loop error.</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x606c</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6077</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque actual value</Name>
+<DataType>INT</DataType>
+</Entry>
+</TxPdo>
+<RxPdo Sm="2">
+<Index>0x1607</Index>
+<Entry>
+<Index>0x6040</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Control word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6060</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x607a</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Profile target position</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b1</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity offset</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b2</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque offset</Name>
+<DataType>INT</DataType>
+</Entry>
+<Entry>
+<Index>0x60FF</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Target Velocity</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6071</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Target torque</Name>
+<DataType>INT</DataType>
+</Entry>
+</RxPdo>
+      </ProcessData>
+      <Dc>
+        <AssignActivate>0x0300</AssignActivate>
+        <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+        <ShiftTimeSync0>0</ShiftTimeSync0>
+        <CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+        <ShiftTimeSync1>0</ShiftTimeSync1>
+      </Dc>
+      <WatchDog>
+        <Divider>0</Divider>
+        <Intervals>0</Intervals>
+      </WatchDog>
+    </Slave>
+    <Slave>
+            <Info>
+				<Alias>0</Alias>
+				<Position>13</Position>
+				<VendorId>0x00000009</VendorId>
+				<ProductCode>0x00009252</ProductCode>
+            </Info>
+            <ProcessData>
+                <TxPdo Sm="3">
+					<Index>#x1a00</Index>
+					<Name>Inputs</Name>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input01</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input02</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>3</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input03</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>4</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input04</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>5</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input05</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>6</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input06</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>7</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input07</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>8</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input08</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>9</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input09</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>10</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input10</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>11</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input11</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>12</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input12</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>13</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input13</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>14</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input14</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input15</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input16</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>17</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input17</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>18</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input18</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>19</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input19</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x6000</Index>
+						<SubIndex>20</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>Input20</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<RxPdo Sm="2">
+					<Index>#x1600</Index>
+					<Name>Outputs</Name>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved1</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved2</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>3</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved3</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x7000</Index>
+						<SubIndex>4</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>Reserved4</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+				</RxPdo>
+            </ProcessData>
+            <Dc>
+                <AssignActivate>0x0300</AssignActivate>
+                <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+                <ShiftTimeSync0>0</ShiftTimeSync0>
+                <CycleTimeSync1 Factor="0">0</CycleTimeSync1>
+                <ShiftTimeSync1>0</ShiftTimeSync1>
+            </Dc>
+            <WatchDog>
+                <Divider>0</Divider>
+                <Intervals>0</Intervals>
+            </WatchDog>
+        </Slave>
+        <Slave>
+      <Info>
+        <Alias>0</Alias>
+        <Position>14</Position>
+        <VendorId>#x00000C48</VendorId>
+        <ProductCode>#x00030924</ProductCode>
+      </Info>
+      <ProcessData>
+<TxPdo Sm="3">
+<Index>0x1a07</Index>
+<Entry>
+<Index>0x6041</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Status word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6061</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation display</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x6064</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60f4</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position loop error.</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x606c</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6077</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque actual value</Name>
+<DataType>INT</DataType>
+</Entry>
+</TxPdo>
+<RxPdo Sm="2">
+<Index>0x1607</Index>
+<Entry>
+<Index>0x6040</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Control word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6060</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x607a</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Profile target position</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b1</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity offset</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b2</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque offset</Name>
+<DataType>INT</DataType>
+</Entry>
+<Entry>
+<Index>0x60FF</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Target Velocity</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6071</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Target torque</Name>
+<DataType>INT</DataType>
+</Entry>
+</RxPdo>
+      </ProcessData>
+      <Dc>
+        <AssignActivate>0x0300</AssignActivate>
+        <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+        <ShiftTimeSync0>0</ShiftTimeSync0>
+        <CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+        <ShiftTimeSync1>0</ShiftTimeSync1>
+      </Dc>
+      <WatchDog>
+        <Divider>0</Divider>
+        <Intervals>0</Intervals>
+      </WatchDog>
+    </Slave>
+    <Slave>
+      <Info>
+        <Alias>0</Alias>
+        <Position>15</Position>
+        <VendorId>#x00000C48</VendorId>
+        <ProductCode>#x00030924</ProductCode>
+      </Info>
+      <ProcessData>
+<TxPdo Sm="3">
+<Index>0x1a07</Index>
+<Entry>
+<Index>0x6041</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Status word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6061</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation display</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x6064</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60f4</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Position loop error.</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x606c</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity actual value</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6077</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque actual value</Name>
+<DataType>INT</DataType>
+</Entry>
+</TxPdo>
+<RxPdo Sm="2">
+<Index>0x1607</Index>
+<Entry>
+<Index>0x6040</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Control word</Name>
+<DataType>UINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6060</Index>
+<SubIndex>0</SubIndex>
+<BitLen>8</BitLen>
+<Name>Modes of operation</Name>
+<DataType>SINT</DataType>
+</Entry>
+<Entry>
+<Index>#x0</Index>
+<BitLen>8</BitLen>
+</Entry>
+<Entry>
+<Index>0x607a</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Profile target position</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b1</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Velocity offset</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x60b2</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Torque offset</Name>
+<DataType>INT</DataType>
+</Entry>
+<Entry>
+<Index>0x60FF</Index>
+<SubIndex>0</SubIndex>
+<BitLen>32</BitLen>
+<Name>Target Velocity</Name>
+<DataType>DINT</DataType>
+</Entry>
+<Entry>
+<Index>0x6071</Index>
+<SubIndex>0</SubIndex>
+<BitLen>16</BitLen>
+<Name>Target torque</Name>
+<DataType>INT</DataType>
+</Entry>
+</RxPdo>
+      </ProcessData>
+      <Dc>
+        <AssignActivate>0x0300</AssignActivate>
+        <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+        <ShiftTimeSync0>0</ShiftTimeSync0>
+        <CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+        <ShiftTimeSync1>0</ShiftTimeSync1>
+      </Dc>
+      <WatchDog>
+        <Divider>0</Divider>
+        <Intervals>0</Intervals>
+      </WatchDog>
+    </Slave>
+        
+    <Cyclic>
+      <CycleTime>1000</CycleTime>
+    </Cyclic>
+  <ProcessImage><Inputs><ByteSize>660</ByteSize><Variable><Name>slave:0.pdo:6000,1.Input01</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>0</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,2.Input02</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>32</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,3.Input03</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>64</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,4.Input04</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>96</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,5.Input05</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>128</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,6.Input06</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>160</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,7.Input07</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>192</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,8.Input08</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>224</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,9.Input09</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>256</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,10.Input10</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>288</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,11.Input11</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>320</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,12.Input12</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>352</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,13.Input13</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>384</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,14.Input14</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>416</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,15.Input15</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>448</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,16.Input16</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>480</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,17.Input17</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>512</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,18.Input18</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>544</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,19.Input19</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>576</BitOffs></Variable><Variable><Name>slave:0.pdo:6000,20.Input20</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>608</BitOffs></Variable><Variable><Name>slave:1.pdo:6041,0.Status word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>640</BitOffs></Variable><Variable><Name>slave:1.pdo:6061,0.Modes of operation display</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>656</BitOffs></Variable><Variable><Name>slave:1.pdo:6064,0.Position actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>672</BitOffs></Variable><Variable><Name>slave:1.pdo:60f4,0.Position loop error.</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>704</BitOffs></Variable><Variable><Name>slave:1.pdo:606c,0.Velocity actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>736</BitOffs></Variable><Variable><Name>slave:1.pdo:6077,0.Torque actual value</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>768</BitOffs></Variable><Variable><Name>slave:2.pdo:6041,0.Status word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>784</BitOffs></Variable><Variable><Name>slave:2.pdo:6061,0.Modes of operation display</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>800</BitOffs></Variable><Variable><Name>slave:2.pdo:6064,0.Position actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>816</BitOffs></Variable><Variable><Name>slave:2.pdo:60f4,0.Position loop error.</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>848</BitOffs></Variable><Variable><Name>slave:2.pdo:606c,0.Velocity actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>880</BitOffs></Variable><Variable><Name>slave:2.pdo:6077,0.Torque actual value</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>912</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,1.Input01</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>928</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,2.Input02</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>960</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,3.Input03</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>992</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,4.Input04</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1024</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,5.Input05</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1056</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,6.Input06</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1088</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,7.Input07</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1120</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,8.Input08</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1152</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,9.Input09</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1184</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,10.Input10</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1216</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,11.Input11</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1248</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,12.Input12</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1280</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,13.Input13</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1312</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,14.Input14</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1344</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,15.Input15</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1376</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,16.Input16</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1408</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,17.Input17</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1440</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,18.Input18</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1472</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,19.Input19</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1504</BitOffs></Variable><Variable><Name>slave:3.pdo:6000,20.Input20</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1536</BitOffs></Variable><Variable><Name>slave:4.pdo:6041,0.Status word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>1568</BitOffs></Variable><Variable><Name>slave:4.pdo:6061,0.Modes of operation display</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>1584</BitOffs></Variable><Variable><Name>slave:4.pdo:6064,0.Position actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1600</BitOffs></Variable><Variable><Name>slave:4.pdo:60f4,0.Position loop error.</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1632</BitOffs></Variable><Variable><Name>slave:4.pdo:606c,0.Velocity actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1664</BitOffs></Variable><Variable><Name>slave:4.pdo:6077,0.Torque actual value</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>1696</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,1.Input01</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1712</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,2.Input02</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1744</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,3.Input03</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1776</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,4.Input04</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1808</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,5.Input05</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1840</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,6.Input06</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1872</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,7.Input07</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1904</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,8.Input08</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1936</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,9.Input09</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>1968</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,10.Input10</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2000</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,11.Input11</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2032</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,12.Input12</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2064</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,13.Input13</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2096</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,14.Input14</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2128</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,15.Input15</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2160</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,16.Input16</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2192</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,17.Input17</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2224</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,18.Input18</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2256</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,19.Input19</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2288</BitOffs></Variable><Variable><Name>slave:5.pdo:6000,20.Input20</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2320</BitOffs></Variable><Variable><Name>slave:6.pdo:6041,0.Status word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>2352</BitOffs></Variable><Variable><Name>slave:6.pdo:6061,0.Modes of operation display</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>2368</BitOffs></Variable><Variable><Name>slave:6.pdo:6064,0.Position actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>2384</BitOffs></Variable><Variable><Name>slave:6.pdo:60f4,0.Position loop error.</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>2416</BitOffs></Variable><Variable><Name>slave:6.pdo:606c,0.Velocity actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>2448</BitOffs></Variable><Variable><Name>slave:6.pdo:6077,0.Torque actual value</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>2480</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,1.Input01</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2496</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,2.Input02</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2528</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,3.Input03</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2560</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,4.Input04</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2592</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,5.Input05</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2624</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,6.Input06</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2656</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,7.Input07</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2688</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,8.Input08</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2720</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,9.Input09</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2752</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,10.Input10</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2784</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,11.Input11</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2816</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,12.Input12</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2848</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,13.Input13</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2880</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,14.Input14</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2912</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,15.Input15</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2944</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,16.Input16</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>2976</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,17.Input17</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3008</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,18.Input18</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3040</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,19.Input19</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3072</BitOffs></Variable><Variable><Name>slave:7.pdo:6000,20.Input20</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3104</BitOffs></Variable><Variable><Name>slave:8.pdo:6041,0.Status word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>3136</BitOffs></Variable><Variable><Name>slave:8.pdo:6061,0.Modes of operation display</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>3152</BitOffs></Variable><Variable><Name>slave:8.pdo:6064,0.Position actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>3168</BitOffs></Variable><Variable><Name>slave:8.pdo:60f4,0.Position loop error.</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>3200</BitOffs></Variable><Variable><Name>slave:8.pdo:606c,0.Velocity actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>3232</BitOffs></Variable><Variable><Name>slave:8.pdo:6077,0.Torque actual value</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>3264</BitOffs></Variable><Variable><Name>slave:9.pdo:6041,0.Status word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>3280</BitOffs></Variable><Variable><Name>slave:9.pdo:6061,0.Modes of operation display</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>3296</BitOffs></Variable><Variable><Name>slave:9.pdo:6064,0.Position actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>3312</BitOffs></Variable><Variable><Name>slave:9.pdo:60f4,0.Position loop error.</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>3344</BitOffs></Variable><Variable><Name>slave:9.pdo:606c,0.Velocity actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>3376</BitOffs></Variable><Variable><Name>slave:9.pdo:6077,0.Torque actual value</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>3408</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,1.Input01</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3424</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,2.Input02</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3456</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,3.Input03</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3488</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,4.Input04</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3520</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,5.Input05</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3552</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,6.Input06</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3584</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,7.Input07</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3616</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,8.Input08</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3648</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,9.Input09</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3680</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,10.Input10</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3712</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,11.Input11</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3744</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,12.Input12</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3776</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,13.Input13</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3808</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,14.Input14</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3840</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,15.Input15</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3872</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,16.Input16</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3904</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,17.Input17</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3936</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,18.Input18</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>3968</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,19.Input19</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4000</BitOffs></Variable><Variable><Name>slave:10.pdo:6000,20.Input20</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4032</BitOffs></Variable><Variable><Name>slave:11.pdo:6041,0.Status word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>4064</BitOffs></Variable><Variable><Name>slave:11.pdo:6061,0.Modes of operation display</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>4080</BitOffs></Variable><Variable><Name>slave:11.pdo:6064,0.Position actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>4096</BitOffs></Variable><Variable><Name>slave:11.pdo:60f4,0.Position loop error.</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>4128</BitOffs></Variable><Variable><Name>slave:11.pdo:606c,0.Velocity actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>4160</BitOffs></Variable><Variable><Name>slave:11.pdo:6077,0.Torque actual value</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>4192</BitOffs></Variable><Variable><Name>slave:12.pdo:6041,0.Status word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>4208</BitOffs></Variable><Variable><Name>slave:12.pdo:6061,0.Modes of operation display</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>4224</BitOffs></Variable><Variable><Name>slave:12.pdo:6064,0.Position actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>4240</BitOffs></Variable><Variable><Name>slave:12.pdo:60f4,0.Position loop error.</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>4272</BitOffs></Variable><Variable><Name>slave:12.pdo:606c,0.Velocity actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>4304</BitOffs></Variable><Variable><Name>slave:12.pdo:6077,0.Torque actual value</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>4336</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,1.Input01</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4352</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,2.Input02</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4384</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,3.Input03</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4416</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,4.Input04</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4448</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,5.Input05</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4480</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,6.Input06</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4512</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,7.Input07</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4544</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,8.Input08</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4576</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,9.Input09</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4608</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,10.Input10</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4640</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,11.Input11</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4672</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,12.Input12</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4704</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,13.Input13</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4736</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,14.Input14</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4768</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,15.Input15</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4800</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,16.Input16</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4832</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,17.Input17</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4864</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,18.Input18</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4896</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,19.Input19</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4928</BitOffs></Variable><Variable><Name>slave:13.pdo:6000,20.Input20</Name><DataType>REAL</DataType><BitSize>32</BitSize><BitOffs>4960</BitOffs></Variable><Variable><Name>slave:14.pdo:6041,0.Status word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>4992</BitOffs></Variable><Variable><Name>slave:14.pdo:6061,0.Modes of operation display</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>5008</BitOffs></Variable><Variable><Name>slave:14.pdo:6064,0.Position actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>5024</BitOffs></Variable><Variable><Name>slave:14.pdo:60f4,0.Position loop error.</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>5056</BitOffs></Variable><Variable><Name>slave:14.pdo:606c,0.Velocity actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>5088</BitOffs></Variable><Variable><Name>slave:14.pdo:6077,0.Torque actual value</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>5120</BitOffs></Variable><Variable><Name>slave:15.pdo:6041,0.Status word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>5136</BitOffs></Variable><Variable><Name>slave:15.pdo:6061,0.Modes of operation display</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>5152</BitOffs></Variable><Variable><Name>slave:15.pdo:6064,0.Position actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>5168</BitOffs></Variable><Variable><Name>slave:15.pdo:60f4,0.Position loop error.</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>5200</BitOffs></Variable><Variable><Name>slave:15.pdo:606c,0.Velocity actual value</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>5232</BitOffs></Variable><Variable><Name>slave:15.pdo:6077,0.Torque actual value</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>5264</BitOffs></Variable></Inputs><Outputs><ByteSize>224</ByteSize><Variable><Name>slave:0.pdo:7000,1.Reserved1</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>0</BitOffs></Variable><Variable><Name>slave:0.pdo:7000,2.Reserved2</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>8</BitOffs></Variable><Variable><Name>slave:0.pdo:7000,3.Reserved3</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>16</BitOffs></Variable><Variable><Name>slave:0.pdo:7000,4.Reserved4</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>24</BitOffs></Variable><Variable><Name>slave:1.pdo:6040,0.Control word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>32</BitOffs></Variable><Variable><Name>slave:1.pdo:6060,0.Modes of operation</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>48</BitOffs></Variable><Variable><Name>slave:1.pdo:607a,0.Profile target position</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>64</BitOffs></Variable><Variable><Name>slave:1.pdo:60b1,0.Velocity offset</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>96</BitOffs></Variable><Variable><Name>slave:1.pdo:60b2,0.Torque offset</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>128</BitOffs></Variable><Variable><Name>slave:1.pdo:60ff,0.Target Velocity</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>144</BitOffs></Variable><Variable><Name>slave:1.pdo:6071,0.Target torque</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>176</BitOffs></Variable><Variable><Name>slave:2.pdo:6040,0.Control word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>192</BitOffs></Variable><Variable><Name>slave:2.pdo:6060,0.Modes of operation</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>208</BitOffs></Variable><Variable><Name>slave:2.pdo:607a,0.Profile target position</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>224</BitOffs></Variable><Variable><Name>slave:2.pdo:60b1,0.Velocity offset</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>256</BitOffs></Variable><Variable><Name>slave:2.pdo:60b2,0.Torque offset</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>288</BitOffs></Variable><Variable><Name>slave:2.pdo:60ff,0.Target Velocity</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>304</BitOffs></Variable><Variable><Name>slave:2.pdo:6071,0.Target torque</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>336</BitOffs></Variable><Variable><Name>slave:3.pdo:7000,1.Reserved1</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>352</BitOffs></Variable><Variable><Name>slave:3.pdo:7000,2.Reserved2</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>360</BitOffs></Variable><Variable><Name>slave:3.pdo:7000,3.Reserved3</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>368</BitOffs></Variable><Variable><Name>slave:3.pdo:7000,4.Reserved4</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>376</BitOffs></Variable><Variable><Name>slave:4.pdo:6040,0.Control word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>384</BitOffs></Variable><Variable><Name>slave:4.pdo:6060,0.Modes of operation</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>400</BitOffs></Variable><Variable><Name>slave:4.pdo:607a,0.Profile target position</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>416</BitOffs></Variable><Variable><Name>slave:4.pdo:60b1,0.Velocity offset</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>448</BitOffs></Variable><Variable><Name>slave:4.pdo:60b2,0.Torque offset</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>480</BitOffs></Variable><Variable><Name>slave:4.pdo:60ff,0.Target Velocity</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>496</BitOffs></Variable><Variable><Name>slave:4.pdo:6071,0.Target torque</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>528</BitOffs></Variable><Variable><Name>slave:5.pdo:7000,1.Reserved1</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>544</BitOffs></Variable><Variable><Name>slave:5.pdo:7000,2.Reserved2</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>552</BitOffs></Variable><Variable><Name>slave:5.pdo:7000,3.Reserved3</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>560</BitOffs></Variable><Variable><Name>slave:5.pdo:7000,4.Reserved4</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>568</BitOffs></Variable><Variable><Name>slave:6.pdo:6040,0.Control word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>576</BitOffs></Variable><Variable><Name>slave:6.pdo:6060,0.Modes of operation</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>592</BitOffs></Variable><Variable><Name>slave:6.pdo:607a,0.Profile target position</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>608</BitOffs></Variable><Variable><Name>slave:6.pdo:60b1,0.Velocity offset</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>640</BitOffs></Variable><Variable><Name>slave:6.pdo:60b2,0.Torque offset</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>672</BitOffs></Variable><Variable><Name>slave:6.pdo:60ff,0.Target Velocity</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>688</BitOffs></Variable><Variable><Name>slave:6.pdo:6071,0.Target torque</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>720</BitOffs></Variable><Variable><Name>slave:7.pdo:7000,1.Reserved1</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>736</BitOffs></Variable><Variable><Name>slave:7.pdo:7000,2.Reserved2</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>744</BitOffs></Variable><Variable><Name>slave:7.pdo:7000,3.Reserved3</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>752</BitOffs></Variable><Variable><Name>slave:7.pdo:7000,4.Reserved4</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>760</BitOffs></Variable><Variable><Name>slave:8.pdo:6040,0.Control word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>768</BitOffs></Variable><Variable><Name>slave:8.pdo:6060,0.Modes of operation</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>784</BitOffs></Variable><Variable><Name>slave:8.pdo:607a,0.Profile target position</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>800</BitOffs></Variable><Variable><Name>slave:8.pdo:60b1,0.Velocity offset</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>832</BitOffs></Variable><Variable><Name>slave:8.pdo:60b2,0.Torque offset</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>864</BitOffs></Variable><Variable><Name>slave:8.pdo:60ff,0.Target Velocity</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>880</BitOffs></Variable><Variable><Name>slave:8.pdo:6071,0.Target torque</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>912</BitOffs></Variable><Variable><Name>slave:9.pdo:6040,0.Control word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>928</BitOffs></Variable><Variable><Name>slave:9.pdo:6060,0.Modes of operation</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>944</BitOffs></Variable><Variable><Name>slave:9.pdo:607a,0.Profile target position</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>960</BitOffs></Variable><Variable><Name>slave:9.pdo:60b1,0.Velocity offset</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>992</BitOffs></Variable><Variable><Name>slave:9.pdo:60b2,0.Torque offset</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>1024</BitOffs></Variable><Variable><Name>slave:9.pdo:60ff,0.Target Velocity</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1040</BitOffs></Variable><Variable><Name>slave:9.pdo:6071,0.Target torque</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>1072</BitOffs></Variable><Variable><Name>slave:10.pdo:7000,1.Reserved1</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>1088</BitOffs></Variable><Variable><Name>slave:10.pdo:7000,2.Reserved2</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>1096</BitOffs></Variable><Variable><Name>slave:10.pdo:7000,3.Reserved3</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>1104</BitOffs></Variable><Variable><Name>slave:10.pdo:7000,4.Reserved4</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>1112</BitOffs></Variable><Variable><Name>slave:11.pdo:6040,0.Control word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>1120</BitOffs></Variable><Variable><Name>slave:11.pdo:6060,0.Modes of operation</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>1136</BitOffs></Variable><Variable><Name>slave:11.pdo:607a,0.Profile target position</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1152</BitOffs></Variable><Variable><Name>slave:11.pdo:60b1,0.Velocity offset</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1184</BitOffs></Variable><Variable><Name>slave:11.pdo:60b2,0.Torque offset</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>1216</BitOffs></Variable><Variable><Name>slave:11.pdo:60ff,0.Target Velocity</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1232</BitOffs></Variable><Variable><Name>slave:11.pdo:6071,0.Target torque</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>1264</BitOffs></Variable><Variable><Name>slave:12.pdo:6040,0.Control word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>1280</BitOffs></Variable><Variable><Name>slave:12.pdo:6060,0.Modes of operation</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>1296</BitOffs></Variable><Variable><Name>slave:12.pdo:607a,0.Profile target position</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1312</BitOffs></Variable><Variable><Name>slave:12.pdo:60b1,0.Velocity offset</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1344</BitOffs></Variable><Variable><Name>slave:12.pdo:60b2,0.Torque offset</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>1376</BitOffs></Variable><Variable><Name>slave:12.pdo:60ff,0.Target Velocity</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1392</BitOffs></Variable><Variable><Name>slave:12.pdo:6071,0.Target torque</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>1424</BitOffs></Variable><Variable><Name>slave:13.pdo:7000,1.Reserved1</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>1440</BitOffs></Variable><Variable><Name>slave:13.pdo:7000,2.Reserved2</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>1448</BitOffs></Variable><Variable><Name>slave:13.pdo:7000,3.Reserved3</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>1456</BitOffs></Variable><Variable><Name>slave:13.pdo:7000,4.Reserved4</Name><DataType>USINT</DataType><BitSize>8</BitSize><BitOffs>1464</BitOffs></Variable><Variable><Name>slave:14.pdo:6040,0.Control word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>1472</BitOffs></Variable><Variable><Name>slave:14.pdo:6060,0.Modes of operation</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>1488</BitOffs></Variable><Variable><Name>slave:14.pdo:607a,0.Profile target position</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1504</BitOffs></Variable><Variable><Name>slave:14.pdo:60b1,0.Velocity offset</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1536</BitOffs></Variable><Variable><Name>slave:14.pdo:60b2,0.Torque offset</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>1568</BitOffs></Variable><Variable><Name>slave:14.pdo:60ff,0.Target Velocity</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1584</BitOffs></Variable><Variable><Name>slave:14.pdo:6071,0.Target torque</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>1616</BitOffs></Variable><Variable><Name>slave:15.pdo:6040,0.Control word</Name><DataType>UINT</DataType><BitSize>16</BitSize><BitOffs>1632</BitOffs></Variable><Variable><Name>slave:15.pdo:6060,0.Modes of operation</Name><DataType>SINT</DataType><BitSize>8</BitSize><BitOffs>1648</BitOffs></Variable><Variable><Name>slave:15.pdo:607a,0.Profile target position</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1664</BitOffs></Variable><Variable><Name>slave:15.pdo:60b1,0.Velocity offset</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1696</BitOffs></Variable><Variable><Name>slave:15.pdo:60b2,0.Torque offset</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>1728</BitOffs></Variable><Variable><Name>slave:15.pdo:60ff,0.Target Velocity</Name><DataType>DINT</DataType><BitSize>32</BitSize><BitOffs>1744</BitOffs></Variable><Variable><Name>slave:15.pdo:6071,0.Target torque</Name><DataType>INT</DataType><BitSize>16</BitSize><BitOffs>1776</BitOffs></Variable></Outputs></ProcessImage></Config>
+</EtherCATConfig>

@@ -1,0 +1,214 @@
+7767517
+212 244
+Input            images                   0 1 images
+MemoryData       model.24.lifted_tensor_0 0 1 model.24.lifted_tensor_0
+MemoryData       model.24.lifted_tensor_1 0 1 model.24.lifted_tensor_1
+MemoryData       model.24.lifted_tensor_2 0 1 model.24.lifted_tensor_2
+MemoryData       model.24.lifted_tensor_3 0 1 model.24.lifted_tensor_3
+MemoryData       model.24.lifted_tensor_4 0 1 model.24.lifted_tensor_4
+MemoryData       model.24.lifted_tensor_5 0 1 model.24.lifted_tensor_5
+MemoryData       val_75                   0 1 val_75 0=3
+Split            splitncnn_0              1 3 val_75 val_75_splitncnn_0 val_75_splitncnn_1 val_75_splitncnn_2
+Convolution      node_conv2d              1 1 images conv2d 0=32 2=1 12=1 3=2 13=2 4=2 14=2 15=2 16=2 5=1 6=3456
+Swish            node_silu                1 1 conv2d silu
+Convolution      node_conv2d_1            1 1 silu conv2d_1 0=64 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=1 6=18432
+Swish            node_silu_1              1 1 conv2d_1 silu_1
+Split            splitncnn_1              1 2 silu_1 silu_1_splitncnn_0 silu_1_splitncnn_1
+Convolution      node_conv2d_2            1 1 silu_1_splitncnn_1 conv2d_2 0=32 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=2048
+Swish            node_silu_2              1 1 conv2d_2 silu_2
+Split            splitncnn_2              1 2 silu_2 silu_2_splitncnn_0 silu_2_splitncnn_1
+Convolution      node_conv2d_3            1 1 silu_2_splitncnn_1 conv2d_3 0=32 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=1024
+Swish            node_silu_3              1 1 conv2d_3 silu_3
+Convolution      node_conv2d_4            1 1 silu_3 conv2d_4 0=32 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=9216
+Swish            node_silu_4              1 1 conv2d_4 silu_4
+BinaryOp         node_add                 2 1 silu_2_splitncnn_0 silu_4 add 0=0
+Convolution      node_conv2d_5            1 1 silu_1_splitncnn_0 conv2d_5 0=32 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=2048
+Swish            node_silu_5              1 1 conv2d_5 silu_5
+Concat           node_cat                 2 1 add silu_5 cat 0=0
+Convolution      node_conv2d_6            1 1 cat conv2d_6 0=64 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=4096
+Swish            node_silu_6              1 1 conv2d_6 silu_6
+Convolution      node_conv2d_7            1 1 silu_6 conv2d_7 0=128 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=1 6=73728
+Swish            node_silu_7              1 1 conv2d_7 silu_7
+Split            splitncnn_3              1 2 silu_7 silu_7_splitncnn_0 silu_7_splitncnn_1
+Convolution      node_conv2d_8            1 1 silu_7_splitncnn_1 conv2d_8 0=64 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=8192
+Swish            node_silu_8              1 1 conv2d_8 silu_8
+Split            splitncnn_4              1 2 silu_8 silu_8_splitncnn_0 silu_8_splitncnn_1
+Convolution      node_conv2d_9            1 1 silu_8_splitncnn_1 conv2d_9 0=64 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=4096
+Swish            node_silu_9              1 1 conv2d_9 silu_9
+Convolution      node_conv2d_10           1 1 silu_9 conv2d_10 0=64 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=36864
+Swish            node_silu_10             1 1 conv2d_10 silu_10
+BinaryOp         node_add_1               2 1 silu_8_splitncnn_0 silu_10 add_1 0=0
+Split            splitncnn_5              1 2 add_1 add_1_splitncnn_0 add_1_splitncnn_1
+Convolution      node_conv2d_11           1 1 add_1_splitncnn_1 conv2d_11 0=64 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=4096
+Swish            node_silu_11             1 1 conv2d_11 silu_11
+Convolution      node_conv2d_12           1 1 silu_11 conv2d_12 0=64 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=36864
+Swish            node_silu_12             1 1 conv2d_12 silu_12
+BinaryOp         node_add_2               2 1 add_1_splitncnn_0 silu_12 add_2 0=0
+Convolution      node_conv2d_13           1 1 silu_7_splitncnn_0 conv2d_13 0=64 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=8192
+Swish            node_silu_13             1 1 conv2d_13 silu_13
+Concat           node_cat_1               2 1 add_2 silu_13 cat_1 0=0
+Convolution      node_conv2d_14           1 1 cat_1 conv2d_14 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Swish            node_silu_14             1 1 conv2d_14 silu_14
+Split            splitncnn_6              1 2 silu_14 silu_14_splitncnn_0 silu_14_splitncnn_1
+Convolution      node_conv2d_15           1 1 silu_14_splitncnn_1 conv2d_15 0=256 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=1 6=294912
+Swish            node_silu_15             1 1 conv2d_15 silu_15
+Split            splitncnn_7              1 2 silu_15 silu_15_splitncnn_0 silu_15_splitncnn_1
+Convolution      node_conv2d_16           1 1 silu_15_splitncnn_1 conv2d_16 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=32768
+Swish            node_silu_16             1 1 conv2d_16 silu_16
+Split            splitncnn_8              1 2 silu_16 silu_16_splitncnn_0 silu_16_splitncnn_1
+Convolution      node_conv2d_17           1 1 silu_16_splitncnn_1 conv2d_17 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Swish            node_silu_17             1 1 conv2d_17 silu_17
+Convolution      node_conv2d_18           1 1 silu_17 conv2d_18 0=128 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+Swish            node_silu_18             1 1 conv2d_18 silu_18
+BinaryOp         node_add_3               2 1 silu_16_splitncnn_0 silu_18 add_3 0=0
+Split            splitncnn_9              1 2 add_3 add_3_splitncnn_0 add_3_splitncnn_1
+Convolution      node_conv2d_19           1 1 add_3_splitncnn_1 conv2d_19 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Swish            node_silu_19             1 1 conv2d_19 silu_19
+Convolution      node_conv2d_20           1 1 silu_19 conv2d_20 0=128 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+Swish            node_silu_20             1 1 conv2d_20 silu_20
+BinaryOp         node_add_4               2 1 add_3_splitncnn_0 silu_20 add_4 0=0
+Split            splitncnn_10             1 2 add_4 add_4_splitncnn_0 add_4_splitncnn_1
+Convolution      node_conv2d_21           1 1 add_4_splitncnn_1 conv2d_21 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Swish            node_silu_21             1 1 conv2d_21 silu_21
+Convolution      node_conv2d_22           1 1 silu_21 conv2d_22 0=128 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+Swish            node_silu_22             1 1 conv2d_22 silu_22
+BinaryOp         node_add_5               2 1 add_4_splitncnn_0 silu_22 add_5 0=0
+Convolution      node_conv2d_23           1 1 silu_15_splitncnn_0 conv2d_23 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=32768
+Swish            node_silu_23             1 1 conv2d_23 silu_23
+Concat           node_cat_2               2 1 add_5 silu_23 cat_2 0=0
+Convolution      node_conv2d_24           1 1 cat_2 conv2d_24 0=256 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=65536
+Swish            node_silu_24             1 1 conv2d_24 silu_24
+Split            splitncnn_11             1 2 silu_24 silu_24_splitncnn_0 silu_24_splitncnn_1
+Convolution      node_conv2d_25           1 1 silu_24_splitncnn_1 conv2d_25 0=512 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=1 6=1179648
+Swish            node_silu_25             1 1 conv2d_25 silu_25
+Split            splitncnn_12             1 2 silu_25 silu_25_splitncnn_0 silu_25_splitncnn_1
+Convolution      node_conv2d_26           1 1 silu_25_splitncnn_1 conv2d_26 0=256 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=131072
+Swish            node_silu_26             1 1 conv2d_26 silu_26
+Split            splitncnn_13             1 2 silu_26 silu_26_splitncnn_0 silu_26_splitncnn_1
+Convolution      node_conv2d_27           1 1 silu_26_splitncnn_1 conv2d_27 0=256 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=65536
+Swish            node_silu_27             1 1 conv2d_27 silu_27
+Convolution      node_conv2d_28           1 1 silu_27 conv2d_28 0=256 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=589824
+Swish            node_silu_28             1 1 conv2d_28 silu_28
+BinaryOp         node_add_6               2 1 silu_26_splitncnn_0 silu_28 add_6 0=0
+Convolution      node_conv2d_29           1 1 silu_25_splitncnn_0 conv2d_29 0=256 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=131072
+Swish            node_silu_29             1 1 conv2d_29 silu_29
+Concat           node_cat_3               2 1 add_6 silu_29 cat_3 0=0
+Convolution      node_conv2d_30           1 1 cat_3 conv2d_30 0=512 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=262144
+Swish            node_silu_30             1 1 conv2d_30 silu_30
+Convolution      node_conv2d_31           1 1 silu_30 conv2d_31 0=256 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=131072
+Swish            node_silu_31             1 1 conv2d_31 silu_31
+Split            splitncnn_14             1 2 silu_31 silu_31_splitncnn_0 silu_31_splitncnn_1
+Pooling          node_max_pool2d          1 1 silu_31_splitncnn_1 max_pool2d 0=0 1=5 11=5 2=1 12=1 3=2 13=2 14=2 15=2 5=1
+Split            splitncnn_15             1 2 max_pool2d max_pool2d_splitncnn_0 max_pool2d_splitncnn_1
+Pooling          node_max_pool2d_1        1 1 max_pool2d_splitncnn_1 max_pool2d_1 0=0 1=5 11=5 2=1 12=1 3=2 13=2 14=2 15=2 5=1
+Split            splitncnn_16             1 2 max_pool2d_1 max_pool2d_1_splitncnn_0 max_pool2d_1_splitncnn_1
+Pooling          node_max_pool2d_2        1 1 max_pool2d_1_splitncnn_1 max_pool2d_2 0=0 1=5 11=5 2=1 12=1 3=2 13=2 14=2 15=2 5=1
+Concat           node_cat_4               4 1 silu_31_splitncnn_0 max_pool2d_splitncnn_0 max_pool2d_1_splitncnn_0 max_pool2d_2 cat_4 0=0
+Convolution      node_conv2d_32           1 1 cat_4 conv2d_32 0=512 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=524288
+Swish            node_silu_32             1 1 conv2d_32 silu_32
+Convolution      node_conv2d_33           1 1 silu_32 conv2d_33 0=256 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=131072
+Swish            node_silu_33             1 1 conv2d_33 silu_33
+Split            splitncnn_17             1 2 silu_33 silu_33_splitncnn_0 silu_33_splitncnn_1
+Interp           node_upsample_nearest2d  1 1 silu_33_splitncnn_1 upsample_nearest2d 0=1 1=1.000000e+00 2=1.000000e+00 3=40 4=40 6=0
+Concat           node_cat_5               2 1 upsample_nearest2d silu_24_splitncnn_0 cat_5 0=0
+Split            splitncnn_18             1 2 cat_5 cat_5_splitncnn_0 cat_5_splitncnn_1
+Convolution      node_conv2d_34           1 1 cat_5_splitncnn_1 conv2d_34 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=65536
+Swish            node_silu_34             1 1 conv2d_34 silu_34
+Convolution      node_conv2d_35           1 1 silu_34 conv2d_35 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Swish            node_silu_35             1 1 conv2d_35 silu_35
+Convolution      node_conv2d_36           1 1 silu_35 conv2d_36 0=128 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+Swish            node_silu_36             1 1 conv2d_36 silu_36
+Convolution      node_conv2d_37           1 1 cat_5_splitncnn_0 conv2d_37 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=65536
+Swish            node_silu_37             1 1 conv2d_37 silu_37
+Concat           node_cat_6               2 1 silu_36 silu_37 cat_6 0=0
+Convolution      node_conv2d_38           1 1 cat_6 conv2d_38 0=256 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=65536
+Swish            node_silu_38             1 1 conv2d_38 silu_38
+Convolution      node_conv2d_39           1 1 silu_38 conv2d_39 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=32768
+Swish            node_silu_39             1 1 conv2d_39 silu_39
+Split            splitncnn_19             1 2 silu_39 silu_39_splitncnn_0 silu_39_splitncnn_1
+Interp           node_upsample_nearest2d_1 -1 1 silu_39_splitncnn_1 upsample_nearest2d_1 0=1 1=1.000000e+00 2=1.000000e+00 3=80 4=80 6=0
+Concat           node_cat_7               2 1 upsample_nearest2d_1 silu_14_splitncnn_0 cat_7 0=0
+Split            splitncnn_20             1 2 cat_7 cat_7_splitncnn_0 cat_7_splitncnn_1
+Convolution      node_conv2d_40           1 1 cat_7_splitncnn_1 conv2d_40 0=64 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Swish            node_silu_40             1 1 conv2d_40 silu_40
+Convolution      node_conv2d_41           1 1 silu_40 conv2d_41 0=64 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=4096
+Swish            node_silu_41             1 1 conv2d_41 silu_41
+Convolution      node_conv2d_42           1 1 silu_41 conv2d_42 0=64 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=36864
+Swish            node_silu_42             1 1 conv2d_42 silu_42
+Convolution      node_conv2d_43           1 1 cat_7_splitncnn_0 conv2d_43 0=64 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Swish            node_silu_43             1 1 conv2d_43 silu_43
+Concat           node_cat_8               2 1 silu_42 silu_43 cat_8 0=0
+Convolution      node_conv2d_44           1 1 cat_8 conv2d_44 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Swish            node_silu_44             1 1 conv2d_44 silu_44
+Split            splitncnn_21             1 2 silu_44 silu_44_splitncnn_0 silu_44_splitncnn_1
+Convolution      node_conv2d_45           1 1 silu_44_splitncnn_1 conv2d_45 0=128 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=1 6=147456
+Swish            node_silu_45             1 1 conv2d_45 silu_45
+Concat           node_cat_9               2 1 silu_45 silu_39_splitncnn_0 cat_9 0=0
+Split            splitncnn_22             1 2 cat_9 cat_9_splitncnn_0 cat_9_splitncnn_1
+Convolution      node_conv2d_46           1 1 cat_9_splitncnn_1 conv2d_46 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=32768
+Swish            node_silu_46             1 1 conv2d_46 silu_46
+Convolution      node_conv2d_47           1 1 silu_46 conv2d_47 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Swish            node_silu_47             1 1 conv2d_47 silu_47
+Convolution      node_conv2d_48           1 1 silu_47 conv2d_48 0=128 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+Swish            node_silu_48             1 1 conv2d_48 silu_48
+Convolution      node_conv2d_49           1 1 cat_9_splitncnn_0 conv2d_49 0=128 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=32768
+Swish            node_silu_49             1 1 conv2d_49 silu_49
+Concat           node_cat_10              2 1 silu_48 silu_49 cat_10 0=0
+Convolution      node_conv2d_50           1 1 cat_10 conv2d_50 0=256 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=65536
+Swish            node_silu_50             1 1 conv2d_50 silu_50
+Split            splitncnn_23             1 2 silu_50 silu_50_splitncnn_0 silu_50_splitncnn_1
+Convolution      node_conv2d_51           1 1 silu_50_splitncnn_1 conv2d_51 0=256 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=1 6=589824
+Swish            node_silu_51             1 1 conv2d_51 silu_51
+Concat           node_cat_11              2 1 silu_51 silu_33_splitncnn_0 cat_11 0=0
+Split            splitncnn_24             1 2 cat_11 cat_11_splitncnn_0 cat_11_splitncnn_1
+Convolution      node_conv2d_52           1 1 cat_11_splitncnn_1 conv2d_52 0=256 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=131072
+Swish            node_silu_52             1 1 conv2d_52 silu_52
+Convolution      node_conv2d_53           1 1 silu_52 conv2d_53 0=256 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=65536
+Swish            node_silu_53             1 1 conv2d_53 silu_53
+Convolution      node_conv2d_54           1 1 silu_53 conv2d_54 0=256 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=589824
+Swish            node_silu_54             1 1 conv2d_54 silu_54
+Convolution      node_conv2d_55           1 1 cat_11_splitncnn_0 conv2d_55 0=256 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=131072
+Swish            node_silu_55             1 1 conv2d_55 silu_55
+Concat           node_cat_12              2 1 silu_54 silu_55 cat_12 0=0
+Convolution      node_conv2d_56           1 1 cat_12 conv2d_56 0=512 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=262144
+Swish            node_silu_56             1 1 conv2d_56 silu_56
+Convolution      node_conv2d_57           1 1 silu_44_splitncnn_0 conv2d_57 0=255 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=32640
+Reshape          node_view                1 1 conv2d_57 view 0=6400 1=85 2=3
+Permute          node_permute             1 1 view permute 0=1
+Sigmoid          node_sigmoid             1 1 permute sigmoid
+Slice            node_Split_112           2 3 sigmoid val_75_splitncnn_2 split_with_sizes_split_0 split_with_sizes_split_1 split_with_sizes_split_2 -23300=3,-233,-233,-233 1=3
+BinaryOp         node_mul                 1 1 split_with_sizes_split_0 mul 0=2 1=1 2=2.000000e+00
+BinaryOp         node_add_7               2 1 mul model.24.lifted_tensor_0 add_7 0=0
+BinaryOp         node_mul_1               1 1 add_7 mul_1 0=2 1=1 2=8.000000e+00
+BinaryOp         node_mul_2               1 1 split_with_sizes_split_1 mul_2 0=2 1=1 2=2.000000e+00
+BinaryOp         node_pow_1               1 1 mul_2 pow_1 0=6 1=1 2=2.000000e+00
+BinaryOp         node_mul_3               2 1 pow_1 model.24.lifted_tensor_1 mul_3 0=2
+Concat           node_cat_13              3 1 mul_1 mul_3 split_with_sizes_split_2 cat_13 0=3
+Reshape          node_view_1              1 1 cat_13 view_1 0=85 1=19200
+Convolution      node_conv2d_58           1 1 silu_50_splitncnn_0 conv2d_58 0=255 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=65280
+Reshape          node_view_2              1 1 conv2d_58 view_2 0=1600 1=85 2=3
+Permute          node_permute_1           1 1 view_2 permute_1 0=1
+Sigmoid          node_sigmoid_1           1 1 permute_1 sigmoid_1
+Slice            node_Split_117           2 3 sigmoid_1 val_75_splitncnn_1 split_with_sizes_1_split_0 split_with_sizes_1_split_1 split_with_sizes_1_split_2 -23300=3,-233,-233,-233 1=3
+BinaryOp         node_mul_4               1 1 split_with_sizes_1_split_0 mul_4 0=2 1=1 2=2.000000e+00
+BinaryOp         node_add_8               2 1 mul_4 model.24.lifted_tensor_2 add_8 0=0
+BinaryOp         node_mul_5               1 1 add_8 mul_5 0=2 1=1 2=1.600000e+01
+BinaryOp         node_mul_6               1 1 split_with_sizes_1_split_1 mul_6 0=2 1=1 2=2.000000e+00
+BinaryOp         node_pow_2               1 1 mul_6 pow_2 0=6 1=1 2=2.000000e+00
+BinaryOp         node_mul_7               2 1 pow_2 model.24.lifted_tensor_3 mul_7 0=2
+Concat           node_cat_14              3 1 mul_5 mul_7 split_with_sizes_1_split_2 cat_14 0=3
+Reshape          node_view_3              1 1 cat_14 view_3 0=85 1=4800
+Convolution      node_conv2d_59           1 1 silu_56 conv2d_59 0=255 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=130560
+Reshape          node_view_4              1 1 conv2d_59 view_4 0=400 1=85 2=3
+Permute          node_permute_2           1 1 view_4 permute_2 0=1
+Sigmoid          node_sigmoid_2           1 1 permute_2 sigmoid_2
+Slice            node_Split_122           2 3 sigmoid_2 val_75_splitncnn_0 split_with_sizes_2_split_0 split_with_sizes_2_split_1 split_with_sizes_2_split_2 -23300=3,-233,-233,-233 1=3
+BinaryOp         node_mul_8               1 1 split_with_sizes_2_split_0 mul_8 0=2 1=1 2=2.000000e+00
+BinaryOp         node_add_9               2 1 mul_8 model.24.lifted_tensor_4 add_9 0=0
+BinaryOp         node_mul_9               1 1 add_9 mul_9 0=2 1=1 2=3.200000e+01
+BinaryOp         node_mul_10              1 1 split_with_sizes_2_split_1 mul_10 0=2 1=1 2=2.000000e+00
+BinaryOp         node_pow_3               1 1 mul_10 pow_3 0=6 1=1 2=2.000000e+00
+BinaryOp         node_mul_11              2 1 pow_3 model.24.lifted_tensor_5 mul_11 0=2
+Concat           node_cat_15              3 1 mul_9 mul_11 split_with_sizes_2_split_2 cat_15 0=3
+Reshape          node_view_5              1 1 cat_15 view_5 0=85 1=1200
+Concat           node_cat_16              3 1 view_1 view_3 view_5 output0 0=0

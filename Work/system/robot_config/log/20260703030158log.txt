@@ -1,0 +1,8 @@
+INFO:123356-[20260703030158] verison: 12.2.0
+INFO:123356-[20260703030158] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:123356-[20260703030158] load_configure_data: load_device_config failure
+ERROR:123356-[20260703030158] common_init: load_configure_data failure, err=-146
+INFO:123406-[20260703030212] verison: 12.2.0
+INFO:123406-[20260703030212] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:123406-[20260703030212] load_configure_data: load_device_config failure
+ERROR:123406-[20260703030212] common_init: load_configure_data failure, err=-146

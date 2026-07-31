@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/robot/Work/system/HYYRobotX64GRIP/qt_motor_monitor/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

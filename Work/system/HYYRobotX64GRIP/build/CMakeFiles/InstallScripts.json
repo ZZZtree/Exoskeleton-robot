@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/robot/Work/system/HYYRobotX64GRIP/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

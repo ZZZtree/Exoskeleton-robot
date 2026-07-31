@@ -1,0 +1,12 @@
+dependencies:
+  idf: ">=5.4"
+  h264_udp:
+    path: "../h264_udp"
+  ota_manager:
+    path: "../ota_manager"
+  espressif/esp_video:
+    path: "../esp_video"
+  example_video_common:
+    path: "../example_video_common"
+  espressif/mdns: "^1.0.3"
+  espressif/cjson: "^1.7.15"

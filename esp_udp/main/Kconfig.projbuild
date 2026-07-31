@@ -1,0 +1,65 @@
+menu "Example Configuration"
+
+    config EXAMPLE_CAMERA_VIDEO_BUFFER_NUMBER
+        int "Camera video buffer number"
+        default 2
+        help
+            Number of video buffers for the camera sensor.
+            More buffers provide better performance and reduce frame drops,
+            but consume more memory. Recommended range: 2-4 buffers.
+
+    config EXAMPLE_JPEG_COMPRESSION_QUALITY
+        int "JPEG compression quality (%)"
+        default 80
+        range 1 100
+        help
+            JPEG compression quality percentage (1-100).
+            Higher values produce better image quality but larger data streams.
+
+    config EXAMPLE_HTTP_PART_BOUNDARY
+        string "HTTP part boundary"
+        default "123456789000000000000987654321"
+        help
+            HTTP multipart boundary string used for MJPEG streaming.
+
+    config EXAMPLE_MDNS_INSTANCE
+        string "mDNS instance"
+        default "web-cam"
+        help
+            mDNS instance name for service discovery.
+
+    config EXAMPLE_MDNS_HOST_NAME
+        string "mDNS host name"
+        default "esp-web"
+        help
+            mDNS hostname for the ESP32 device.
+
+    config EXAMPLE_ENABLE_MIPI_CSI_CROP
+        bool "Enable crop for MIPI-CSI video device"
+        default n
+        depends on EXAMPLE_ENABLE_MIPI_CSI_CAM_SENSOR && SOC_ISP_CROP_SUPPORTED
+
+    if EXAMPLE_ENABLE_MIPI_CSI_CROP
+        config EXAMPLE_MIPI_CSI_CROP_TOP_LEFT_H
+            int "Crop region top-left horizontal coordinate"
+            default 0
+        config EXAMPLE_MIPI_CSI_CROP_TOP_LEFT_V
+            int "Crop region top-left vertical coordinate"
+            default 0
+        config EXAMPLE_MIPI_CSI_CROP_WIDTH
+            int "Crop region width"
+            default 640
+        config EXAMPLE_MIPI_CSI_CROP_HEIGHT
+            int "Crop region height"
+            default 480
+    endif
+
+    config EXAMPLE_H264_LOOPBACK_TEST
+        bool "Enable H.264 loopback test (standalone, no camera needed)"
+        default n
+        help
+            Enable the H.264 UDP loopback test mode.
+            Generates synthetic YUV420 test frames, encodes using ESP32-P4 H.264 M2M
+            hardware encoder, and sends via UDP to a PC client.
+
+endmenu

@@ -1,0 +1,4 @@
+INFO:123485-[20260703030343] verison: 12.2.0
+INFO:123485-[20260703030343] SupplierInformation{Author:HanBing; Email:A994055925@163.com; URL:https://www.zhihu.com/people/hanbing-17}
+ERROR:123485-[20260703030343] load_configure_data: load_device_config failure
+ERROR:123485-[20260703030343] common_init: load_configure_data failure, err=-146

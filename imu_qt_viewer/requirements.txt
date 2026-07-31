@@ -1,0 +1,14 @@
+# IMU Viewer — 外骨骼机器人实时数据可视化系统
+#
+# 依赖安装:
+#   pip install -r requirements.txt
+#
+# 运行方式:
+#   python -m imu_qt_viewer
+#   # 或
+#   python main.py
+
+PyQt5>=5.15
+pyqtgraph>=0.13
+pyserial>=3.5
+numpy>=1.24
